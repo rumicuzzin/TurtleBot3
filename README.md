@@ -21,15 +21,6 @@ source install/setup.bash
 Each module has configurable parameters in YAML files located within its package when appropriate.
 Edit these to tune system behavior (e.g., thresholds, rates, or exploration constants).
 
-## Authors
-
-**Pretty Little LiDARs**
-- Angus McLean
-- Natalie Brown  
-- Emily Stockwell  
-- Matylda Hayne
-- Bill Athanassiou
-- Will Rumi
 
 ## Future Work
 
