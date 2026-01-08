@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000304] (-) JobUnselected: {'identifier': 'GLFW'}
+[0.000328] (-) JobUnselected: {'identifier': 'ImGuiExample'}
+[0.000338] (-) JobUnselected: {'identifier': 'imgui_example_glfw_vulkan'}
+[0.000346] (-) JobUnselected: {'identifier': 'imgui_example_glfw_wgpu'}
+[0.000352] (-) EventReactorShutdown: {}

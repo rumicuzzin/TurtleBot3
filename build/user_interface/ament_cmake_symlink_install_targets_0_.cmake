@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/build/user_interface/user_interface_bringup" "/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/build/user_interface/libuser_interface_lib.a" "TARGETS" "user_interface_bringup" "user_interface_lib" "DESTINATION" "lib/user_interface")

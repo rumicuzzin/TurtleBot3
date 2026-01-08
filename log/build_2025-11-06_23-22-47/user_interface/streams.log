@@ -1,0 +1,52 @@
+[0.009s] Invoking command in '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/build/user_interface': AMENT_PREFIX_PATH=/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/shared_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/shared_interfaces:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_simulations:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_bringup:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_node:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_navigation2:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_fake_node:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_msgs:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_gazebo:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_description:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_cartographer:/home/matylda-hayne/turtlebot3_ws/install/dynamixel_sdk_examples:/home/matylda-hayne/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/matylda-hayne/turtlebot3_ws/install/dynamixel_sdk:/home/matylda-hayne/install/turtlebot_maze_solver:/home/matylda-hayne/install/polygon_plugins:/home/matylda-hayne/install/polygon_base:/home/matylda-hayne/mtrx3760_ws/install/turtlebot_maze_solver:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_teleop:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/shared_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/shared_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/build/user_interface -- -j20 -l20
+[0.036s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.193s] -- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.211s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.216s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.224s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.232s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.276s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.277s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[0.294s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.332s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.340s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.351s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.368s] -- Found shared_interfaces: 0.0.0 (/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/shared_interfaces/share/shared_interfaces/cmake)
+[0.382s] [33mCMake Warning (dev) at /usr/share/cmake-3.28/Modules/FindOpenGL.cmake:381 (message):
+[0.382s]   Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when
+[0.382s]   available.  Run "cmake --help-policy CMP0072" for policy details.  Use the
+[0.382s]   cmake_policy command to set the policy and suppress this warning.
+[0.382s] 
+[0.382s]   FindOpenGL found both a legacy GL library:
+[0.382s] 
+[0.382s]     OPENGL_gl_LIBRARY: /usr/lib/x86_64-linux-gnu/libGL.so
+[0.382s] 
+[0.382s]   and GLVND libraries for OpenGL and GLX:
+[0.382s] 
+[0.382s]     OPENGL_opengl_LIBRARY: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+[0.382s]     OPENGL_glx_LIBRARY: /usr/lib/x86_64-linux-gnu/libGLX.so
+[0.382s] 
+[0.382s]   OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for
+[0.382s]   compatibility with CMake 3.10 and below the legacy GL library will be used.
+[0.382s] Call Stack (most recent call first):
+[0.382s]   CMakeLists.txt:18 (find_package)
+[0.382s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.382s] [0m
+[0.484s] -- Configuring done (0.4s)
+[0.486s] [31mCMake Error at CMakeLists.txt:80 (add_executable):
+[0.486s]   Cannot find source file:
+[0.486s] 
+[0.486s]     src/user_interface_bringup.cpp
+[0.486s] 
+[0.486s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[0.486s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[0.486s]   .f95 .f03 .hip .ispc
+[0.486s] 
+[0.486s] [0m
+[0.487s] [31mCMake Error at CMakeLists.txt:80 (add_executable):
+[0.487s]   No SOURCES given to target: user_interface_bringup
+[0.487s] 
+[0.487s] [0m
+[0.487s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.494s] gmake: *** [Makefile:456: cmake_check_build_system] Error 1
+[0.496s] Invoked command in '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/build/user_interface' returned '2': AMENT_PREFIX_PATH=/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/shared_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/shared_interfaces:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_simulations:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_bringup:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_node:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_navigation2:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_fake_node:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_msgs:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_gazebo:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_description:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_cartographer:/home/matylda-hayne/turtlebot3_ws/install/dynamixel_sdk_examples:/home/matylda-hayne/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/matylda-hayne/turtlebot3_ws/install/dynamixel_sdk:/home/matylda-hayne/install/turtlebot_maze_solver:/home/matylda-hayne/install/polygon_plugins:/home/matylda-hayne/install/polygon_base:/home/matylda-hayne/mtrx3760_ws/install/turtlebot_maze_solver:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_teleop:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/shared_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/shared_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/build/user_interface -- -j20 -l20

@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "shared_interfaces/srv/Charging_Response",
+      "fields": [
+        {
+          "name": "success",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "shared_interfaces/srv/Charging_Response",
+      "hash_string": "RIHS01_aa0fcac5d150f06ef17e0211ec090c3311239d447a35c428b8e0d9b7406c7416"
+    }
+  ]
+}

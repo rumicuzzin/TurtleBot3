@@ -1,0 +1,12 @@
+msg/AddLog.idl
+msg/AddLog.msg
+msg/CheckLog.idl
+msg/CheckLog.msg
+srv/Charging.idl
+srv/Charging.srv
+srv/Detecting.idl
+srv/Detecting.srv
+srv/NavigationMode.idl
+srv/NavigationMode.srv
+srv/RobotType.idl
+srv/RobotType.srv

@@ -1,0 +1,18 @@
+[100%] Built target logger_node
+-- Install configuration: ""
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/logger_pkg/lib/logger_pkg/logger_node
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/logger_pkg/share/ament_index/resource_index/package_run_dependencies/logger_pkg
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/logger_pkg/share/ament_index/resource_index/parent_prefix_path/logger_pkg
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/logger_pkg/share/logger_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/logger_pkg/share/logger_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/logger_pkg/share/logger_pkg/environment/path.sh
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/logger_pkg/share/logger_pkg/environment/path.dsv
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/logger_pkg/share/logger_pkg/local_setup.bash
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/logger_pkg/share/logger_pkg/local_setup.sh
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/logger_pkg/share/logger_pkg/local_setup.zsh
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/logger_pkg/share/logger_pkg/local_setup.dsv
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/logger_pkg/share/logger_pkg/package.dsv
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/logger_pkg/share/ament_index/resource_index/packages/logger_pkg
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/logger_pkg/share/logger_pkg/cmake/logger_pkgConfig.cmake
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/logger_pkg/share/logger_pkg/cmake/logger_pkgConfig-version.cmake
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/logger_pkg/share/logger_pkg/package.xml

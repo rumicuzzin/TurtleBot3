@@ -1,0 +1,12 @@
+[0.009s] Invoking command in '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/build/robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_teleop:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/build/robot -- -j20 -l20
+[0.055s] [ 25%] Built target robot_node
+[0.059s] [ 33%] [32mBuilding CXX object CMakeFiles/robot_gui.dir/src/robot_gui.cpp.o[0m
+[0.268s] [ 41%] [32m[1mLinking CXX executable robot_gui[0m
+[0.391s] /usr/bin/ld: CMakeFiles/robot_gui.dir/src/robot_gui.cpp.o: in function `LoadTextureFromMemory(unsigned char const*, int, unsigned int*, int*, int*)':
+[0.391s] robot_gui.cpp:(.text+0x336): undefined reference to `stbi_load_from_memory'
+[0.391s] /usr/bin/ld: robot_gui.cpp:(.text+0x3e8): undefined reference to `stbi_image_free'
+[0.400s] collect2: error: ld returned 1 exit status
+[0.401s] gmake[2]: *** [CMakeFiles/robot_gui.dir/build.make:301: robot_gui] Error 1
+[0.401s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robot_gui.dir/all] Error 2
+[0.402s] gmake: *** [Makefile:146: all] Error 2
+[0.403s] Invoked command in '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/build/robot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_teleop:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/build/robot -- -j20 -l20

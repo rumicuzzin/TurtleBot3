@@ -1,0 +1,4 @@
+source;share/manager/local_setup.bash
+source;share/manager/local_setup.dsv
+source;share/manager/local_setup.sh
+source;share/manager/local_setup.zsh

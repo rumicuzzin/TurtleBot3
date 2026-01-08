@@ -1,0 +1,216 @@
+[0.000000] (-) TimerEvent: {}
+[0.000255] (-) JobUnselected: {'identifier': 'shared_interfaces'}
+[0.000276] (user_interface) JobQueued: {'identifier': 'user_interface', 'dependencies': OrderedDict({'shared_interfaces': '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/shared_interfaces'})}
+[0.000569] (user_interface) JobStarted: {'identifier': 'user_interface'}
+[0.011044] (user_interface) JobProgress: {'identifier': 'user_interface', 'progress': 'cmake'}
+[0.011455] (user_interface) JobProgress: {'identifier': 'user_interface', 'progress': 'build'}
+[0.013343] (user_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/build/user_interface', '--', '-j20', '-l20'], 'cwd': '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/build/user_interface', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'matylda-hayne', 'FONTCONFIG_PATH': '/etc/fonts', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIO_MODULE_DIR': '/home/matylda-hayne/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/snap/code/211/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/shared_interfaces/lib:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/matylda-hayne/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/matylda-hayne/turtlebot3_ws/install/dynamixel_sdk/lib:/home/matylda-hayne/install/polygon_plugins/lib:/home/matylda-hayne/mtrx3760_ws/install/turtlebot_maze_solver/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/matylda-hayne', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.105.1', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/211/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/matylda-hayne/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/211/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/211/usr/share/code/code', 'MANAGERPID': '2411', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2883', 'BUNDLED_DEBUGPY_PATH': '/home/matylda-hayne/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5454', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/matylda-hayne/turtlebot3_ws/install:/home/matylda-hayne/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/launch/install:/home/matylda-hayne/install:/home/matylda-hayne/mtrx3760_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'matylda-hayne', 'JOURNAL_STREAM': '9:29910', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'matylda-hayne', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/matylda-hayne/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts:/home/matylda-hayne/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/matylda-hayne-XPS-15-9520:@/tmp/.ICE-unix/2850,unix/matylda-hayne-XPS-15-9520:/tmp/.ICE-unix/2850', 'GTK_EXE_PREFIX': '/snap/code/211/usr', 'INVOCATION_ID': '99cdd59f23fb4028ad6b9ccfc318bdb1', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'LOCPATH': '/snap/code/211/usr/lib/locale', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/matylda-hayne/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-648455de8a7e5a6b.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'PYTHONSTARTUP': '/home/matylda-hayne/.config/Code/User/workspaceStorage/0e677d72294e9d99ec963c25992378de/ms-python.python/pythonrc.py', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/matylda-hayne/snap/code/211/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-6011ae436d.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/matylda-hayne/snap/code/211/.local/share/glib-2.0/schemas', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/shared_interfaces:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_teleop:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_simulations:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_bringup:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_node:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_navigation2:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_fake_node:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_example:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_msgs:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_gazebo:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_description:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_cartographer:/home/matylda-hayne/turtlebot3_ws/install/dynamixel_sdk_examples:/home/matylda-hayne/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/matylda-hayne/turtlebot3_ws/install/dynamixel_sdk:/home/matylda-hayne/install/turtlebot_maze_solver:/home/matylda-hayne/install/polygon_plugins:/home/matylda-hayne/install/polygon_base:/home/matylda-hayne/mtrx3760_ws/install/turtlebot_maze_solver:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/build/user_interface', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/matylda-hayne/snap/code/211/.local/share:/home/matylda-hayne/snap/code/211:/snap/code/211/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/shared_interfaces/lib/python3.12/site-packages:/home/matylda-hayne/turtlebot3_ws/build/turtlebot3_teleop:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.12/site-packages:/home/matylda-hayne/turtlebot3_ws/build/turtlebot3_example:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages:/home/matylda-hayne/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/home/matylda-hayne/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages:/home/matylda-hayne/mtrx3760_ws/install/turtlebot_maze_solver/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/shared_interfaces:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_simulations:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_bringup:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_node:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_navigation2:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_fake_node:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_msgs:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_gazebo:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_description:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_cartographer:/home/matylda-hayne/turtlebot3_ws/install/dynamixel_sdk_examples:/home/matylda-hayne/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/matylda-hayne/turtlebot3_ws/install/dynamixel_sdk:/home/matylda-hayne/install/turtlebot_maze_solver:/home/matylda-hayne/install/polygon_plugins:/home/matylda-hayne/install/polygon_base:/home/matylda-hayne/mtrx3760_ws/install/turtlebot_maze_solver:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_teleop:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy'}), 'shell': False}
+[0.035306] (user_interface) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.100127] (-) TimerEvent: {}
+[0.181287] (user_interface) StdoutLine: {'line': b'-- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.198292] (user_interface) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.200218] (-) TimerEvent: {}
+[0.203566] (user_interface) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.212009] (user_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.221836] (user_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.261115] (user_interface) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.262285] (user_interface) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.277220] (user_interface) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.300392] (-) TimerEvent: {}
+[0.315718] (user_interface) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.324355] (user_interface) StdoutLine: {'line': b'-- Found shared_interfaces: 0.0.0 (/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/shared_interfaces/share/shared_interfaces/cmake)\n'}
+[0.348149] (user_interface) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[0.365758] (user_interface) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.28/Modules/FindOpenGL.cmake:381 (message):\n'}
+[0.365858] (user_interface) StderrLine: {'line': b'  Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when\n'}
+[0.365905] (user_interface) StderrLine: {'line': b'  available.  Run "cmake --help-policy CMP0072" for policy details.  Use the\n'}
+[0.365937] (user_interface) StderrLine: {'line': b'  cmake_policy command to set the policy and suppress this warning.\n'}
+[0.365968] (user_interface) StderrLine: {'line': b'\n'}
+[0.366000] (user_interface) StderrLine: {'line': b'  FindOpenGL found both a legacy GL library:\n'}
+[0.366037] (user_interface) StderrLine: {'line': b'\n'}
+[0.366068] (user_interface) StderrLine: {'line': b'    OPENGL_gl_LIBRARY: /usr/lib/x86_64-linux-gnu/libGL.so\n'}
+[0.366100] (user_interface) StderrLine: {'line': b'\n'}
+[0.366134] (user_interface) StderrLine: {'line': b'  and GLVND libraries for OpenGL and GLX:\n'}
+[0.366166] (user_interface) StderrLine: {'line': b'\n'}
+[0.366198] (user_interface) StderrLine: {'line': b'    OPENGL_opengl_LIBRARY: /usr/lib/x86_64-linux-gnu/libOpenGL.so\n'}
+[0.366228] (user_interface) StderrLine: {'line': b'    OPENGL_glx_LIBRARY: /usr/lib/x86_64-linux-gnu/libGLX.so\n'}
+[0.366258] (user_interface) StderrLine: {'line': b'\n'}
+[0.366287] (user_interface) StderrLine: {'line': b'  OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for\n'}
+[0.366317] (user_interface) StderrLine: {'line': b'  compatibility with CMake 3.10 and below the legacy GL library will be used.\n'}
+[0.366346] (user_interface) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.366376] (user_interface) StderrLine: {'line': b'  CMakeLists.txt:18 (find_package)\n'}
+[0.366404] (user_interface) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.366433] (user_interface) StderrLine: {'line': b'\x1b[0m\n'}
+[0.400572] (-) TimerEvent: {}
+[0.470244] (user_interface) StdoutLine: {'line': b'-- Configuring done (0.4s)\n'}
+[0.479192] (user_interface) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.481744] (user_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/build/user_interface\n'}
+[0.500784] (-) TimerEvent: {}
+[0.524000] (user_interface) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/user_interface_lib.dir/vendor/imgui/imgui_tables.cpp.o\x1b[0m\n'}
+[0.524147] (user_interface) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/user_interface_lib.dir/vendor/imgui/imgui_demo.cpp.o\x1b[0m\n'}
+[0.524244] (user_interface) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/user_interface_lib.dir/vendor/imgui/backends/imgui_impl_glfw.cpp.o\x1b[0m\n'}
+[0.524311] (user_interface) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/user_interface_lib.dir/vendor/imgui/backends/imgui_impl_opengl3.cpp.o\x1b[0m\n'}
+[0.525527] (user_interface) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/user_interface_lib.dir/src/user_interface.cpp.o\x1b[0m\n'}
+[0.525832] (user_interface) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/user_interface_lib.dir/vendor/imgui/imgui_draw.cpp.o\x1b[0m\n'}
+[0.525978] (user_interface) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/user_interface_lib.dir/vendor/imgui/imgui.cpp.o\x1b[0m\n'}
+[0.526686] (user_interface) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/user_interface_lib.dir/vendor/imgui/imgui_widgets.cpp.o\x1b[0m\n'}
+[0.600949] (-) TimerEvent: {}
+[0.701344] (-) TimerEvent: {}
+[0.801686] (-) TimerEvent: {}
+[0.902073] (-) TimerEvent: {}
+[1.002448] (-) TimerEvent: {}
+[1.102817] (-) TimerEvent: {}
+[1.203124] (-) TimerEvent: {}
+[1.303420] (-) TimerEvent: {}
+[1.403789] (-) TimerEvent: {}
+[1.504113] (-) TimerEvent: {}
+[1.604517] (-) TimerEvent: {}
+[1.704905] (-) TimerEvent: {}
+[1.805292] (-) TimerEvent: {}
+[1.905664] (-) TimerEvent: {}
+[2.006036] (-) TimerEvent: {}
+[2.106411] (-) TimerEvent: {}
+[2.206780] (-) TimerEvent: {}
+[2.252307] (user_interface) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:38\x1b[m\x1b[K:\n'}
+[2.252497] (user_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[01;32m\x1b[K stbi_write_bmp_to_func\x1b[m\x1b[K(void (*)(void*, void*, int), void*, int, int, int, const void*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.252590] (user_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:514:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstbi__write_context::context\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.252670] (user_interface) StderrLine: {'line': b'  514 |    stbi__write_context s = { 0 \x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[2.252861] (user_interface) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.253130] (user_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:514:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstbi__write_context::buffer\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.253246] (user_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:514:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstbi__write_context::buf_used\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.253286] (user_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[01;32m\x1b[K stbi_write_bmp\x1b[m\x1b[K(const char*, int, int, int, const void*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.253321] (user_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:522:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstbi__write_context::context\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.253354] (user_interface) StderrLine: {'line': b'  522 |    stbi__write_context s = { 0 \x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[2.253388] (user_interface) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.253441] (user_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:522:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstbi__write_context::buffer\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.253473] (user_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:522:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstbi__write_context::buf_used\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.253505] (user_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[01;32m\x1b[K stbi_write_tga_to_func\x1b[m\x1b[K(void (*)(void*, void*, int), void*, int, int, int, const void*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.253539] (user_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:613:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstbi__write_context::context\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.253572] (user_interface) StderrLine: {'line': b'  613 |    stbi__write_context s = { 0 \x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[2.253603] (user_interface) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.253635] (user_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:613:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstbi__write_context::buffer\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.253668] (user_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:613:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstbi__write_context::buf_used\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.253700] (user_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[01;32m\x1b[K stbi_write_tga\x1b[m\x1b[K(const char*, int, int, int, const void*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.253734] (user_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:621:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstbi__write_context::context\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.253768] (user_interface) StderrLine: {'line': b'  621 |    stbi__write_context s = { 0 \x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[2.253798] (user_interface) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.253830] (user_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:621:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstbi__write_context::buffer\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.253863] (user_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:621:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstbi__write_context::buf_used\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.254001] (user_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[01;32m\x1b[K stbi_write_hdr_to_func\x1b[m\x1b[K(void (*)(void*, void*, int), void*, int, int, int, const float*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.254083] (user_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:789:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstbi__write_context::context\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.254125] (user_interface) StderrLine: {'line': b'  789 |    stbi__write_context s = { 0 \x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[2.254159] (user_interface) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.254191] (user_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:789:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstbi__write_context::buffer\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.254225] (user_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:789:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstbi__write_context::buf_used\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.254260] (user_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[01;32m\x1b[K stbi_write_hdr\x1b[m\x1b[K(const char*, int, int, int, const float*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.254291] (user_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:796:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstbi__write_context::context\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.254322] (user_interface) StderrLine: {'line': b'  796 |    stbi__write_context s = { 0 \x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[2.254351] (user_interface) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.254380] (user_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:796:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstbi__write_context::buffer\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.254413] (user_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:796:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstbi__write_context::buf_used\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.262037] (user_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[01;32m\x1b[K stbi_write_jpg_to_func\x1b[m\x1b[K(void (*)(void*, void*, int), void*, int, int, int, const void*, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.262125] (user_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:1609:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstbi__write_context::context\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.262165] (user_interface) StderrLine: {'line': b' 1609 |    stbi__write_context s = { 0 \x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[2.262200] (user_interface) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.262234] (user_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:1609:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstbi__write_context::buffer\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.262275] (user_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:1609:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstbi__write_context::buf_used\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.262310] (user_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[01;32m\x1b[K stbi_write_jpg\x1b[m\x1b[K(const char*, int, int, int, const void*, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.262344] (user_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:1618:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstbi__write_context::context\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.262379] (user_interface) StderrLine: {'line': b' 1618 |    stbi__write_context s = { 0 \x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[2.262412] (user_interface) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.262443] (user_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:1618:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstbi__write_context::buffer\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.262477] (user_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:1618:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstbi__write_context::buf_used\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.306970] (-) TimerEvent: {}
+[2.407285] (-) TimerEvent: {}
+[2.507532] (-) TimerEvent: {}
+[2.607838] (-) TimerEvent: {}
+[2.708154] (-) TimerEvent: {}
+[2.808465] (-) TimerEvent: {}
+[2.908779] (-) TimerEvent: {}
+[3.009109] (-) TimerEvent: {}
+[3.109444] (-) TimerEvent: {}
+[3.209684] (-) TimerEvent: {}
+[3.309926] (-) TimerEvent: {}
+[3.410168] (-) TimerEvent: {}
+[3.510409] (-) TimerEvent: {}
+[3.610727] (-) TimerEvent: {}
+[3.711700] (-) TimerEvent: {}
+[3.812021] (-) TimerEvent: {}
+[3.912252] (-) TimerEvent: {}
+[4.012570] (-) TimerEvent: {}
+[4.112823] (-) TimerEvent: {}
+[4.213141] (-) TimerEvent: {}
+[4.313465] (-) TimerEvent: {}
+[4.413817] (-) TimerEvent: {}
+[4.514137] (-) TimerEvent: {}
+[4.614515] (-) TimerEvent: {}
+[4.714901] (-) TimerEvent: {}
+[4.815308] (-) TimerEvent: {}
+[4.915615] (-) TimerEvent: {}
+[5.015923] (-) TimerEvent: {}
+[5.116189] (-) TimerEvent: {}
+[5.216486] (-) TimerEvent: {}
+[5.317715] (-) TimerEvent: {}
+[5.418029] (-) TimerEvent: {}
+[5.518431] (-) TimerEvent: {}
+[5.618813] (-) TimerEvent: {}
+[5.719062] (-) TimerEvent: {}
+[5.819257] (-) TimerEvent: {}
+[5.919557] (-) TimerEvent: {}
+[6.019940] (-) TimerEvent: {}
+[6.120144] (-) TimerEvent: {}
+[6.220373] (-) TimerEvent: {}
+[6.320600] (-) TimerEvent: {}
+[6.420966] (-) TimerEvent: {}
+[6.521277] (-) TimerEvent: {}
+[6.621635] (-) TimerEvent: {}
+[6.721969] (-) TimerEvent: {}
+[6.822186] (-) TimerEvent: {}
+[6.922437] (-) TimerEvent: {}
+[7.022734] (-) TimerEvent: {}
+[7.123038] (-) TimerEvent: {}
+[7.223347] (-) TimerEvent: {}
+[7.323644] (-) TimerEvent: {}
+[7.423944] (-) TimerEvent: {}
+[7.524253] (-) TimerEvent: {}
+[7.624556] (-) TimerEvent: {}
+[7.724869] (-) TimerEvent: {}
+[7.825125] (-) TimerEvent: {}
+[7.911883] (user_interface) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX static library libuser_interface_lib.a\x1b[0m\n'}
+[7.925191] (-) TimerEvent: {}
+[8.025425] (-) TimerEvent: {}
+[8.039477] (user_interface) StdoutLine: {'line': b'[ 81%] Built target user_interface_lib\n'}
+[8.063902] (user_interface) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/user_interface_bringup.dir/src/user_interface_bringup.cpp.o\x1b[0m\n'}
+[8.125565] (-) TimerEvent: {}
+[8.225937] (-) TimerEvent: {}
+[8.326301] (-) TimerEvent: {}
+[8.426718] (-) TimerEvent: {}
+[8.527079] (-) TimerEvent: {}
+[8.627458] (-) TimerEvent: {}
+[8.727846] (-) TimerEvent: {}
+[8.828226] (-) TimerEvent: {}
+[8.928593] (-) TimerEvent: {}
+[9.028876] (-) TimerEvent: {}
+[9.129212] (-) TimerEvent: {}
+[9.229625] (-) TimerEvent: {}
+[9.330063] (-) TimerEvent: {}
+[9.430504] (-) TimerEvent: {}
+[9.530965] (-) TimerEvent: {}
+[9.631429] (-) TimerEvent: {}
+[9.731925] (-) TimerEvent: {}
+[9.832362] (-) TimerEvent: {}
+[9.932725] (-) TimerEvent: {}
+[9.984644] (user_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable user_interface_bringup\x1b[0m\n'}
+[10.032955] (-) TimerEvent: {}
+[10.055331] (user_interface) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/user_interface_bringup.dir/src/user_interface_bringup.cpp.o: in function `main':\n"}
+[10.055492] (user_interface) StderrLine: {'line': b"user_interface_bringup.cpp:(.text+0xc9): undefined reference to `UserInterface::UserInterface()'\n"}
+[10.055566] (user_interface) StderrLine: {'line': b"/usr/bin/ld: user_interface_bringup.cpp:(.text+0xd8): undefined reference to `UserInterface::Initialize()'\n"}
+[10.055634] (user_interface) StderrLine: {'line': b"/usr/bin/ld: user_interface_bringup.cpp:(.text+0x14b): undefined reference to `UserInterface::Run()'\n"}
+[10.055700] (user_interface) StderrLine: {'line': b"/usr/bin/ld: user_interface_bringup.cpp:(.text+0x18a): undefined reference to `UserInterface::~UserInterface()'\n"}
+[10.055766] (user_interface) StderrLine: {'line': b"/usr/bin/ld: user_interface_bringup.cpp:(.text+0x1e8): undefined reference to `UserInterface::~UserInterface()'\n"}
+[10.058815] (user_interface) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[10.060136] (user_interface) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/user_interface_bringup.dir/build.make:199: user_interface_bringup] Error 1\n'}
+[10.060463] (user_interface) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/user_interface_bringup.dir/all] Error 2\n'}
+[10.060682] (user_interface) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[10.062578] (user_interface) CommandEnded: {'returncode': 2}
+[10.070954] (user_interface) JobEnded: {'identifier': 'user_interface', 'rc': 2}
+[10.081484] (-) EventReactorShutdown: {}

@@ -1,0 +1,70 @@
+[0.009s] Invoking command in '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/build/user_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_teleop:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface -DCMAKE_INSTALL_PREFIX=/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/user_interface
+[0.062s] -- The C compiler identification is GNU 13.3.0
+[0.106s] -- The CXX compiler identification is GNU 13.3.0
+[0.122s] -- Detecting C compiler ABI info
+[0.194s] -- Detecting C compiler ABI info - done
+[0.200s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.201s] -- Detecting C compile features
+[0.201s] -- Detecting C compile features - done
+[0.212s] -- Detecting CXX compiler ABI info
+[0.297s] -- Detecting CXX compiler ABI info - done
+[0.307s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.307s] -- Detecting CXX compile features
+[0.307s] -- Detecting CXX compile features - done
+[0.314s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.444s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.546s] -- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.587s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.602s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.621s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.640s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.711s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.717s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.798s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.819s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.842s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.905s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.921s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[0.962s] -- Found shared_interfaces: 0.0.0 (/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/shared_interfaces/share/shared_interfaces/cmake)
+[0.994s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.017s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.036s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.046s] [33mCMake Warning (dev) at /usr/share/cmake-3.28/Modules/FindOpenGL.cmake:381 (message):
+[1.046s]   Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when
+[1.046s]   available.  Run "cmake --help-policy CMP0072" for policy details.  Use the
+[1.046s]   cmake_policy command to set the policy and suppress this warning.
+[1.046s] 
+[1.047s]   FindOpenGL found both a legacy GL library:
+[1.047s] 
+[1.047s]     OPENGL_gl_LIBRARY: /usr/lib/x86_64-linux-gnu/libGL.so
+[1.047s] 
+[1.047s]   and GLVND libraries for OpenGL and GLX:
+[1.047s] 
+[1.047s]     OPENGL_opengl_LIBRARY: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+[1.047s]     OPENGL_glx_LIBRARY: /usr/lib/x86_64-linux-gnu/libGLX.so
+[1.047s] 
+[1.047s]   OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for
+[1.047s]   compatibility with CMake 3.10 and below the legacy GL library will be used.
+[1.047s] Call Stack (most recent call first):
+[1.047s]   CMakeLists.txt:20 (find_package)
+[1.048s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.048s] [0m
+[1.048s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[1.051s] -- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+[1.096s] -- Found GLEW: /usr/include (found version "2.2.0") 
+[1.099s] -- Checking for module 'glfw3'
+[1.113s] --   Found glfw3, version 3.3.10
+[1.147s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.282s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.282s] -- Configured cppcheck include dirs: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/imgui;/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/imgui/backends;/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor
+[1.282s] -- Configured cppcheck exclude dirs and/or files: 
+[1.287s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.287s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.295s] -- Added test 'lint_cmake' to check CMake code style
+[1.300s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.336s] -- Added test 'uncrustify' to check C / C++ code style
+[1.336s] -- Configured uncrustify additional arguments: 
+[1.340s] -- Added test 'xmllint' to check XML markup files
+[1.342s] -- Configuring done (1.3s)
+[1.350s] -- Generating done (0.0s)
+[1.353s] -- Build files have been written to: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/build/user_interface

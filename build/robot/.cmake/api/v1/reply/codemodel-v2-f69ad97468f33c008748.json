@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3e15073066fe8e93d176.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "robot",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_gui::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_gui-aa87b1713a859b877e81.json",
+					"name" : "robot_gui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_node-55bae4023b7b1b4434cd.json",
+					"name" : "robot_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_uninstall-63cb1e9cabfa87dcc5d2.json",
+					"name" : "robot_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-bd55d0f0789663477856.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/build/robot",
+		"source" : "/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/robot"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

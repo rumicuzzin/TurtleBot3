@@ -1,0 +1,1 @@
+Meet Pascal, your warehouse assistant robot. Designed to emulate both inspection and delivery operations, Pascal helps demonstrate the versatility of polymorphic design in robotics. Use this interface to explore how a single TurtleBot platform can adapt to multiple warehouse tasks—efficiently, reliably, and intelligently!

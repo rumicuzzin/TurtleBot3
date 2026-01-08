@@ -1,0 +1,28 @@
+[0.016s] Invoking command in '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/build/warehouse_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_teleop:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/build/warehouse_bringup -- -j20 -l20
+[0.046s] Invoked command in '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/build/warehouse_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_teleop:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/build/warehouse_bringup -- -j20 -l20
+[0.053s] Invoking command in '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/build/warehouse_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_teleop:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/build/warehouse_bringup
+[0.058s] -- Install configuration: ""
+[0.058s] -- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/share/warehouse_bringup/launch
+[0.058s] -- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/share/warehouse_bringup/launch/sim_bringup.launch.py
+[0.058s] -- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/share/warehouse_bringup/launch/launch.py
+[0.058s] -- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/share/warehouse_bringup/worlds
+[0.058s] -- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/share/warehouse_bringup/worlds/maze_2.world
+[0.058s] -- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/share/warehouse_bringup/worlds/maze_3.world
+[0.058s] -- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/share/warehouse_bringup/worlds/maze_4.world
+[0.058s] -- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/share/warehouse_bringup/worlds/test.sdf
+[0.058s] -- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/share/ament_index/resource_index/package_run_dependencies/warehouse_bringup
+[0.058s] -- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/share/ament_index/resource_index/parent_prefix_path/warehouse_bringup
+[0.058s] -- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/share/warehouse_bringup/environment/ament_prefix_path.sh
+[0.058s] -- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/share/warehouse_bringup/environment/ament_prefix_path.dsv
+[0.058s] -- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/share/warehouse_bringup/environment/path.sh
+[0.058s] -- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/share/warehouse_bringup/environment/path.dsv
+[0.058s] -- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/share/warehouse_bringup/local_setup.bash
+[0.058s] -- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/share/warehouse_bringup/local_setup.sh
+[0.058s] -- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/share/warehouse_bringup/local_setup.zsh
+[0.058s] -- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/share/warehouse_bringup/local_setup.dsv
+[0.058s] -- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/share/warehouse_bringup/package.dsv
+[0.058s] -- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/share/ament_index/resource_index/packages/warehouse_bringup
+[0.058s] -- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/share/warehouse_bringup/cmake/warehouse_bringupConfig.cmake
+[0.058s] -- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/share/warehouse_bringup/cmake/warehouse_bringupConfig-version.cmake
+[0.058s] -- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/share/warehouse_bringup/package.xml
+[0.059s] Invoked command in '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/build/warehouse_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_teleop:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/build/warehouse_bringup

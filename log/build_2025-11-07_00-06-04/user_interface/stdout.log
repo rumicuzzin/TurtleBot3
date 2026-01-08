@@ -1,0 +1,34 @@
+[ 81%] Built target user_interface_lib
+[ 90%] [32mBuilding CXX object CMakeFiles/user_interface_bringup.dir/src/user_interface_bringup.cpp.o[0m
+[100%] [32m[1mLinking CXX executable user_interface_bringup[0m
+[100%] Built target user_interface_bringup
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/user_interface/lib/user_interface/user_interface_bringup
+-- Up-to-date symlink: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/user_interface/lib/user_interface/libuser_interface_lib.a
+-- Up-to-date symlink: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/user_interface/include/include/user_interface/user_interface.hpp
+-- Up-to-date symlink: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/user_interface/share/user_interface/launch/bringup.launch.py
+-- Up-to-date symlink: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/user_interface/share/user_interface/resources/defect_log.yaml
+-- Up-to-date symlink: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/user_interface/share/user_interface/resources/delivery_log.yaml
+-- Up-to-date symlink: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/user_interface/share/user_interface/resources/map.pgm
+-- Up-to-date symlink: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/user_interface/share/user_interface/resources/map.yaml
+-- Up-to-date symlink: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/user_interface/share/user_interface/resources/pascal.png
+-- Up-to-date symlink: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/user_interface/share/user_interface/resources/pascal_intro.txt
+-- Up-to-date symlink: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/user_interface/share/user_interface/resources/pascal_serial.txt
+-- Up-to-date symlink: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/user_interface/share/user_interface/resources/pascal_intro.txt
+-- Up-to-date symlink: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/user_interface/share/user_interface/resources/pascal_serial.txt
+-- Up-to-date symlink: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/user_interface/share/ament_index/resource_index/package_run_dependencies/user_interface
+-- Up-to-date symlink: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/user_interface/share/ament_index/resource_index/parent_prefix_path/user_interface
+-- Up-to-date symlink: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/user_interface/share/user_interface/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/user_interface/share/user_interface/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/user_interface/share/user_interface/environment/path.sh
+-- Up-to-date symlink: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/user_interface/share/user_interface/environment/path.dsv
+-- Up-to-date symlink: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/user_interface/share/user_interface/local_setup.bash
+-- Up-to-date symlink: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/user_interface/share/user_interface/local_setup.sh
+-- Up-to-date symlink: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/user_interface/share/user_interface/local_setup.zsh
+-- Up-to-date symlink: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/user_interface/share/user_interface/local_setup.dsv
+-- Symlinking: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/user_interface/share/user_interface/package.dsv
+-- Up-to-date symlink: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/user_interface/share/ament_index/resource_index/packages/user_interface
+-- Up-to-date symlink: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/user_interface/share/user_interface/cmake/user_interfaceConfig.cmake
+-- Up-to-date symlink: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/user_interface/share/user_interface/cmake/user_interfaceConfig-version.cmake
+-- Up-to-date symlink: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/user_interface/share/user_interface/package.xml

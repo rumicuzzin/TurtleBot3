@@ -1,0 +1,4 @@
+[  9%] [32mBuilding CXX object CMakeFiles/user_interface_lib.dir/src/user_interface.cpp.o[0m
+[ 18%] [32m[1mLinking CXX static library libuser_interface_lib.a[0m
+[ 81%] Built target user_interface_lib
+[ 90%] [32mBuilding CXX object CMakeFiles/user_interface_bringup.dir/src/user_interface_bringup.cpp.o[0m

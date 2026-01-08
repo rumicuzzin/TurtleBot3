@@ -1,0 +1,7 @@
+# Service navigationMode
+# Server: Controller
+# Client: Robot
+
+string robot_mode
+---
+bool success

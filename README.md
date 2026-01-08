@@ -1,0 +1,39 @@
+# MTRX3760_PROJECT_2
+MTRX3760 Project 2 Warehouse Robot DevKit
+
+The aim of this project is to use the TurtleBot3 burger as a common development platform, capable of emulating multiple robot types. 
+The product capabilities include autonomously mapping the warehouse, moving along specific delivery routes and to user-selected damage sites. It also moves through the entire space to inspect for defects using the camera. Additionally, the robot docks when battery is low. Deliveries and defects are logged in human readable format and shown on the GUI, which additionally displays the user command buttons, battery level and warehouse map. 
+
+## Installation Instructions
+
+### Clone the repository
+git clone https://github.com/AngusMclean24/MTRX3760_PROJECT_2.git
+
+cd MTRX3760_PROJECT2/ros2_ws
+
+### Build the workspace
+colcon build
+
+source install/setup.bash
+
+## Parameters
+
+Each module has configurable parameters in YAML files located within its package when appropriate.
+Edit these to tune system behavior (e.g., thresholds, rates, or exploration constants).
+
+## Authors
+
+**Pretty Little LiDARs**
+- Angus McLean
+- Natalie Brown  
+- Emily Stockwell  
+- Matylda Hayne
+- Bill Athanassiou
+- Will Rumi
+
+## Future Work
+
+- Run executables on the turtlebot
+- Dynamic UI updates via web interface
+- Persistent map and data logging
+

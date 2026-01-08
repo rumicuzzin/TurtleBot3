@@ -1,0 +1,8 @@
+delivery:
+  - delivery_id: 1
+    type: delivery
+    pose:
+      - 32
+      - 33
+      - 0
+    complete: false

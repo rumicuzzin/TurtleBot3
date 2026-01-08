@@ -1,0 +1,16 @@
+{
+  "package_name": "shared_interfaces",
+  "output_dir": "/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/build/shared_interfaces/rosidl_generator_type_description/shared_interfaces",
+  "idl_tuples": [
+    "/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/build/shared_interfaces/rosidl_adapter/shared_interfaces:msg/DefectInfo.idl",
+    "/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/build/shared_interfaces/rosidl_adapter/shared_interfaces:srv/NavigationMode.idl",
+    "/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/build/shared_interfaces/rosidl_adapter/shared_interfaces:srv/RobotType.idl",
+    "/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/build/shared_interfaces/rosidl_adapter/shared_interfaces:msg/CheckLog.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}

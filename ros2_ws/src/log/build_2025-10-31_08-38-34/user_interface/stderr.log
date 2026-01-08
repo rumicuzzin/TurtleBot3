@@ -1,0 +1,8 @@
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:18:10:[m[K [01;31m[Kfatal error: [m[Kshared_interfaces/msg/check_log.hpp: No such file or directory
+   18 | #include [01;31m[K"shared_interfaces/msg/check_log.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/user_interface.dir/build.make:76: CMakeFiles/user_interface.dir/src/user_interface.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/user_interface.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

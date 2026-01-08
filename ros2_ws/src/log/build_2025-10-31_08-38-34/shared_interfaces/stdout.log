@@ -1,0 +1,294 @@
+[  1%] Built target shared_interfaces__rosidl_generator_type_description
+[  1%] Built target ament_cmake_python_copy_shared_interfaces
+[  2%] Built target shared_interfaces__cpp
+[ 26%] Built target shared_interfaces__rosidl_generator_c
+[ 35%] Built target shared_interfaces__rosidl_typesupport_c
+[ 52%] Built target shared_interfaces__rosidl_typesupport_introspection_cpp
+[ 55%] Built target shared_interfaces__rosidl_typesupport_introspection_c
+[ 64%] Built target shared_interfaces__rosidl_typesupport_cpp
+[ 73%] Built target shared_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 83%] Built target shared_interfaces__rosidl_typesupport_fastrtps_c
+[ 83%] Built target shared_interfaces
+[ 84%] Built target shared_interfaces__py
+[ 92%] Built target shared_interfaces__rosidl_generator_py
+[ 95%] Built target shared_interfaces_s__rosidl_typesupport_introspection_c
+[ 97%] Built target shared_interfaces_s__rosidl_typesupport_fastrtps_c
+[100%] Built target shared_interfaces_s__rosidl_typesupport_c
+running egg_info
+writing shared_interfaces.egg-info/PKG-INFO
+writing dependency_links to shared_interfaces.egg-info/dependency_links.txt
+writing top-level names to shared_interfaces.egg-info/top_level.txt
+reading manifest file 'shared_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'shared_interfaces.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_shared_interfaces_egg
+-- Install configuration: ""
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/ament_index/resource_index/rosidl_interfaces/shared_interfaces
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/msg/AddLog.json
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/msg/CheckLog.json
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/srv/NavigationMode.json
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/srv/RobotType.json
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/srv/Detecting.json
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/srv/Charging.json
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/robot_type.h
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/charging.h
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/navigation_mode__functions.h
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/robot_type__struct.h
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/navigation_mode__description.c
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/robot_type__functions.c
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/charging__type_support.h
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/charging__struct.h
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/detecting__description.c
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/charging__functions.c
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/charging__functions.h
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/robot_type__type_support.c
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/detecting__type_support.h
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/navigation_mode__functions.c
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/robot_type__functions.h
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/robot_type__description.c
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/navigation_mode__type_support.c
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/detecting__functions.h
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/detecting__type_support.c
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/navigation_mode__struct.h
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/charging__description.c
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/robot_type__type_support.h
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/detecting__struct.h
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/charging__type_support.c
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/detecting__functions.c
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/navigation_mode__type_support.h
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detecting.h
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/navigation_mode.h
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/detail
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/detail/add_log__functions.c
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/detail/add_log__struct.h
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/detail/check_log__type_support.c
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/detail/check_log__type_support.h
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/detail/check_log__description.c
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/detail/check_log__functions.c
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/detail/check_log__struct.h
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/detail/add_log__description.c
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/detail/add_log__functions.h
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/detail/add_log__type_support.h
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/detail/add_log__type_support.c
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/detail/check_log__functions.h
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/check_log.h
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/add_log.h
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/environment/library_path.sh
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/environment/library_path.dsv
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/libshared_interfaces__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/libshared_interfaces__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/robot_type__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/charging__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/detecting__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/navigation_mode__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/detail
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/detail/add_log__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/detail/check_log__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/libshared_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/libshared_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/charging__rosidl_typesupport_introspection_c.h
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/detecting__rosidl_typesupport_introspection_c.h
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/robot_type__type_support.c
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/navigation_mode__type_support.c
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/navigation_mode__rosidl_typesupport_introspection_c.h
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/robot_type__rosidl_typesupport_introspection_c.h
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/detecting__type_support.c
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/charging__type_support.c
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/detail
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/detail/add_log__rosidl_typesupport_introspection_c.h
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/detail/check_log__type_support.c
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/detail/check_log__rosidl_typesupport_introspection_c.h
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/detail/add_log__type_support.c
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/libshared_interfaces__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/libshared_interfaces__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/libshared_interfaces__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/libshared_interfaces__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/charging.hpp
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/navigation_mode__traits.hpp
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/navigation_mode__struct.hpp
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/robot_type__type_support.hpp
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/robot_type__builder.hpp
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/robot_type__traits.hpp
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/charging__struct.hpp
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/detecting__type_support.hpp
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/navigation_mode__type_support.hpp
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/charging__traits.hpp
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/charging__builder.hpp
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/detecting__builder.hpp
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/charging__type_support.hpp
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/detecting__struct.hpp
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/navigation_mode__builder.hpp
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/detecting__traits.hpp
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/robot_type__struct.hpp
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detecting.hpp
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/navigation_mode.hpp
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/robot_type.hpp
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/detail
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/detail/check_log__struct.hpp
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/detail/add_log__struct.hpp
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/detail/check_log__type_support.hpp
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/detail/check_log__builder.hpp
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/detail/add_log__type_support.hpp
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/detail/check_log__traits.hpp
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/detail/add_log__traits.hpp
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/detail/add_log__builder.hpp
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/check_log.hpp
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/add_log.hpp
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/dds_fastrtps
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/navigation_mode__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/robot_type__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/charging__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/detecting__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/detail
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/detail/dds_fastrtps
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/detail/check_log__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/detail/add_log__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/libshared_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/libshared_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/robot_type__type_support.cpp
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/detecting__type_support.cpp
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/navigation_mode__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/charging__type_support.cpp
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/navigation_mode__type_support.cpp
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/robot_type__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/detecting__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/srv/detail/charging__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/detail
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/detail/add_log__type_support.cpp
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/detail/check_log__type_support.cpp
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/detail/add_log__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/include/shared_interfaces/shared_interfaces/msg/detail/check_log__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/libshared_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/libshared_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/libshared_interfaces__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/libshared_interfaces__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/environment/pythonpath.sh
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/environment/pythonpath.dsv
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/python3.12/site-packages/shared_interfaces-0.0.0-py3.12.egg-info
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/python3.12/site-packages/shared_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/python3.12/site-packages/shared_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/python3.12/site-packages/shared_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/python3.12/site-packages/shared_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/python3.12/site-packages/shared_interfaces
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/python3.12/site-packages/shared_interfaces/_shared_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/python3.12/site-packages/shared_interfaces/shared_interfaces_s__rosidl_typesupport_c.so
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/python3.12/site-packages/shared_interfaces/__init__.py
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/python3.12/site-packages/shared_interfaces/srv
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/python3.12/site-packages/shared_interfaces/srv/_charging_s.c
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/python3.12/site-packages/shared_interfaces/srv/_robot_type_s.c
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/python3.12/site-packages/shared_interfaces/srv/_detecting_s.c
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/python3.12/site-packages/shared_interfaces/srv/_navigation_mode_s.c
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/python3.12/site-packages/shared_interfaces/srv/_charging.py
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/python3.12/site-packages/shared_interfaces/srv/__init__.py
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/python3.12/site-packages/shared_interfaces/srv/_robot_type.py
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/python3.12/site-packages/shared_interfaces/srv/_navigation_mode.py
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/python3.12/site-packages/shared_interfaces/srv/_detecting.py
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/python3.12/site-packages/shared_interfaces/shared_interfaces_s__rosidl_typesupport_fastrtps_c.so
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/python3.12/site-packages/shared_interfaces/_shared_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/python3.12/site-packages/shared_interfaces/shared_interfaces_s__rosidl_typesupport_introspection_c.so
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/python3.12/site-packages/shared_interfaces/_shared_interfaces_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/python3.12/site-packages/shared_interfaces/msg
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/python3.12/site-packages/shared_interfaces/msg/_check_log.py
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/python3.12/site-packages/shared_interfaces/msg/__init__.py
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/python3.12/site-packages/shared_interfaces/msg/_add_log_s.c
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/python3.12/site-packages/shared_interfaces/msg/_add_log.py
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/python3.12/site-packages/shared_interfaces/msg/_check_log_s.c
+Listing '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/python3.12/site-packages/shared_interfaces'...
+Compiling '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/python3.12/site-packages/shared_interfaces/__init__.py'...
+Listing '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/python3.12/site-packages/shared_interfaces/msg'...
+Compiling '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/python3.12/site-packages/shared_interfaces/msg/__init__.py'...
+Compiling '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/python3.12/site-packages/shared_interfaces/msg/_add_log.py'...
+Compiling '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/python3.12/site-packages/shared_interfaces/msg/_check_log.py'...
+Listing '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/python3.12/site-packages/shared_interfaces/srv'...
+Compiling '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/python3.12/site-packages/shared_interfaces/srv/__init__.py'...
+Compiling '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/python3.12/site-packages/shared_interfaces/srv/_charging.py'...
+Compiling '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/python3.12/site-packages/shared_interfaces/srv/_detecting.py'...
+Compiling '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/python3.12/site-packages/shared_interfaces/srv/_navigation_mode.py'...
+Compiling '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/python3.12/site-packages/shared_interfaces/srv/_robot_type.py'...
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/python3.12/site-packages/shared_interfaces/shared_interfaces_s__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/python3.12/site-packages/shared_interfaces/shared_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/python3.12/site-packages/shared_interfaces/shared_interfaces_s__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/python3.12/site-packages/shared_interfaces/shared_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/python3.12/site-packages/shared_interfaces/shared_interfaces_s__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/python3.12/site-packages/shared_interfaces/shared_interfaces_s__rosidl_typesupport_c.so" to ""
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/libshared_interfaces__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/lib/libshared_interfaces__rosidl_generator_py.so" to ""
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/msg/AddLog.idl
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/msg/CheckLog.idl
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/srv/NavigationMode.idl
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/srv/RobotType.idl
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/srv/Detecting.idl
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/srv/Charging.idl
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/msg/AddLog.msg
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/msg/CheckLog.msg
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/srv/NavigationMode.srv
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/srv/RobotType.srv
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/srv/Detecting.srv
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/srv/Charging.srv
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/ament_index/resource_index/package_run_dependencies/shared_interfaces
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/ament_index/resource_index/parent_prefix_path/shared_interfaces
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/environment/ament_prefix_path.sh
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/environment/ament_prefix_path.dsv
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/environment/path.sh
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/environment/path.dsv
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/local_setup.bash
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/local_setup.sh
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/local_setup.zsh
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/local_setup.dsv
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/package.dsv
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/ament_index/resource_index/packages/shared_interfaces
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/cmake/export_shared_interfaces__rosidl_generator_cExport.cmake
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/cmake/export_shared_interfaces__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/cmake/export_shared_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/cmake/export_shared_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/cmake/shared_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/cmake/shared_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/cmake/shared_interfaces__rosidl_typesupport_cExport.cmake
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/cmake/shared_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/cmake/export_shared_interfaces__rosidl_generator_cppExport.cmake
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/cmake/export_shared_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/cmake/export_shared_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/cmake/shared_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/cmake/shared_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/cmake/shared_interfaces__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/cmake/shared_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/cmake/export_shared_interfaces__rosidl_generator_pyExport.cmake
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/cmake/export_shared_interfaces__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/cmake/shared_interfacesConfig.cmake
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/cmake/shared_interfacesConfig-version.cmake
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces/share/shared_interfaces/package.xml

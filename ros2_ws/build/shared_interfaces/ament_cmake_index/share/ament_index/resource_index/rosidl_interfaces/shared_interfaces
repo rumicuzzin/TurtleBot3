@@ -1,0 +1,8 @@
+msg/CheckLog.idl
+msg/CheckLog.msg
+msg/DefectInfo.idl
+msg/DefectInfo.msg
+srv/NavigationMode.idl
+srv/NavigationMode.srv
+srv/RobotType.idl
+srv/RobotType.srv

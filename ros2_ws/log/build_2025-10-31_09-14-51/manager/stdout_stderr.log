@@ -1,0 +1,30 @@
+[ 66%] Built target manager
+[100%] Built target manager_lifecycle_node
+-- Install configuration: ""
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/lib/manager/manager_lifecycle_node
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/lib/libmanager.a
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/include
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/include/manager
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/include/manager/manager_lifecycle_node.h
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/include/manager/base_robot.h
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/include/manager/inspection_robot.h
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/include/manager/delivery_robot.h
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/share/manager/environment/library_path.sh
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/share/manager/environment/library_path.dsv
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/share/ament_index/resource_index/package_run_dependencies/manager
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/share/ament_index/resource_index/parent_prefix_path/manager
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/share/manager/environment/ament_prefix_path.sh
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/share/manager/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/share/manager/environment/path.sh
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/share/manager/environment/path.dsv
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/share/manager/local_setup.bash
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/share/manager/local_setup.sh
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/share/manager/local_setup.zsh
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/share/manager/local_setup.dsv
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/share/manager/package.dsv
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/share/ament_index/resource_index/packages/manager
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/share/manager/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/share/manager/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/share/manager/cmake/managerConfig.cmake
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/share/manager/cmake/managerConfig-version.cmake
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/share/manager/package.xml

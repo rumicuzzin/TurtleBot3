@@ -1,0 +1,252 @@
+[0.009s] Invoking command in '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/build/user_interface': AMENT_PREFIX_PATH=/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/shared_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/shared_interfaces:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_simulations:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_bringup:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_node:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_navigation2:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_fake_node:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_msgs:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_gazebo:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_description:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_cartographer:/home/matylda-hayne/turtlebot3_ws/install/dynamixel_sdk_examples:/home/matylda-hayne/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/matylda-hayne/turtlebot3_ws/install/dynamixel_sdk:/home/matylda-hayne/install/turtlebot_maze_solver:/home/matylda-hayne/install/polygon_plugins:/home/matylda-hayne/install/polygon_base:/home/matylda-hayne/mtrx3760_ws/install/turtlebot_maze_solver:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_teleop:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/shared_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/shared_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface -DCMAKE_INSTALL_PREFIX=/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/user_interface
+[0.072s] -- The C compiler identification is GNU 13.3.0
+[0.120s] -- The CXX compiler identification is GNU 13.3.0
+[0.137s] -- Detecting C compiler ABI info
+[0.220s] -- Detecting C compiler ABI info - done
+[0.230s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.230s] -- Detecting C compile features
+[0.230s] -- Detecting C compile features - done
+[0.239s] -- Detecting CXX compiler ABI info
+[0.338s] -- Detecting CXX compiler ABI info - done
+[0.345s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.346s] -- Detecting CXX compile features
+[0.346s] -- Detecting CXX compile features - done
+[0.349s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.490s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.595s] -- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.637s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.651s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.673s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.694s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.773s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.778s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[0.828s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.905s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.917s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[0.974s] -- Found shared_interfaces: 0.0.0 (/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/shared_interfaces/share/shared_interfaces/cmake)
+[1.006s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.027s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.043s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.058s] [33mCMake Warning (dev) at /usr/share/cmake-3.28/Modules/FindOpenGL.cmake:381 (message):
+[1.058s]   Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when
+[1.058s]   available.  Run "cmake --help-policy CMP0072" for policy details.  Use the
+[1.058s]   cmake_policy command to set the policy and suppress this warning.
+[1.058s] 
+[1.058s]   FindOpenGL found both a legacy GL library:
+[1.058s] 
+[1.058s]     OPENGL_gl_LIBRARY: /usr/lib/x86_64-linux-gnu/libGL.so
+[1.058s] 
+[1.059s]   and GLVND libraries for OpenGL and GLX:
+[1.059s] 
+[1.059s]     OPENGL_opengl_LIBRARY: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+[1.059s]     OPENGL_glx_LIBRARY: /usr/lib/x86_64-linux-gnu/libGLX.so
+[1.059s] 
+[1.059s]   OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for
+[1.059s]   compatibility with CMake 3.10 and below the legacy GL library will be used.
+[1.059s] Call Stack (most recent call first):
+[1.059s]   CMakeLists.txt:20 (find_package)
+[1.059s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.059s] [0m
+[1.059s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[1.066s] -- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+[1.111s] -- Found GLEW: /usr/include (found version "2.2.0") 
+[1.115s] -- Checking for module 'glfw3'
+[1.131s] --   Found glfw3, version 3.3.10
+[1.177s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.312s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.313s] -- Configured cppcheck include dirs: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/imgui;/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/imgui/backends;/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor
+[1.313s] -- Configured cppcheck exclude dirs and/or files: 
+[1.317s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.317s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.325s] -- Added test 'lint_cmake' to check CMake code style
+[1.330s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.366s] -- Added test 'uncrustify' to check C / C++ code style
+[1.366s] -- Configured uncrustify additional arguments: 
+[1.371s] -- Added test 'xmllint' to check XML markup files
+[1.372s] -- Configuring done (1.4s)
+[1.381s] -- Generating done (0.0s)
+[1.384s] -- Build files have been written to: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/build/user_interface
+[1.392s] Invoked command in '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/build/user_interface' returned '0': AMENT_PREFIX_PATH=/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/shared_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/shared_interfaces:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_simulations:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_bringup:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_node:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_navigation2:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_fake_node:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_msgs:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_gazebo:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_description:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_cartographer:/home/matylda-hayne/turtlebot3_ws/install/dynamixel_sdk_examples:/home/matylda-hayne/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/matylda-hayne/turtlebot3_ws/install/dynamixel_sdk:/home/matylda-hayne/install/turtlebot_maze_solver:/home/matylda-hayne/install/polygon_plugins:/home/matylda-hayne/install/polygon_base:/home/matylda-hayne/mtrx3760_ws/install/turtlebot_maze_solver:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_teleop:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/shared_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/shared_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface -DCMAKE_INSTALL_PREFIX=/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/user_interface
+[1.393s] Invoking command in '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/build/user_interface': AMENT_PREFIX_PATH=/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/shared_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/shared_interfaces:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_simulations:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_bringup:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_node:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_navigation2:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_fake_node:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_msgs:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_gazebo:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_description:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_cartographer:/home/matylda-hayne/turtlebot3_ws/install/dynamixel_sdk_examples:/home/matylda-hayne/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/matylda-hayne/turtlebot3_ws/install/dynamixel_sdk:/home/matylda-hayne/install/turtlebot_maze_solver:/home/matylda-hayne/install/polygon_plugins:/home/matylda-hayne/install/polygon_base:/home/matylda-hayne/mtrx3760_ws/install/turtlebot_maze_solver:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_teleop:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/shared_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/shared_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/build/user_interface -- -j20 -l20
+[1.445s] [ 33%] [32mBuilding CXX object CMakeFiles/user_interface.dir/vendor/imgui/imgui.cpp.o[0m
+[1.445s] [ 33%] [32mBuilding CXX object CMakeFiles/user_interface.dir/src/user_interface.cpp.o[0m
+[1.445s] [ 33%] [32mBuilding CXX object CMakeFiles/user_interface.dir/vendor/imgui/backends/imgui_impl_glfw.cpp.o[0m
+[1.446s] [ 44%] [32mBuilding CXX object CMakeFiles/user_interface.dir/vendor/imgui/imgui_demo.cpp.o[0m
+[1.449s] [ 55%] [32mBuilding CXX object CMakeFiles/user_interface.dir/vendor/imgui/imgui_widgets.cpp.o[0m
+[1.449s] [ 66%] [32mBuilding CXX object CMakeFiles/user_interface.dir/vendor/imgui/imgui_draw.cpp.o[0m
+[1.449s] [ 77%] [32mBuilding CXX object CMakeFiles/user_interface.dir/vendor/imgui/backends/imgui_impl_opengl3.cpp.o[0m
+[1.450s] [ 88%] [32mBuilding CXX object CMakeFiles/user_interface.dir/vendor/imgui/imgui_tables.cpp.o[0m
+[3.641s] In file included from [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:26[m[K:
+[3.641s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:[m[K In function ‘[01m[Kint[01;32m[K stbi_write_bmp_to_func[m[K(void (*)(void*, void*, int), void*, int, int, int, const void*)[m[K’:
+[3.641s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:514:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::context[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[3.641s]   514 |    stbi__write_context s = { 0 [01;35m[K}[m[K;
+[3.641s]       |                                [01;35m[K^[m[K
+[3.642s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:514:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[3.642s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:514:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buf_used[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[3.642s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:[m[K In function ‘[01m[Kint[01;32m[K stbi_write_bmp[m[K(const char*, int, int, int, const void*)[m[K’:
+[3.642s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:522:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::context[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[3.642s]   522 |    stbi__write_context s = { 0 [01;35m[K}[m[K;
+[3.642s]       |                                [01;35m[K^[m[K
+[3.642s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:522:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[3.642s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:522:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buf_used[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[3.642s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:[m[K In function ‘[01m[Kint[01;32m[K stbi_write_tga_to_func[m[K(void (*)(void*, void*, int), void*, int, int, int, const void*)[m[K’:
+[3.642s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:613:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::context[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[3.642s]   613 |    stbi__write_context s = { 0 [01;35m[K}[m[K;
+[3.642s]       |                                [01;35m[K^[m[K
+[3.643s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:613:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[3.643s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:613:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buf_used[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[3.643s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:[m[K In function ‘[01m[Kint[01;32m[K stbi_write_tga[m[K(const char*, int, int, int, const void*)[m[K’:
+[3.643s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:621:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::context[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[3.643s]   621 |    stbi__write_context s = { 0 [01;35m[K}[m[K;
+[3.643s]       |                                [01;35m[K^[m[K
+[3.643s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:621:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[3.643s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:621:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buf_used[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[3.643s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:[m[K In function ‘[01m[Kint[01;32m[K stbi_write_hdr_to_func[m[K(void (*)(void*, void*, int), void*, int, int, int, const float*)[m[K’:
+[3.643s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:789:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::context[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[3.643s]   789 |    stbi__write_context s = { 0 [01;35m[K}[m[K;
+[3.643s]       |                                [01;35m[K^[m[K
+[3.643s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:789:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[3.643s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:789:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buf_used[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[3.644s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:[m[K In function ‘[01m[Kint[01;32m[K stbi_write_hdr[m[K(const char*, int, int, int, const float*)[m[K’:
+[3.644s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:796:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::context[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[3.644s]   796 |    stbi__write_context s = { 0 [01;35m[K}[m[K;
+[3.644s]       |                                [01;35m[K^[m[K
+[3.644s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:796:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[3.644s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:796:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buf_used[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[3.651s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:[m[K In function ‘[01m[Kint[01;32m[K stbi_write_jpg_to_func[m[K(void (*)(void*, void*, int), void*, int, int, int, const void*, int)[m[K’:
+[3.651s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:1609:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::context[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[3.651s]  1609 |    stbi__write_context s = { 0 [01;35m[K}[m[K;
+[3.651s]       |                                [01;35m[K^[m[K
+[3.651s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:1609:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[3.651s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:1609:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buf_used[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[3.651s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:[m[K In function ‘[01m[Kint[01;32m[K stbi_write_jpg[m[K(const char*, int, int, int, const void*, int)[m[K’:
+[3.652s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:1618:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::context[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[3.652s]  1618 |    stbi__write_context s = { 0 [01;35m[K}[m[K;
+[3.652s]       |                                [01;35m[K^[m[K
+[3.652s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:1618:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[3.652s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:1618:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buf_used[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[3.672s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K()[m[K’:
+[3.672s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:119:26:[m[K [01;31m[Kerror: [m[K‘[01m[KInitializeGLFWWindow[m[K’ was not declared in this scope
+[3.672s]   119 |     GLFWwindow *window = [01;31m[KInitializeGLFWWindow[m[K(800, 600, "GUI");
+[3.672s]       |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.707s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:137:29:[m[K [01;31m[Kerror: [m[K‘[01m[KGetPackageShareDirectory[m[K’ was not declared in this scope
+[3.707s]   137 |     std::string share_dir = [01;31m[KGetPackageShareDirectory[m[K();
+[3.707s]       |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.727s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:139:5:[m[K [01;31m[Kerror: [m[K‘[01m[KLoadPascalResources[m[K’ was not declared in this scope
+[3.727s]   139 |     [01;31m[KLoadPascalResources[m[K(share_dir, image_path, intro_text, serial_text);
+[3.727s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.744s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:192:5:[m[K [01;31m[Kerror: [m[K‘[01m[KLoadMapResources[m[K’ was not declared in this scope
+[3.744s]   192 |     [01;31m[KLoadMapResources[m[K(share_dir, map_texture, map_w, map_h, map_resolution, map_origin);
+[3.744s]       |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[3.745s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:238:11:[m[K [01;35m[Kwarning: [m[Kcapture of variable ‘[01m[Kbattery_level[m[K’ with non-automatic storage duration
+[3.745s]   238 |         [&[01;35m[Kbattery_level[m[K](const std_msgs::msg::Int32::SharedPtr msg) {
+[3.745s]       |           [01;35m[K^~~~~~~~~~~~~[m[K
+[3.745s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:235:29:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::atomic<int> battery_level[m[K’ declared here
+[3.745s]   235 |     static std::atomic<int> [01;36m[Kbattery_level[m[K{100};
+[3.745s]       |                             [01;36m[K^~~~~~~~~~~~~[m[K
+[3.763s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:251:11:[m[K [01;35m[Kwarning: [m[Kcapture of variable ‘[01m[Kcurrent_type[m[K’ with non-automatic storage duration
+[3.763s]   251 |         [&[01;35m[Kcurrent_type[m[K, node](const std_msgs::msg::String::SharedPtr msg)
+[3.763s]       |           [01;35m[K^~~~~~~~~~~~[m[K
+[3.763s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:247:24:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::string current_type[m[K’ declared here
+[3.763s]   247 |     static std::string [01;36m[Kcurrent_type[m[K = "Not Set";
+[3.763s]       |                        [01;36m[K^~~~~~~~~~~~[m[K
+[3.800s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:263:16:[m[K [01;31m[Kerror: [m[K‘[01m[KLoadTexturefromFile[m[K’ was not declared in this scope
+[3.800s]   263 |     bool ret = [01;31m[KLoadTexturefromFile[m[K(image_path.c_str(), &my_image_texture, &my_image_width, &my_image_height);
+[3.800s]       |                [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.807s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:377:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kfont[m[K’ was not declared in this scope; did you mean ‘[01m[Kfonts[m[K’?
+[3.807s]   377 |         if ([01;31m[Kfont[m[K.medium_font) {
+[3.807s]       |             [01;31m[K^~~~[m[K
+[3.807s]       |             [32m[Kfonts[m[K
+[3.820s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:410:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kpascal_serial[m[K’ was not declared in this scope
+[3.820s]   410 |         ImGui::TextWrapped("Serial ID: %s", [01;31m[Kpascal_serial[m[K.c_str());
+[3.820s]       |                                             [01;31m[K^~~~~~~~~~~~~[m[K
+[3.825s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:436:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kfont[m[K’ was not declared in this scope; did you mean ‘[01m[Kfonts[m[K’?
+[3.825s]   436 |         if ([01;31m[Kfont[m[K.big_boldFont) {
+[3.825s]       |             [01;31m[K^~~~[m[K
+[3.825s]       |             [32m[Kfonts[m[K
+[3.836s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:451:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kpascal_intro[m[K’ was not declared in this scope
+[3.836s]   451 |         ImGui::TextWrapped("%s", [01;31m[Kpascal_intro[m[K.c_str());
+[3.836s]       |                                  [01;31m[K^~~~~~~~~~~~[m[K
+[3.842s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:454:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kfont[m[K’ was not declared in this scope; did you mean ‘[01m[Kfonts[m[K’?
+[3.842s]   454 |         if ([01;31m[Kfont[m[K.medium_font)
+[3.842s]       |             [01;31m[K^~~~[m[K
+[3.842s]       |             [32m[Kfonts[m[K
+[3.863s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:488:34:[m[K [01;31m[Kerror: [m[K‘[01m[KCreateStartupRequest[m[K’ was not declared in this scope
+[3.863s]   488 |             auto request_start = [01;31m[KCreateStartupRequest[m[K();
+[3.863s]       |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.890s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:489:13:[m[K [01;31m[Kerror: [m[K‘[01m[KHandleBootupRequest[m[K’ was not declared in this scope
+[3.890s]   489 |             [01;31m[KHandleBootupRequest[m[K(node, client, request_start, flagged_startup,
+[3.890s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.913s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:572:27:[m[K [01;31m[Kerror: [m[K‘[01m[KgetIndexesFromYaml[m[K’ was not declared in this scope
+[3.913s]   572 |                 indexes = [01;31m[KgetIndexesFromYaml[m[K(yaml_file, tempStorage);
+[3.913s]       |                           [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[3.934s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:585:27:[m[K [01;31m[Kerror: [m[K‘[01m[KgetIndexesFromYaml[m[K’ was not declared in this scope
+[3.934s]   585 |                 indexes = [01;31m[KgetIndexesFromYaml[m[K(yaml_file, tempStorage);
+[3.934s]       |                           [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[3.934s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:607:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<const char*>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.934s]   607 |             for (int n = 0; [01;35m[Kn < indexes.size()[m[K; n++)
+[3.934s]       |                             [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[3.955s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:816:32:[m[K [01;31m[Kerror: [m[K‘[01m[KCreateRobotRequest[m[K’ was not declared in this scope
+[3.955s]   816 |                 auto request = [01;31m[KCreateRobotRequest[m[K("inspect", index, x, y, z);
+[3.955s]       |                                [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[3.974s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:817:17:[m[K [01;31m[Kerror: [m[K‘[01m[KSendRobotRequest[m[K’ was not declared in this scope
+[3.974s]   817 |                 [01;31m[KSendRobotRequest[m[K(node, client, request, sequence_number);
+[3.974s]       |                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[3.974s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:818:17:[m[K [01;31m[Kerror: [m[Kreturn-statement with no value, in function returning ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.974s]   818 |                 [01;31m[Kreturn[m[K;
+[3.974s]       |                 [01;31m[K^~~~~~[m[K
+[3.974s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:824:21:[m[K [01;31m[Kerror: [m[Kreturn-statement with no value, in function returning ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.974s]   824 |                     [01;31m[Kreturn[m[K;
+[3.974s]       |                     [01;31m[K^~~~~~[m[K
+[4.003s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:827:32:[m[K [01;31m[Kerror: [m[K‘[01m[KCreateRobotRequest[m[K’ was not declared in this scope
+[4.003s]   827 |                 auto request = [01;31m[KCreateRobotRequest[m[K("delivery", index, last_world_x, last_world_y, z);
+[4.003s]       |                                [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[4.020s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:828:17:[m[K [01;31m[Kerror: [m[K‘[01m[KSendRobotRequest[m[K’ was not declared in this scope
+[4.020s]   828 |                 [01;31m[KSendRobotRequest[m[K(node, client, request, sequence_number);
+[4.020s]       |                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[4.020s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:829:17:[m[K [01;31m[Kerror: [m[Kreturn-statement with no value, in function returning ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[4.020s]   829 |                 [01;31m[Kreturn[m[K;
+[4.020s]       |                 [01;31m[K^~~~~~[m[K
+[4.021s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:842:17:[m[K [01;31m[Kerror: [m[Kreturn-statement with no value, in function returning ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[4.021s]   842 |                 [01;31m[Kreturn[m[K;
+[4.021s]       |                 [01;31m[K^~~~~~[m[K
+[4.021s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:848:17:[m[K [01;31m[Kerror: [m[Kreturn-statement with no value, in function returning ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[4.021s]   848 |                 [01;31m[Kreturn[m[K;
+[4.021s]       |                 [01;31m[K^~~~~~[m[K
+[4.021s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:854:17:[m[K [01;31m[Kerror: [m[Kreturn-statement with no value, in function returning ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[4.021s]   854 |                 [01;31m[Kreturn[m[K;
+[4.021s]       |                 [01;31m[K^~~~~~[m[K
+[4.043s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:861:28:[m[K [01;31m[Kerror: [m[K‘[01m[KCreateRobotRequest[m[K’ was not declared in this scope
+[4.043s]   861 |             auto request = [01;31m[KCreateRobotRequest[m[K(mode, index, x, y, z);
+[4.043s]       |                            [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[4.063s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:862:13:[m[K [01;31m[Kerror: [m[K‘[01m[KSendRobotRequest[m[K’ was not declared in this scope
+[4.063s]   862 |             [01;31m[KSendRobotRequest[m[K(node, client, request, sequence_number);
+[4.063s]       |             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[4.070s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:865:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kfont[m[K’ was not declared in this scope; did you mean ‘[01m[Kfonts[m[K’?
+[4.070s]   865 |         if ([01;31m[Kfont[m[K.mini_italic_font)
+[4.071s]       |             [01;31m[K^~~~[m[K
+[4.071s]       |             [32m[Kfonts[m[K
+[4.081s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:895:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kfont[m[K’ was not declared in this scope; did you mean ‘[01m[Kfonts[m[K’?
+[4.081s]   895 |             if ([01;31m[Kfont[m[K.medium_font)
+[4.081s]       |                 [01;31m[K^~~~[m[K
+[4.081s]       |                 [32m[Kfonts[m[K
+[4.117s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:912:17:[m[K [01;31m[Kerror: [m[K‘[01m[KRenderMapTextureAndInteraction[m[K’ was not declared in this scope
+[4.117s]   912 |                 [01;31m[KRenderMapTextureAndInteraction[m[K(map_texture, map_w, map_h, map_resolution, map_origin,
+[4.117s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.124s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:1031:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kfont[m[K’ was not declared in this scope; did you mean ‘[01m[Kfonts[m[K’?
+[4.124s]  1031 |             ImGui::PushFont([01;31m[Kfont[m[K.mini_font);
+[4.124s]       |                             [01;31m[K^~~~[m[K
+[4.124s]       |                             [32m[Kfonts[m[K
+[4.146s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:1033:13:[m[K [01;31m[Kerror: [m[K‘[01m[KDisplayTasksFromYaml[m[K’ was not declared in this scope
+[4.146s]  1033 |             [01;31m[KDisplayTasksFromYaml[m[K(defect_yaml_file, "defect", "defect");
+[4.146s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.146s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:477:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Koffset_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.146s]   477 |         float [01;35m[Koffset_x[m[K = (region_boot_w - btn_w) * 0.5f;
+[4.147s]       |               [01;35m[K^~~~~~~~[m[K
+[4.147s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:889:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kscale_map[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.147s]   889 |         const float [01;35m[Kscale_map[m[K = 5.0f;
+[4.147s]       |                     [01;35m[K^~~~~~~~~[m[K
+[6.189s] gmake[2]: *** [CMakeFiles/user_interface.dir/build.make:76: CMakeFiles/user_interface.dir/src/user_interface.cpp.o] Error 1
+[6.189s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/user_interface.dir/all] Error 2
+[6.189s] gmake: *** [Makefile:146: all] Error 2
+[6.191s] Invoked command in '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/build/user_interface' returned '2': AMENT_PREFIX_PATH=/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/shared_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/shared_interfaces:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_simulations:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_bringup:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_node:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_navigation2:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_fake_node:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_msgs:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_gazebo:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_description:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_cartographer:/home/matylda-hayne/turtlebot3_ws/install/dynamixel_sdk_examples:/home/matylda-hayne/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/matylda-hayne/turtlebot3_ws/install/dynamixel_sdk:/home/matylda-hayne/install/turtlebot_maze_solver:/home/matylda-hayne/install/polygon_plugins:/home/matylda-hayne/install/polygon_base:/home/matylda-hayne/mtrx3760_ws/install/turtlebot_maze_solver:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_teleop:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/shared_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/shared_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/build/user_interface -- -j20 -l20

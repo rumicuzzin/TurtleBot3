@@ -1,0 +1,117 @@
+[ 11%] [32mBuilding CXX object CMakeFiles/user_interface.dir/src/user_interface.cpp.o[0m
+In file included from [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:27[m[K:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:[m[K In function ‘[01m[Kint[01;32m[K stbi_write_bmp_to_func[m[K(void (*)(void*, void*, int), void*, int, int, int, const void*)[m[K’:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:514:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::context[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+  514 |    stbi__write_context s = { 0 [01;35m[K}[m[K;
+      |                                [01;35m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:514:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:514:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buf_used[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:[m[K In function ‘[01m[Kint[01;32m[K stbi_write_bmp[m[K(const char*, int, int, int, const void*)[m[K’:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:522:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::context[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+  522 |    stbi__write_context s = { 0 [01;35m[K}[m[K;
+      |                                [01;35m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:522:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:522:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buf_used[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:[m[K In function ‘[01m[Kint[01;32m[K stbi_write_tga_to_func[m[K(void (*)(void*, void*, int), void*, int, int, int, const void*)[m[K’:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:613:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::context[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+  613 |    stbi__write_context s = { 0 [01;35m[K}[m[K;
+      |                                [01;35m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:613:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:613:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buf_used[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:[m[K In function ‘[01m[Kint[01;32m[K stbi_write_tga[m[K(const char*, int, int, int, const void*)[m[K’:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:621:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::context[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+  621 |    stbi__write_context s = { 0 [01;35m[K}[m[K;
+      |                                [01;35m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:621:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:621:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buf_used[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:[m[K In function ‘[01m[Kint[01;32m[K stbi_write_hdr_to_func[m[K(void (*)(void*, void*, int), void*, int, int, int, const float*)[m[K’:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:789:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::context[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+  789 |    stbi__write_context s = { 0 [01;35m[K}[m[K;
+      |                                [01;35m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:789:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:789:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buf_used[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:[m[K In function ‘[01m[Kint[01;32m[K stbi_write_hdr[m[K(const char*, int, int, int, const float*)[m[K’:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:796:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::context[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+  796 |    stbi__write_context s = { 0 [01;35m[K}[m[K;
+      |                                [01;35m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:796:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:796:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buf_used[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:[m[K In function ‘[01m[Kint[01;32m[K stbi_write_jpg_to_func[m[K(void (*)(void*, void*, int), void*, int, int, int, const void*, int)[m[K’:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:1609:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::context[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+ 1609 |    stbi__write_context s = { 0 [01;35m[K}[m[K;
+      |                                [01;35m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:1609:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:1609:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buf_used[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:[m[K In function ‘[01m[Kint[01;32m[K stbi_write_jpg[m[K(const char*, int, int, int, const void*, int)[m[K’:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:1618:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::context[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+ 1618 |    stbi__write_context s = { 0 [01;35m[K}[m[K;
+      |                                [01;35m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:1618:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:1618:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buf_used[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K()[m[K’:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:459:11:[m[K [01;35m[Kwarning: [m[Kcapture of variable ‘[01m[Kbattery_level[m[K’ with non-automatic storage duration
+  459 |         [&[01;35m[Kbattery_level[m[K](const std_msgs::msg::Int32::SharedPtr msg) {
+      |           [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:456:29:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::atomic<int> battery_level[m[K’ declared here
+  456 |     static std::atomic<int> [01;36m[Kbattery_level[m[K{100};
+      |                             [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:472:11:[m[K [01;35m[Kwarning: [m[Kcapture of variable ‘[01m[Kcurrent_type[m[K’ with non-automatic storage duration
+  472 |         [&[01;35m[Kcurrent_type[m[K, node](const std_msgs::msg::String::SharedPtr msg)
+      |           [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:468:24:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::string current_type[m[K’ declared here
+  468 |     static std::string [01;36m[Kcurrent_type[m[K = "Not Set";
+      |                        [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:818:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<const char*>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  818 |             for (int n = 0; [01;35m[Kn < indexes.size()[m[K; n++)
+      |                             [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:944:56:[m[K [01;35m[Kwarning: [m[Kcomparison with string literal results in unspecified behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+  944 |                 std::string key = ([01;35m[Kitems[current_item] == "Delivery"[m[K) ? "delivery" : "defect"; // neeed to change
+      |                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:1136:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Koffset_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 1136 |                 float [01;35m[Koffset_x[m[K = (region_clear_w - btn_w) * 0.5f;
+      |                       [01;35m[K^~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:695:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Koffset_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  695 |         float [01;35m[Koffset_x[m[K = (region_boot_w - btn_w) * 0.5f;
+      |               [01;35m[K^~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:362:10:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kstartup_requested[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  362 |     bool [01;35m[Kstartup_requested[m[K = false;
+      |          [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:537:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbig_font[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  537 |     ImFont* [01;35m[Kbig_font[m[K = io.Fonts->AddFontFromFileTTF(font_path.c_str(), 100.0f);
+      |             [01;35m[K^~~~~~~~[m[K
+[ 22%] [32m[1mLinking CXX executable user_interface[0m
+[100%] Built target user_interface
+-- Install configuration: ""
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/user_interface/lib/user_interface/user_interface
+-- Set non-toolchain portion of runtime path of "/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/user_interface/lib/user_interface/user_interface" to ""
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/user_interface/include
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/user_interface/include/robot
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/user_interface/include/robot/robot_node.h
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/user_interface/include/robot/robot_logic.h
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/user_interface/share/user_interface/launch
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/user_interface/share/user_interface/launch/bringup.launch.py
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/user_interface/share/user_interface/resources
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/user_interface/share/user_interface/resources/pascal_serial.txt
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/user_interface/share/user_interface/resources/pascal.png
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/user_interface/share/user_interface/resources/pascal_intro.txt
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/user_interface/share/user_interface/resources/map.yaml
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/user_interface/share/user_interface/resources/defect_log.yaml
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/user_interface/share/user_interface/resources/map.pgm
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/user_interface/share/user_interface/resources/delivery_log.yaml
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/user_interface/share/user_interface/resources/pascal_intro.txt
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/user_interface/share/user_interface/resources/pascal_serial.txt
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/user_interface/share/ament_index/resource_index/package_run_dependencies/user_interface
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/user_interface/share/ament_index/resource_index/parent_prefix_path/user_interface
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/user_interface/share/user_interface/environment/ament_prefix_path.sh
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/user_interface/share/user_interface/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/user_interface/share/user_interface/environment/path.sh
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/user_interface/share/user_interface/environment/path.dsv
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/user_interface/share/user_interface/local_setup.bash
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/user_interface/share/user_interface/local_setup.sh
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/user_interface/share/user_interface/local_setup.zsh
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/user_interface/share/user_interface/local_setup.dsv
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/user_interface/share/user_interface/package.dsv
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/user_interface/share/ament_index/resource_index/packages/user_interface
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/user_interface/share/user_interface/cmake/user_interfaceConfig.cmake
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/user_interface/share/user_interface/cmake/user_interfaceConfig-version.cmake
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/user_interface/share/user_interface/package.xml

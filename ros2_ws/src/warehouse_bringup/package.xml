@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>warehouse_bringup</name>
+  <version>0.0.1</version>
+  <description>Bringup and simulation orchestration package for the warehouse robot project.</description>
+
+  <maintainer email="angus@example.com">Angus Mclean</maintainer>
+  <license>MIT</license>
+
+  <!-- Core build system -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Runtime dependencies -->
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>ros_gz_sim</exec_depend>
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>drive</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

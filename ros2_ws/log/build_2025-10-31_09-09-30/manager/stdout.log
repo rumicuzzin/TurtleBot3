@@ -1,0 +1,66 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found rclcpp_lifecycle: 28.1.11 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found shared_interfaces: 0.0.0 (/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/shared_interfaces/share/shared_interfaces/cmake)
+-- Configuring done (1.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/build/manager
+[ 16%] [32mBuilding CXX object CMakeFiles/manager.dir/src/base_robot.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/manager.dir/src/delivery_robot.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/manager.dir/src/inspection_robot.cpp.o[0m
+[ 66%] [32m[1mLinking CXX static library libmanager.a[0m
+[ 66%] Built target manager
+[ 83%] [32mBuilding CXX object CMakeFiles/manager_lifecycle_node.dir/src/manager_lifecycle_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable manager_lifecycle_node[0m
+[100%] Built target manager_lifecycle_node
+-- Install configuration: ""
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/lib/manager/manager_lifecycle_node
+-- Set non-toolchain portion of runtime path of "/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/lib/manager/manager_lifecycle_node" to ""
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/lib/libmanager.a
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/include
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/include/manager
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/include/manager/manager_lifecycle_node.h
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/include/manager/base_robot.h
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/include/manager/inspection_robot.h
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/include/manager/delivery_robot.h
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/share/manager/environment/library_path.sh
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/share/manager/environment/library_path.dsv
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/share/ament_index/resource_index/package_run_dependencies/manager
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/share/ament_index/resource_index/parent_prefix_path/manager
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/share/manager/environment/ament_prefix_path.sh
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/share/manager/environment/ament_prefix_path.dsv
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/share/manager/environment/path.sh
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/share/manager/environment/path.dsv
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/share/manager/local_setup.bash
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/share/manager/local_setup.sh
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/share/manager/local_setup.zsh
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/share/manager/local_setup.dsv
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/share/manager/package.dsv
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/share/ament_index/resource_index/packages/manager
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/share/manager/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/share/manager/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/share/manager/cmake/managerConfig.cmake
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/share/manager/cmake/managerConfig-version.cmake
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/manager/share/manager/package.xml

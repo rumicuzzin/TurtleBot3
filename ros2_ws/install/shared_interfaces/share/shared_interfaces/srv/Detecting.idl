@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from shared_interfaces/srv/Detecting.srv
+// generated code does not contain a copyright notice
+
+
+module shared_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "Service Detecting" "\n"
+      "Server: DefectDetector" "\n"
+      "Client: Manager")
+    struct Detecting_Request {
+      @verbatim (language="comment", text=
+        "\"defect\" or \"delivery\"")
+      string marker_type;
+
+      @verbatim (language="comment", text=
+        "\"start_detecting\" or \"stop_detecting\"")
+      string command;
+    };
+    struct Detecting_Response {
+      boolean success;
+    };
+  };
+};

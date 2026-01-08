@@ -1,0 +1,10 @@
+/usr/bin/ld: CMakeFiles/robot_gui.dir/src/robot_gui.cpp.o: in function `LoadTextureFromMemory(unsigned char const*, int, unsigned int*, int*, int*)':
+robot_gui.cpp:(.text+0xc6): undefined reference to `stbi_load_from_memory'
+/usr/bin/ld: robot_gui.cpp:(.text+0x178): undefined reference to `stbi_image_free'
+/usr/bin/ld: CMakeFiles/robot_gui.dir/src/robot_gui.cpp.o: in function `LoadTexturefromFile(char const*, unsigned int*, int*, int*)':
+robot_gui.cpp:(.text+0x1f7): undefined reference to `stbi_load'
+/usr/bin/ld: robot_gui.cpp:(.text+0x2a9): undefined reference to `stbi_image_free'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/robot_gui.dir/build.make:301: robot_gui] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robot_gui.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,347 @@
+[0.061s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.061s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7a5a666b5ee0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7a5a666b5b20>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7a5a666b5b20>>, mixin_verb=('build',))
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.083s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(battery) by extensions ['ignore', 'ignore_ament_install']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(battery) by extension 'ignore'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(battery) by extension 'ignore_ament_install'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(battery) by extensions ['colcon_pkg']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(battery) by extension 'colcon_pkg'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(battery) by extensions ['colcon_meta']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(battery) by extension 'colcon_meta'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(battery) by extensions ['ros']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(battery) by extension 'ros'
+[0.100s] DEBUG:colcon.colcon_core.package_identification:Package 'battery' with type 'ros.ament_cmake' and name 'battery'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(defect_detector) by extensions ['ignore', 'ignore_ament_install']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(defect_detector) by extension 'ignore'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(defect_detector) by extension 'ignore_ament_install'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(defect_detector) by extensions ['colcon_pkg']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(defect_detector) by extension 'colcon_pkg'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(defect_detector) by extensions ['colcon_meta']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(defect_detector) by extension 'colcon_meta'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(defect_detector) by extensions ['ros']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(defect_detector) by extension 'ros'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(defect_detector) by extensions ['cmake', 'python']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(defect_detector) by extension 'cmake'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(defect_detector) by extension 'python'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(defect_detector) by extensions ['python_setup_py']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(defect_detector) by extension 'python_setup_py'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(defect_detector/src) by extensions ['ignore', 'ignore_ament_install']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(defect_detector/src) by extension 'ignore'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(defect_detector/src) by extension 'ignore_ament_install'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(defect_detector/src) by extensions ['colcon_pkg']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(defect_detector/src) by extension 'colcon_pkg'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(defect_detector/src) by extensions ['colcon_meta']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(defect_detector/src) by extension 'colcon_meta'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(defect_detector/src) by extensions ['ros']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(defect_detector/src) by extension 'ros'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(defect_detector/src) by extensions ['cmake', 'python']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(defect_detector/src) by extension 'cmake'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(defect_detector/src) by extension 'python'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(defect_detector/src) by extensions ['python_setup_py']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(defect_detector/src) by extension 'python_setup_py'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(drive) by extensions ['ignore', 'ignore_ament_install']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(drive) by extension 'ignore'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(drive) by extension 'ignore_ament_install'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(drive) by extensions ['colcon_pkg']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(drive) by extension 'colcon_pkg'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(drive) by extensions ['colcon_meta']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(drive) by extension 'colcon_meta'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(drive) by extensions ['ros']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(drive) by extension 'ros'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(drive) by extensions ['cmake', 'python']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(drive) by extension 'cmake'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(drive) by extension 'python'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(drive) by extensions ['python_setup_py']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(drive) by extension 'python_setup_py'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(logger) by extensions ['ignore', 'ignore_ament_install']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(logger) by extension 'ignore'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(logger) by extension 'ignore_ament_install'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(logger) by extensions ['colcon_pkg']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(logger) by extension 'colcon_pkg'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(logger) by extensions ['colcon_meta']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(logger) by extension 'colcon_meta'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(logger) by extensions ['ros']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(logger) by extension 'ros'
+[0.102s] DEBUG:colcon.colcon_core.package_identification:Package 'logger' with type 'ros.ament_cmake' and name 'logger_pkg'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(manager) by extensions ['ignore', 'ignore_ament_install']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(manager) by extension 'ignore'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(manager) by extension 'ignore_ament_install'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(manager) by extensions ['colcon_pkg']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(manager) by extension 'colcon_pkg'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(manager) by extensions ['colcon_meta']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(manager) by extension 'colcon_meta'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(manager) by extensions ['ros']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(manager) by extension 'ros'
+[0.102s] DEBUG:colcon.colcon_core.package_identification:Package 'manager' with type 'ros.ament_cmake' and name 'manager'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(navigation) by extension 'ignore'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(navigation) by extension 'ignore_ament_install'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(navigation) by extensions ['colcon_pkg']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(navigation) by extension 'colcon_pkg'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(navigation) by extensions ['colcon_meta']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(navigation) by extension 'colcon_meta'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(navigation) by extensions ['ros']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(navigation) by extension 'ros'
+[0.103s] DEBUG:colcon.colcon_core.package_identification:Package 'navigation' with type 'ros.ament_cmake' and name 'navigation'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(shared_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(shared_interfaces) by extension 'ignore'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(shared_interfaces) by extension 'ignore_ament_install'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(shared_interfaces) by extensions ['colcon_pkg']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(shared_interfaces) by extension 'colcon_pkg'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(shared_interfaces) by extensions ['colcon_meta']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(shared_interfaces) by extension 'colcon_meta'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(shared_interfaces) by extensions ['ros']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(shared_interfaces) by extension 'ros'
+[0.103s] DEBUG:colcon.colcon_core.package_identification:Package 'shared_interfaces' with type 'ros.ament_cmake' and name 'shared_interfaces'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(user_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(user_interface) by extension 'ignore'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(user_interface) by extension 'ignore_ament_install'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(user_interface) by extensions ['colcon_pkg']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(user_interface) by extension 'colcon_pkg'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(user_interface) by extensions ['colcon_meta']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(user_interface) by extension 'colcon_meta'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(user_interface) by extensions ['ros']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(user_interface) by extension 'ros'
+[0.104s] DEBUG:colcon.colcon_core.package_identification:Package 'user_interface' with type 'ros.ament_cmake' and name 'user_interface'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extensions ['ignore', 'ignore_ament_install']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extension 'ignore'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extension 'ignore_ament_install'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extensions ['colcon_pkg']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extension 'colcon_pkg'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extensions ['colcon_meta']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extension 'colcon_meta'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extensions ['ros']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extension 'ros'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extensions ['cmake', 'python']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extension 'cmake'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extension 'python'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extensions ['python_setup_py']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extension 'python_setup_py'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(warehouse_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(warehouse_bringup) by extension 'ignore'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(warehouse_bringup) by extension 'ignore_ament_install'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(warehouse_bringup) by extensions ['colcon_pkg']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(warehouse_bringup) by extension 'colcon_pkg'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(warehouse_bringup) by extensions ['colcon_meta']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(warehouse_bringup) by extension 'colcon_meta'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(warehouse_bringup) by extensions ['ros']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(warehouse_bringup) by extension 'ros'
+[0.105s] DEBUG:colcon.colcon_core.package_identification:Package 'warehouse_bringup' with type 'ros.ament_cmake' and name 'warehouse_bringup'
+[0.105s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.105s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.105s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.105s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.105s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.117s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/shared_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't contain any 'local_setup.*' files.
+[0.117s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/user_interface' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.117s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/robot' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.117s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/user_interface' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.117s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/robot' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.117s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/user_interface' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.117s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/robot' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.117s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/user_interface' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.117s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/robot' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.118s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install
+[0.118s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 15 installed packages in /home/matylda-hayne/turtlebot3_ws/install
+[0.118s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/matylda-hayne/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/launch/install
+[0.119s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/matylda-hayne/install
+[0.119s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/matylda-hayne/mtrx3760_ws/install
+[0.120s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 398 installed packages in /opt/ros/jazzy
+[0.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_target' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.155s] DEBUG:colcon.colcon_core.verb:Building package 'navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/build/navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/navigation', 'merge_install': False, 'path': '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/navigation', 'symlink_install': False, 'test_result_base': None}
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'shared_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'shared_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'shared_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'shared_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'shared_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'shared_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'shared_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'shared_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'shared_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.155s] DEBUG:colcon.colcon_core.verb:Building package 'shared_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/build/shared_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces', 'merge_install': False, 'path': '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/shared_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'warehouse_bringup' build argument 'cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'warehouse_bringup' build argument 'cmake_target' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'warehouse_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'warehouse_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'warehouse_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'warehouse_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'warehouse_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'warehouse_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'warehouse_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.155s] DEBUG:colcon.colcon_core.verb:Building package 'warehouse_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/build/warehouse_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup', 'merge_install': False, 'path': '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/warehouse_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'battery' build argument 'cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'battery' build argument 'cmake_target' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'battery' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'battery' build argument 'cmake_clean_cache' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'battery' build argument 'cmake_clean_first' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'battery' build argument 'cmake_force_configure' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'battery' build argument 'ament_cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'battery' build argument 'catkin_cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'battery' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.156s] DEBUG:colcon.colcon_core.verb:Building package 'battery' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/build/battery', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/battery', 'merge_install': False, 'path': '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/battery', 'symlink_install': False, 'test_result_base': None}
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'logger_pkg' build argument 'cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'logger_pkg' build argument 'cmake_target' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'logger_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'logger_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'logger_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'logger_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'logger_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'logger_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'logger_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.156s] DEBUG:colcon.colcon_core.verb:Building package 'logger_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/build/logger_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/logger_pkg', 'merge_install': False, 'path': '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/logger', 'symlink_install': False, 'test_result_base': None}
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'manager' build argument 'cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'manager' build argument 'cmake_target' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'manager' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'manager' build argument 'cmake_clean_cache' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'manager' build argument 'cmake_clean_first' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'manager' build argument 'cmake_force_configure' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'manager' build argument 'ament_cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'manager' build argument 'catkin_cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'manager' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.156s] DEBUG:colcon.colcon_core.verb:Building package 'manager' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/build/manager', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/manager', 'merge_install': False, 'path': '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/manager', 'symlink_install': False, 'test_result_base': None}
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'cmake_target' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.156s] DEBUG:colcon.colcon_core.verb:Building package 'user_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/build/user_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/user_interface', 'merge_install': False, 'path': '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface', 'symlink_install': False, 'test_result_base': None}
+[0.156s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.157s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.157s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/shared_interfaces' with build type 'ament_cmake'
+[0.157s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/shared_interfaces'
+[0.159s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.159s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.159s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.159s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install'
+[0.162s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/navigation' with build type 'ament_cmake'
+[0.162s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/navigation'
+[0.163s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.163s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.164s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install'
+[0.167s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/warehouse_bringup' with build type 'ament_cmake'
+[0.167s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/warehouse_bringup'
+[0.167s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.167s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.167s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install'
+[0.172s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/build/shared_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_teleop:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/shared_interfaces -DCMAKE_INSTALL_PREFIX=/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces
+[0.175s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/build/navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_teleop:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/navigation -DCMAKE_INSTALL_PREFIX=/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/navigation
+[0.176s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/build/warehouse_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_teleop:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/warehouse_bringup -DCMAKE_INSTALL_PREFIX=/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup
+[0.773s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/build/warehouse_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_teleop:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/warehouse_bringup -DCMAKE_INSTALL_PREFIX=/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup
+[0.774s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/build/warehouse_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_teleop:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/build/warehouse_bringup -- -j20 -l20
+[0.816s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/build/warehouse_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_teleop:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/build/warehouse_bringup -- -j20 -l20
+[0.824s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/build/warehouse_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_teleop:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/build/warehouse_bringup
+[0.835s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(warehouse_bringup)
+[0.836s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/build/warehouse_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_teleop:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/build/warehouse_bringup
+[0.839s] Level 1:colcon.colcon_core.environment:checking '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup' for CMake module files
+[0.839s] Level 1:colcon.colcon_core.environment:checking '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup' for CMake config files
+[0.839s] Level 1:colcon.colcon_core.shell:create_environment_hook('warehouse_bringup', 'cmake_prefix_path')
+[0.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/share/warehouse_bringup/hook/cmake_prefix_path.ps1'
+[0.840s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/share/warehouse_bringup/hook/cmake_prefix_path.dsv'
+[0.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/share/warehouse_bringup/hook/cmake_prefix_path.sh'
+[0.841s] Level 1:colcon.colcon_core.environment:checking '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/bin'
+[0.841s] Level 1:colcon.colcon_core.environment:checking '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/lib/pkgconfig/warehouse_bringup.pc'
+[0.841s] Level 1:colcon.colcon_core.environment:checking '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/lib/python3.12/site-packages'
+[0.842s] Level 1:colcon.colcon_core.environment:checking '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/bin'
+[0.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/share/warehouse_bringup/package.ps1'
+[0.842s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/share/warehouse_bringup/package.dsv'
+[0.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/share/warehouse_bringup/package.sh'
+[0.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/share/warehouse_bringup/package.bash'
+[0.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/share/warehouse_bringup/package.zsh'
+[0.844s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/share/colcon-core/packages/warehouse_bringup)
+[0.844s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(warehouse_bringup)
+[0.845s] Level 1:colcon.colcon_core.environment:checking '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup' for CMake module files
+[0.845s] Level 1:colcon.colcon_core.environment:checking '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup' for CMake config files
+[0.845s] Level 1:colcon.colcon_core.shell:create_environment_hook('warehouse_bringup', 'cmake_prefix_path')
+[0.845s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/share/warehouse_bringup/hook/cmake_prefix_path.ps1'
+[0.845s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/share/warehouse_bringup/hook/cmake_prefix_path.dsv'
+[0.845s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/share/warehouse_bringup/hook/cmake_prefix_path.sh'
+[0.846s] Level 1:colcon.colcon_core.environment:checking '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/bin'
+[0.846s] Level 1:colcon.colcon_core.environment:checking '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/lib/pkgconfig/warehouse_bringup.pc'
+[0.846s] Level 1:colcon.colcon_core.environment:checking '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/lib/python3.12/site-packages'
+[0.846s] Level 1:colcon.colcon_core.environment:checking '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/bin'
+[0.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/share/warehouse_bringup/package.ps1'
+[0.846s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/share/warehouse_bringup/package.dsv'
+[0.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/share/warehouse_bringup/package.sh'
+[0.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/share/warehouse_bringup/package.bash'
+[0.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/share/warehouse_bringup/package.zsh'
+[0.847s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/warehouse_bringup/share/colcon-core/packages/warehouse_bringup)
+[1.534s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/build/navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_teleop:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/navigation -DCMAKE_INSTALL_PREFIX=/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/navigation
+[1.535s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/build/navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_teleop:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/build/navigation -- -j20 -l20
+[3.626s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/build/shared_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_teleop:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/shared_interfaces -DCMAKE_INSTALL_PREFIX=/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/shared_interfaces
+[3.627s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/build/shared_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_teleop:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/build/shared_interfaces -- -j20 -l20
+[7.281s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/build/navigation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_teleop:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/build/navigation -- -j20 -l20
+[7.282s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigation)
+[7.282s] Level 1:colcon.colcon_core.environment:checking '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/navigation' for CMake module files
+[7.282s] Level 1:colcon.colcon_core.environment:checking '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/navigation' for CMake config files
+[7.282s] Level 1:colcon.colcon_core.environment:checking '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/navigation/bin'
+[7.283s] Level 1:colcon.colcon_core.environment:checking '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/navigation/lib/pkgconfig/navigation.pc'
+[7.283s] Level 1:colcon.colcon_core.environment:checking '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/navigation/lib/python3.12/site-packages'
+[7.283s] Level 1:colcon.colcon_core.environment:checking '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/navigation/bin'
+[7.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/navigation/share/navigation/package.ps1'
+[7.284s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/navigation/share/navigation/package.dsv'
+[7.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/navigation/share/navigation/package.sh'
+[7.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/navigation/share/navigation/package.bash'
+[7.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/navigation/share/navigation/package.zsh'
+[7.285s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/navigation/share/colcon-core/packages/navigation)
+[7.566s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.566s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.566s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[7.566s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.572s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.572s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.572s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.585s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.585s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/local_setup.ps1'
+[7.586s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/_local_setup_util_ps1.py'
+[7.586s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/setup.ps1'
+[7.587s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/local_setup.sh'
+[7.587s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/_local_setup_util_sh.py'
+[7.587s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/setup.sh'
+[7.588s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/local_setup.bash'
+[7.589s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/setup.bash'
+[7.589s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/local_setup.zsh'
+[7.590s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/setup.zsh'

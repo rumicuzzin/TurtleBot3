@@ -1,0 +1,11 @@
+/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/build/manager/CMakeFiles/uninstall.dir
+/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/build/manager/CMakeFiles/manager_uninstall.dir
+/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/build/manager/CMakeFiles/manager.dir
+/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/build/manager/CMakeFiles/manager_lifecycle_node.dir
+/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/build/manager/CMakeFiles/test.dir
+/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/build/manager/CMakeFiles/edit_cache.dir
+/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/build/manager/CMakeFiles/rebuild_cache.dir
+/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/build/manager/CMakeFiles/list_install_components.dir
+/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/build/manager/CMakeFiles/install.dir
+/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/build/manager/CMakeFiles/install/local.dir
+/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/build/manager/CMakeFiles/install/strip.dir

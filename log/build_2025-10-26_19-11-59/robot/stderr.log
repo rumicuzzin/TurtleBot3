@@ -1,0 +1,7 @@
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/robot/src/robot_gui.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K()[m[K’:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/robot/src/robot_gui.cpp:54:16:[m[K [01;31m[Kerror: [m[K‘[01m[KLoadTexturefromFile[m[K’ was not declared in this scope
+   54 |     bool ret = [01;31m[KLoadTexturefromFile[m[K("src/robot/turtlebot.png", &my_image_texture, &my_image_width, &my_image_height);
+      |                [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/robot_gui.dir/build.make:76: CMakeFiles/robot_gui.dir/src/robot_gui.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robot_gui.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

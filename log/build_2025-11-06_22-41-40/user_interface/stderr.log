@@ -1,0 +1,193 @@
+[33mCMake Warning (dev) at /usr/share/cmake-3.28/Modules/FindOpenGL.cmake:381 (message):
+  Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when
+  available.  Run "cmake --help-policy CMP0072" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  FindOpenGL found both a legacy GL library:
+
+    OPENGL_gl_LIBRARY: /usr/lib/x86_64-linux-gnu/libGL.so
+
+  and GLVND libraries for OpenGL and GLX:
+
+    OPENGL_opengl_LIBRARY: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+    OPENGL_glx_LIBRARY: /usr/lib/x86_64-linux-gnu/libGLX.so
+
+  OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for
+  compatibility with CMake 3.10 and below the legacy GL library will be used.
+Call Stack (most recent call first):
+  CMakeLists.txt:20 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+In file included from [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:26[m[K:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:[m[K In function ‘[01m[Kint[01;32m[K stbi_write_bmp_to_func[m[K(void (*)(void*, void*, int), void*, int, int, int, const void*)[m[K’:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:514:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::context[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+  514 |    stbi__write_context s = { 0 [01;35m[K}[m[K;
+      |                                [01;35m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:514:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:514:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buf_used[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:[m[K In function ‘[01m[Kint[01;32m[K stbi_write_bmp[m[K(const char*, int, int, int, const void*)[m[K’:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:522:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::context[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+  522 |    stbi__write_context s = { 0 [01;35m[K}[m[K;
+      |                                [01;35m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:522:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:522:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buf_used[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:[m[K In function ‘[01m[Kint[01;32m[K stbi_write_tga_to_func[m[K(void (*)(void*, void*, int), void*, int, int, int, const void*)[m[K’:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:613:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::context[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+  613 |    stbi__write_context s = { 0 [01;35m[K}[m[K;
+      |                                [01;35m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:613:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:613:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buf_used[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:[m[K In function ‘[01m[Kint[01;32m[K stbi_write_tga[m[K(const char*, int, int, int, const void*)[m[K’:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:621:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::context[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+  621 |    stbi__write_context s = { 0 [01;35m[K}[m[K;
+      |                                [01;35m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:621:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:621:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buf_used[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:[m[K In function ‘[01m[Kint[01;32m[K stbi_write_hdr_to_func[m[K(void (*)(void*, void*, int), void*, int, int, int, const float*)[m[K’:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:789:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::context[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+  789 |    stbi__write_context s = { 0 [01;35m[K}[m[K;
+      |                                [01;35m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:789:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:789:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buf_used[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:[m[K In function ‘[01m[Kint[01;32m[K stbi_write_hdr[m[K(const char*, int, int, int, const float*)[m[K’:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:796:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::context[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+  796 |    stbi__write_context s = { 0 [01;35m[K}[m[K;
+      |                                [01;35m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:796:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:796:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buf_used[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:[m[K In function ‘[01m[Kint[01;32m[K stbi_write_jpg_to_func[m[K(void (*)(void*, void*, int), void*, int, int, int, const void*, int)[m[K’:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:1609:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::context[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+ 1609 |    stbi__write_context s = { 0 [01;35m[K}[m[K;
+      |                                [01;35m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:1609:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:1609:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buf_used[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:[m[K In function ‘[01m[Kint[01;32m[K stbi_write_jpg[m[K(const char*, int, int, int, const void*, int)[m[K’:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:1618:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::context[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+ 1618 |    stbi__write_context s = { 0 [01;35m[K}[m[K;
+      |                                [01;35m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:1618:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:1618:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buf_used[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K()[m[K’:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:119:26:[m[K [01;31m[Kerror: [m[K‘[01m[KInitializeGLFWWindow[m[K’ was not declared in this scope
+  119 |     GLFWwindow *window = [01;31m[KInitializeGLFWWindow[m[K(800, 600, "GUI");
+      |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:137:29:[m[K [01;31m[Kerror: [m[K‘[01m[KGetPackageShareDirectory[m[K’ was not declared in this scope
+  137 |     std::string share_dir = [01;31m[KGetPackageShareDirectory[m[K();
+      |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:139:5:[m[K [01;31m[Kerror: [m[K‘[01m[KLoadPascalResources[m[K’ was not declared in this scope
+  139 |     [01;31m[KLoadPascalResources[m[K(share_dir, image_path, intro_text, serial_text);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:192:5:[m[K [01;31m[Kerror: [m[K‘[01m[KLoadMapResources[m[K’ was not declared in this scope
+  192 |     [01;31m[KLoadMapResources[m[K(share_dir, map_texture, map_w, map_h, map_resolution, map_origin);
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:238:11:[m[K [01;35m[Kwarning: [m[Kcapture of variable ‘[01m[Kbattery_level[m[K’ with non-automatic storage duration
+  238 |         [&[01;35m[Kbattery_level[m[K](const std_msgs::msg::Int32::SharedPtr msg) {
+      |           [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:235:29:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::atomic<int> battery_level[m[K’ declared here
+  235 |     static std::atomic<int> [01;36m[Kbattery_level[m[K{100};
+      |                             [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:251:11:[m[K [01;35m[Kwarning: [m[Kcapture of variable ‘[01m[Kcurrent_type[m[K’ with non-automatic storage duration
+  251 |         [&[01;35m[Kcurrent_type[m[K, node](const std_msgs::msg::String::SharedPtr msg)
+      |           [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:247:24:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::string current_type[m[K’ declared here
+  247 |     static std::string [01;36m[Kcurrent_type[m[K = "Not Set";
+      |                        [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:263:16:[m[K [01;31m[Kerror: [m[K‘[01m[KLoadTexturefromFile[m[K’ was not declared in this scope
+  263 |     bool ret = [01;31m[KLoadTexturefromFile[m[K(image_path.c_str(), &my_image_texture, &my_image_width, &my_image_height);
+      |                [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:377:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kfont[m[K’ was not declared in this scope; did you mean ‘[01m[Kfonts[m[K’?
+  377 |         if ([01;31m[Kfont[m[K.medium_font) {
+      |             [01;31m[K^~~~[m[K
+      |             [32m[Kfonts[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:410:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kpascal_serial[m[K’ was not declared in this scope
+  410 |         ImGui::TextWrapped("Serial ID: %s", [01;31m[Kpascal_serial[m[K.c_str());
+      |                                             [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:436:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kfont[m[K’ was not declared in this scope; did you mean ‘[01m[Kfonts[m[K’?
+  436 |         if ([01;31m[Kfont[m[K.big_boldFont) {
+      |             [01;31m[K^~~~[m[K
+      |             [32m[Kfonts[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:451:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kpascal_intro[m[K’ was not declared in this scope
+  451 |         ImGui::TextWrapped("%s", [01;31m[Kpascal_intro[m[K.c_str());
+      |                                  [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:454:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kfont[m[K’ was not declared in this scope; did you mean ‘[01m[Kfonts[m[K’?
+  454 |         if ([01;31m[Kfont[m[K.medium_font)
+      |             [01;31m[K^~~~[m[K
+      |             [32m[Kfonts[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:488:34:[m[K [01;31m[Kerror: [m[K‘[01m[KCreateStartupRequest[m[K’ was not declared in this scope
+  488 |             auto request_start = [01;31m[KCreateStartupRequest[m[K();
+      |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:489:13:[m[K [01;31m[Kerror: [m[K‘[01m[KHandleBootupRequest[m[K’ was not declared in this scope
+  489 |             [01;31m[KHandleBootupRequest[m[K(node, client, request_start, flagged_startup,
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:572:27:[m[K [01;31m[Kerror: [m[K‘[01m[KgetIndexesFromYaml[m[K’ was not declared in this scope
+  572 |                 indexes = [01;31m[KgetIndexesFromYaml[m[K(yaml_file, tempStorage);
+      |                           [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:585:27:[m[K [01;31m[Kerror: [m[K‘[01m[KgetIndexesFromYaml[m[K’ was not declared in this scope
+  585 |                 indexes = [01;31m[KgetIndexesFromYaml[m[K(yaml_file, tempStorage);
+      |                           [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:607:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<const char*>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  607 |             for (int n = 0; [01;35m[Kn < indexes.size()[m[K; n++)
+      |                             [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:816:32:[m[K [01;31m[Kerror: [m[K‘[01m[KCreateRobotRequest[m[K’ was not declared in this scope
+  816 |                 auto request = [01;31m[KCreateRobotRequest[m[K("inspect", index, x, y, z);
+      |                                [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:817:17:[m[K [01;31m[Kerror: [m[K‘[01m[KSendRobotRequest[m[K’ was not declared in this scope
+  817 |                 [01;31m[KSendRobotRequest[m[K(node, client, request, sequence_number);
+      |                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:818:17:[m[K [01;31m[Kerror: [m[Kreturn-statement with no value, in function returning ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  818 |                 [01;31m[Kreturn[m[K;
+      |                 [01;31m[K^~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:824:21:[m[K [01;31m[Kerror: [m[Kreturn-statement with no value, in function returning ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  824 |                     [01;31m[Kreturn[m[K;
+      |                     [01;31m[K^~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:827:32:[m[K [01;31m[Kerror: [m[K‘[01m[KCreateRobotRequest[m[K’ was not declared in this scope
+  827 |                 auto request = [01;31m[KCreateRobotRequest[m[K("delivery", index, last_world_x, last_world_y, z);
+      |                                [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:828:17:[m[K [01;31m[Kerror: [m[K‘[01m[KSendRobotRequest[m[K’ was not declared in this scope
+  828 |                 [01;31m[KSendRobotRequest[m[K(node, client, request, sequence_number);
+      |                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:829:17:[m[K [01;31m[Kerror: [m[Kreturn-statement with no value, in function returning ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  829 |                 [01;31m[Kreturn[m[K;
+      |                 [01;31m[K^~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:842:17:[m[K [01;31m[Kerror: [m[Kreturn-statement with no value, in function returning ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  842 |                 [01;31m[Kreturn[m[K;
+      |                 [01;31m[K^~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:848:17:[m[K [01;31m[Kerror: [m[Kreturn-statement with no value, in function returning ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  848 |                 [01;31m[Kreturn[m[K;
+      |                 [01;31m[K^~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:854:17:[m[K [01;31m[Kerror: [m[Kreturn-statement with no value, in function returning ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  854 |                 [01;31m[Kreturn[m[K;
+      |                 [01;31m[K^~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:861:28:[m[K [01;31m[Kerror: [m[K‘[01m[KCreateRobotRequest[m[K’ was not declared in this scope
+  861 |             auto request = [01;31m[KCreateRobotRequest[m[K(mode, index, x, y, z);
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:862:13:[m[K [01;31m[Kerror: [m[K‘[01m[KSendRobotRequest[m[K’ was not declared in this scope
+  862 |             [01;31m[KSendRobotRequest[m[K(node, client, request, sequence_number);
+      |             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:865:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kfont[m[K’ was not declared in this scope; did you mean ‘[01m[Kfonts[m[K’?
+  865 |         if ([01;31m[Kfont[m[K.mini_italic_font)
+      |             [01;31m[K^~~~[m[K
+      |             [32m[Kfonts[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:895:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kfont[m[K’ was not declared in this scope; did you mean ‘[01m[Kfonts[m[K’?
+  895 |             if ([01;31m[Kfont[m[K.medium_font)
+      |                 [01;31m[K^~~~[m[K
+      |                 [32m[Kfonts[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:912:17:[m[K [01;31m[Kerror: [m[K‘[01m[KRenderMapTextureAndInteraction[m[K’ was not declared in this scope
+  912 |                 [01;31m[KRenderMapTextureAndInteraction[m[K(map_texture, map_w, map_h, map_resolution, map_origin,
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:1031:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kfont[m[K’ was not declared in this scope; did you mean ‘[01m[Kfonts[m[K’?
+ 1031 |             ImGui::PushFont([01;31m[Kfont[m[K.mini_font);
+      |                             [01;31m[K^~~~[m[K
+      |                             [32m[Kfonts[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:1033:13:[m[K [01;31m[Kerror: [m[K‘[01m[KDisplayTasksFromYaml[m[K’ was not declared in this scope
+ 1033 |             [01;31m[KDisplayTasksFromYaml[m[K(defect_yaml_file, "defect", "defect");
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:477:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Koffset_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  477 |         float [01;35m[Koffset_x[m[K = (region_boot_w - btn_w) * 0.5f;
+      |               [01;35m[K^~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:889:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kscale_map[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  889 |         const float [01;35m[Kscale_map[m[K = 5.0f;
+      |                     [01;35m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/user_interface.dir/build.make:76: CMakeFiles/user_interface.dir/src/user_interface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/user_interface.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

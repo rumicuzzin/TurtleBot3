@@ -1,0 +1,10 @@
+/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/build/logger_pkg/CMakeFiles/uninstall.dir
+/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/build/logger_pkg/CMakeFiles/logger_pkg_uninstall.dir
+/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/build/logger_pkg/CMakeFiles/logger_node.dir
+/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/build/logger_pkg/CMakeFiles/test.dir
+/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/build/logger_pkg/CMakeFiles/edit_cache.dir
+/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/build/logger_pkg/CMakeFiles/rebuild_cache.dir
+/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/build/logger_pkg/CMakeFiles/list_install_components.dir
+/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/build/logger_pkg/CMakeFiles/install.dir
+/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/build/logger_pkg/CMakeFiles/install/local.dir
+/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/build/logger_pkg/CMakeFiles/install/strip.dir

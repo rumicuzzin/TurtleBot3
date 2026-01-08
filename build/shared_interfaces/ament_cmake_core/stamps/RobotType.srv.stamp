@@ -1,0 +1,9 @@
+# Service navigationMode
+# Server: Controller
+# Client: Robot
+
+string robot_type
+geometry_msgs/PoseStamped pose
+int8 index
+---
+bool success

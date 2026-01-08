@@ -1,0 +1,48 @@
+[0.013s] Invoking command in '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/build/manager': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_teleop:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/manager -DCMAKE_INSTALL_PREFIX=/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/manager
+[0.063s] -- The C compiler identification is GNU 13.3.0
+[0.107s] -- The CXX compiler identification is GNU 13.3.0
+[0.120s] -- Detecting C compiler ABI info
+[0.195s] -- Detecting C compiler ABI info - done
+[0.200s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.200s] -- Detecting C compile features
+[0.201s] -- Detecting C compile features - done
+[0.208s] -- Detecting CXX compiler ABI info
+[0.293s] -- Detecting CXX compiler ABI info - done
+[0.299s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.299s] -- Detecting CXX compile features
+[0.300s] -- Detecting CXX compile features - done
+[0.303s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.435s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.541s] -- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.585s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.599s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.615s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.637s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.711s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.719s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.818s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.838s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.859s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.934s] -- Found rclcpp_lifecycle: 28.1.11 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[0.964s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.976s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.986s] -- Found shared_interfaces: 0.0.0 (/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/shared_interfaces/share/shared_interfaces/cmake)
+[1.082s] -- Configuring done (1.1s)
+[1.092s] -- Generating done (0.0s)
+[1.094s] -- Build files have been written to: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/build/manager
+[1.102s] Invoked command in '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/build/manager' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_teleop:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/manager -DCMAKE_INSTALL_PREFIX=/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/install/manager
+[1.103s] Invoking command in '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/build/manager': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_teleop:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/build/manager -- -j20 -l20
+[1.151s] [ 33%] [32mBuilding CXX object CMakeFiles/manager.dir/src/delivery_robot.cpp.o[0m
+[1.151s] [ 33%] [32mBuilding CXX object CMakeFiles/manager.dir/src/base_robot.cpp.o[0m
+[1.152s] [ 50%] [32mBuilding CXX object CMakeFiles/manager.dir/src/inspection_robot.cpp.o[0m
+[1.169s] [ 66%] [32m[1mLinking CXX static library libmanager.a[0m
+[1.198s] [ 66%] Built target manager
+[1.219s] [ 83%] [32mBuilding CXX object CMakeFiles/manager_lifecycle_node.dir/src/manager_lifecycle_node.cpp.o[0m
+[1.377s] In file included from [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/manager/src/manager_lifecycle_node.cpp:11[m[K:
+[1.377s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/manager/include/manager/manager_lifecycle_node.h:21:10:[m[K [01;31m[Kfatal error: [m[Kshared_interfaces/msg/check_log.hpp: No such file or directory
+[1.377s]    21 | #include [01;31m[K"shared_interfaces/msg/check_log.hpp"[m[K
+[1.377s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.377s] compilation terminated.
+[1.379s] gmake[2]: *** [CMakeFiles/manager_lifecycle_node.dir/build.make:76: CMakeFiles/manager_lifecycle_node.dir/src/manager_lifecycle_node.cpp.o] Error 1
+[1.379s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/manager_lifecycle_node.dir/all] Error 2
+[1.379s] gmake: *** [Makefile:146: all] Error 2

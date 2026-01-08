@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmanager.a CMakeFiles/manager.dir/src/base_robot.cpp.o CMakeFiles/manager.dir/src/delivery_robot.cpp.o CMakeFiles/manager.dir/src/inspection_robot.cpp.o
+/usr/bin/ranlib libmanager.a

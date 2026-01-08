@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from shared_interfaces/srv/RobotType.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseStamped.idl"
+
+module shared_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "Service RobotType" "\n"
+      "Server: Manager" "\n"
+      "Client: UI")
+    struct RobotType_Request {
+      string robot_type;
+
+      @verbatim (language="comment", text=
+        "index for a delivery or defect")
+      int8 index;
+
+      @verbatim (language="comment", text=
+        "desired pose")
+      geometry_msgs::msg::PoseStamped pose;
+    };
+    struct RobotType_Response {
+      boolean success;
+    };
+  };
+};

@@ -1,0 +1,8 @@
+# Service Detecting
+# Server: DefectDetector
+# Client: Manager
+
+string marker_type # "defect" or "delivery"
+string command  # "start_detecting" or "stop_detecting"
+---
+bool success

@@ -1,0 +1,8 @@
+# Service NavigationMode
+# Server: Navigation
+# Client: Manager
+
+string nav_mode
+geometry_msgs/PoseStamped target_pose
+---
+bool success

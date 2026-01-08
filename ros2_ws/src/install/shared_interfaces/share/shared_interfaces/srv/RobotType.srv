@@ -1,0 +1,9 @@
+# Service RobotType
+# Server: Manager
+# Client: UI
+
+string robot_type
+int8 index                     # index for a delivery or defect
+geometry_msgs/PoseStamped pose  # desired pose
+---
+bool success

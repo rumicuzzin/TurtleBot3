@@ -1,0 +1,10 @@
+/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/build/battery/CMakeFiles/uninstall.dir
+/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/build/battery/CMakeFiles/battery_uninstall.dir
+/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/build/battery/CMakeFiles/battery_node.dir
+/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/build/battery/CMakeFiles/test.dir
+/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/build/battery/CMakeFiles/edit_cache.dir
+/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/build/battery/CMakeFiles/rebuild_cache.dir
+/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/build/battery/CMakeFiles/list_install_components.dir
+/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/build/battery/CMakeFiles/install.dir
+/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/build/battery/CMakeFiles/install/local.dir
+/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/build/battery/CMakeFiles/install/strip.dir

@@ -1,0 +1,65 @@
+[0.009s] Invoking command in '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/build/robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_teleop:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/build/robot -- -j20 -l20
+[0.031s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.193s] -- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.210s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.218s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.225s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.234s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.272s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.274s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.323s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.364s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.372s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[0.404s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.414s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.432s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.438s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.440s] [33mCMake Warning (dev) at /usr/share/cmake-3.28/Modules/FindOpenGL.cmake:381 (message):
+[0.440s]   Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when
+[0.440s]   available.  Run "cmake --help-policy CMP0072" for policy details.  Use the
+[0.440s]   cmake_policy command to set the policy and suppress this warning.
+[0.440s] 
+[0.440s]   FindOpenGL found both a legacy GL library:
+[0.440s] 
+[0.440s]     OPENGL_gl_LIBRARY: /usr/lib/x86_64-linux-gnu/libGL.so
+[0.440s] 
+[0.440s]   and GLVND libraries for OpenGL and GLX:
+[0.440s] 
+[0.440s]     OPENGL_opengl_LIBRARY: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+[0.440s]     OPENGL_glx_LIBRARY: /usr/lib/x86_64-linux-gnu/libGLX.so
+[0.440s] 
+[0.440s]   OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for
+[0.440s]   compatibility with CMake 3.10 and below the legacy GL library will be used.
+[0.440s] Call Stack (most recent call first):
+[0.440s]   CMakeLists.txt:18 (find_package)
+[0.440s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.440s] [0m
+[0.475s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.572s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.572s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/robot/include>;/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/robot/vendor/imgui;/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/robot/vendor/imgui/backends;/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/robot/vendor
+[0.572s] -- Configured cppcheck exclude dirs and/or files: 
+[0.576s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.576s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.584s] -- Added test 'lint_cmake' to check CMake code style
+[0.588s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.621s] -- Added test 'uncrustify' to check C / C++ code style
+[0.621s] -- Configured uncrustify additional arguments: 
+[0.626s] -- Added test 'xmllint' to check XML markup files
+[0.626s] -- Configuring done (0.6s)
+[0.629s] [31mCMake Error at CMakeLists.txt:36 (add_executable):
+[0.629s]   Cannot find source file:
+[0.629s] 
+[0.629s]     vendor/stb/stb_image_impl.cpp
+[0.629s] 
+[0.629s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[0.629s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[0.629s]   .f95 .f03 .hip .ispc
+[0.629s] 
+[0.629s] [0m
+[0.630s] [31mCMake Error at CMakeLists.txt:36 (add_executable):
+[0.630s]   No SOURCES given to target: robot_gui
+[0.630s] 
+[0.630s] [0m
+[0.630s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.636s] gmake: *** [Makefile:524: cmake_check_build_system] Error 1
+[0.637s] Invoked command in '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/build/robot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_teleop:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/build/robot -- -j20 -l20

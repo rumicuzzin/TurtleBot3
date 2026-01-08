@@ -1,0 +1,66 @@
+[0.008s] Invoking command in '/home/emily/Documents/MTRX3760/Project2/MTRX3760_PROJECT_2/ros2_ws/src/shared_interfaces/build/shared_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emily/turtlebot3_ws/install/turtlebot3_teleop:/home/emily/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/emily/Documents/MTRX3760/Project2/MTRX3760_PROJECT_2/ros2_ws/src/shared_interfaces -DCMAKE_INSTALL_PREFIX=/home/emily/Documents/MTRX3760/Project2/MTRX3760_PROJECT_2/ros2_ws/src/shared_interfaces/install/shared_interfaces
+[0.050s] -- The C compiler identification is GNU 13.3.0
+[0.098s] -- The CXX compiler identification is GNU 13.3.0
+[0.110s] -- Detecting C compiler ABI info
+[0.171s] -- Detecting C compiler ABI info - done
+[0.177s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.177s] -- Detecting C compile features
+[0.178s] -- Detecting C compile features - done
+[0.187s] -- Detecting CXX compiler ABI info
+[0.268s] -- Detecting CXX compiler ABI info - done
+[0.275s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.275s] -- Detecting CXX compile features
+[0.275s] -- Detecting CXX compile features - done
+[0.279s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.397s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.493s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.501s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.556s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.596s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.599s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.630s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.830s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):
+[0.830s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.830s]   shared_interfaces --arguments-file
+[0.830s]   /home/emily/Documents/MTRX3760/Project2/MTRX3760_PROJECT_2/ros2_ws/src/shared_interfaces/build/shared_interfaces/rosidl_adapter__arguments__shared_interfaces.json
+[0.830s]   --output-dir
+[0.830s]   /home/emily/Documents/MTRX3760/Project2/MTRX3760_PROJECT_2/ros2_ws/src/shared_interfaces/build/shared_interfaces/rosidl_adapter/shared_interfaces
+[0.830s]   --output-file
+[0.830s]   /home/emily/Documents/MTRX3760/Project2/MTRX3760_PROJECT_2/ros2_ws/src/shared_interfaces/build/shared_interfaces/rosidl_adapter/shared_interfaces.idls)
+[0.830s]   returned error code 1:
+[0.830s] 
+[0.830s]   Traceback (most recent call last):
+[0.830s] 
+[0.830s]     File "<frozen runpy>", line 198, in _run_module_as_main
+[0.830s]     File "<frozen runpy>", line 88, in _run_code
+[0.830s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.830s]       sys.exit(main())
+[0.830s]                ^^^^^^
+[0.831s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.831s]       abs_idl_file = convert_to_idl(
+[0.831s]                      ^^^^^^^^^^^^^^^
+[0.831s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[0.831s]       return convert_msg_to_idl(
+[0.831s]              ^^^^^^^^^^^^^^^^^^^
+[0.831s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[0.831s]       msg = parse_message_string(package_name, input_file.stem, content)
+[0.831s]             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0.831s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 545, in parse_message_string
+[0.831s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[0.831s]             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0.831s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 389, in __init__
+[0.831s]       self.base_type = BaseType(
+[0.831s]                        ^^^^^^^^^
+[0.831s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 206, in __init__
+[0.831s]       raise InvalidResourceName(
+[0.831s] 
+[0.831s]   rosidl_adapter.parser.InvalidResourceName: 'defectInfo' is an invalid
+[0.831s]   message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[0.831s] 
+[0.831s] Call Stack (most recent call first):
+[0.831s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)
+[0.831s]   CMakeLists.txt:17 (rosidl_generate_interfaces)
+[0.832s] 
+[0.832s] [0m
+[0.832s] -- Configuring incomplete, errors occurred!
+[0.835s] Invoked command in '/home/emily/Documents/MTRX3760/Project2/MTRX3760_PROJECT_2/ros2_ws/src/shared_interfaces/build/shared_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emily/turtlebot3_ws/install/turtlebot3_teleop:/home/emily/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/emily/Documents/MTRX3760/Project2/MTRX3760_PROJECT_2/ros2_ws/src/shared_interfaces -DCMAKE_INSTALL_PREFIX=/home/emily/Documents/MTRX3760/Project2/MTRX3760_PROJECT_2/ros2_ws/src/shared_interfaces/install/shared_interfaces

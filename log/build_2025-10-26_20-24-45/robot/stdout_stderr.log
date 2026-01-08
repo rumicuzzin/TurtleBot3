@@ -1,0 +1,9 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/robot_gui.dir/src/robot_gui.cpp.o[0m
+[ 33%] Built target robot_node
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/robot/src/robot_gui.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kament_index_cpp/get_package_share_directory.hpp: No such file or directory
+    7 | #include [01;31m[K<ament_index_cpp/get_package_share_directory.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/robot_gui.dir/build.make:76: CMakeFiles/robot_gui.dir/src/robot_gui.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robot_gui.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

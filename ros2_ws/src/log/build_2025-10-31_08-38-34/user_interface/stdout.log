@@ -1,0 +1,8 @@
+[ 11%] [32mBuilding CXX object CMakeFiles/user_interface.dir/src/user_interface.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/user_interface.dir/vendor/imgui/imgui.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/user_interface.dir/vendor/imgui/imgui_widgets.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/user_interface.dir/vendor/imgui/imgui_draw.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/user_interface.dir/vendor/imgui/backends/imgui_impl_glfw.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/user_interface.dir/vendor/imgui/backends/imgui_impl_opengl3.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/user_interface.dir/vendor/imgui/imgui_tables.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/user_interface.dir/vendor/imgui/imgui_demo.cpp.o[0m

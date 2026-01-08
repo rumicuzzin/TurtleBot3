@@ -1,0 +1,656 @@
+[  9%] [32mBuilding CXX object CMakeFiles/user_interface_lib.dir/src/user_interface.cpp.o[0m
+In file included from [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:35[m[K:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:[m[K In function ‘[01m[Kint[01;32m[K stbi_write_bmp_to_func[m[K(void (*)(void*, void*, int), void*, int, int, int, const void*)[m[K’:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:514:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::context[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+  514 |    stbi__write_context s = { 0 [01;35m[K}[m[K;
+      |                                [01;35m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:514:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:514:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buf_used[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:[m[K In function ‘[01m[Kint[01;32m[K stbi_write_bmp[m[K(const char*, int, int, int, const void*)[m[K’:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:522:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::context[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+  522 |    stbi__write_context s = { 0 [01;35m[K}[m[K;
+      |                                [01;35m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:522:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:522:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buf_used[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:[m[K In function ‘[01m[Kint[01;32m[K stbi_write_tga_to_func[m[K(void (*)(void*, void*, int), void*, int, int, int, const void*)[m[K’:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:613:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::context[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+  613 |    stbi__write_context s = { 0 [01;35m[K}[m[K;
+      |                                [01;35m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:613:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:613:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buf_used[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:[m[K In function ‘[01m[Kint[01;32m[K stbi_write_tga[m[K(const char*, int, int, int, const void*)[m[K’:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:621:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::context[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+  621 |    stbi__write_context s = { 0 [01;35m[K}[m[K;
+      |                                [01;35m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:621:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:621:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buf_used[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:[m[K In function ‘[01m[Kint[01;32m[K stbi_write_hdr_to_func[m[K(void (*)(void*, void*, int), void*, int, int, int, const float*)[m[K’:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:789:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::context[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+  789 |    stbi__write_context s = { 0 [01;35m[K}[m[K;
+      |                                [01;35m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:789:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:789:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buf_used[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:[m[K In function ‘[01m[Kint[01;32m[K stbi_write_hdr[m[K(const char*, int, int, int, const float*)[m[K’:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:796:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::context[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+  796 |    stbi__write_context s = { 0 [01;35m[K}[m[K;
+      |                                [01;35m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:796:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:796:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buf_used[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:[m[K In function ‘[01m[Kint[01;32m[K stbi_write_jpg_to_func[m[K(void (*)(void*, void*, int), void*, int, int, int, const void*, int)[m[K’:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:1609:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::context[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+ 1609 |    stbi__write_context s = { 0 [01;35m[K}[m[K;
+      |                                [01;35m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:1609:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:1609:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buf_used[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:[m[K In function ‘[01m[Kint[01;32m[K stbi_write_jpg[m[K(const char*, int, int, int, const void*, int)[m[K’:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:1618:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::context[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+ 1618 |    stbi__write_context s = { 0 [01;35m[K}[m[K;
+      |                                [01;35m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:1618:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/vendor/stb/stb_image_write.h:1618:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstbi__write_context::buf_used[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:[m[K In destructor ‘[01m[KUserInterface::[01;32m[K~UserInterface[m[K()[m[K’:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:172:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpascal_texture_[m[K’ was not declared in this scope
+  172 |     if ([01;31m[Kpascal_texture_[m[K != 0)
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:174:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_texture_[m[K’ was not declared in this scope
+  174 |     if ([01;31m[Kmap_texture_[m[K != 0)
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:[m[K In member function ‘[01m[Kbool UserInterface::[01;32m[KInitialize[m[K()[m[K’:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:221:5:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmode_t[m[K’?
+  221 |     [01;31m[Knode_[m[K = rclcpp::Node::make_shared("user_interface");
+      |     [01;31m[K^~~~~[m[K
+      |     [32m[Kmode_t[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:222:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ was not declared in this scope
+  222 |     [01;31m[Kclient_[m[K = node_->create_client<shared_interfaces::srv::RobotType>("/robot_type");
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:222:69:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  222 |     client_ = node_->create_client<shared_interfaces::srv::RobotType[01;31m[K>[m[K("/robot_type");
+      |                                                                     [01;31m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:225:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kbattery_sub_[m[K’ was not declared in this scope
+  225 |     [01;31m[Kbattery_sub_[m[K = node_->create_subscription<std_msgs::msg::Int32>(
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:225:67:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  225 |     battery_sub_ = node_->create_subscription<std_msgs::msg::Int32[01;31m[K>[m[K(
+      |                                                                   [01;31m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:226:9:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  226 |         [01;35m[K"/battery_level"[m[K, 10,
+      |         [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:[m[K In lambda function:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:230:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kbattery_level_[m[K’ was not declared in this scope
+  230 |             [01;31m[Kbattery_level_[m[K.store(v);
+      |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:[m[K In member function ‘[01m[Kbool UserInterface::[01;32m[KInitialize[m[K()[m[K’:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:231:9:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  231 |         [01;35m[K}[m[K);
+      |         [01;35m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:233:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_type_sub_[m[K’ was not declared in this scope
+  233 |     [01;31m[Kcurrent_type_sub_[m[K = node_->create_subscription<std_msgs::msg::String>(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:233:73:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  233 |     current_type_sub_ = node_->create_subscription<std_msgs::msg::String[01;31m[K>[m[K(
+      |                                                                         [01;31m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:234:9:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  234 |         [01;35m[K"/current_type"[m[K, 10,
+      |         [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:[m[K In lambda function:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:237:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_type_[m[K’ was not declared in this scope
+  237 |             [01;31m[Kcurrent_type_[m[K = msg->data;
+      |             [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/include/user_interface/user_interface.hpp:4[m[K,
+                 from [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:3[m[K:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:238:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  238 |             [01;31m[KRCLCPP_INFO[m[K(node_->get_logger(), "Robot type: %s", msg->data.c_str());
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:238:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  238 |             [01;31m[KRCLCPP_INFO[m[K(node_->get_logger(), "Robot type: %s", msg->data.c_str());
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:238:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  238 |             [01;31m[KRCLCPP_INFO[m[K(node_->get_logger(), "Robot type: %s", msg->data.c_str());
+      |             [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:238:25:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ is not captured
+  238 |             RCLCPP_INFO([01;31m[Knode_[m[K->get_logger(), "Robot type: %s", msg->data.c_str());
+      |                         [01;31m[K^~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:235:14:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  235 |         [this[01;36m[K][m[K(const std_msgs::msg::String::SharedPtr msg)
+      |              [01;36m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:221:5:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>node_[m[K’ declared here
+  221 |     [01;36m[Knode_[m[K = rclcpp::Node::make_shared("user_interface");
+      |     [01;36m[K^~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:238:25:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ is not captured
+  238 |             RCLCPP_INFO([01;31m[Knode_[m[K->get_logger(), "Robot type: %s", msg->data.c_str());
+      |                         [01;31m[K^~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:235:14:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  235 |         [this[01;36m[K][m[K(const std_msgs::msg::String::SharedPtr msg)
+      |              [01;36m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:221:5:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>node_[m[K’ declared here
+  221 |     [01;36m[Knode_[m[K = rclcpp::Node::make_shared("user_interface");
+      |     [01;36m[K^~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:[m[K In member function ‘[01m[Kbool UserInterface::[01;32m[KInitialize[m[K()[m[K’:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:239:9:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  239 |         [01;35m[K}[m[K);
+      |         [01;35m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:242:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpackage_share_dir_[m[K’ was not declared in this scope
+  242 |     [01;31m[Kpackage_share_dir_[m[K = ament_index_cpp::get_package_share_directory("user_interface");
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:243:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_path_[m[K’ was not declared in this scope
+  243 |     [01;31m[Kimage_path_[m[K = package_share_dir_ + "/resources/pascal.png";
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:253:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpascal_intro_[m[K’ was not declared in this scope
+  253 |             [01;31m[Kpascal_intro_[m[K = ss.str();
+      |             [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:257:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpascal_intro_[m[K’ was not declared in this scope
+  257 |             [01;31m[Kpascal_intro_[m[K = "Welcome to Pascal, your warehouse assistant robot!";
+      |             [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:268:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpascal_serial_[m[K’ was not declared in this scope
+  268 |             [01;31m[Kpascal_serial_[m[K = ss.str();
+      |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:272:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpascal_serial_[m[K’ was not declared in this scope
+  272 |             [01;31m[Kpascal_serial_[m[K = "Serial ID Unavailable";
+      |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:278:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kpascal_texture_[m[K’ was not declared in this scope
+  278 |         bool ok = LoadTextureFromFile(image_path_.c_str(), &[01;31m[Kpascal_texture_[m[K, &pascal_width_, &pascal_height_);
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:278:79:[m[K [01;31m[Kerror: [m[K‘[01m[Kpascal_width_[m[K’ was not declared in this scope
+  278 |         bool ok = LoadTextureFromFile(image_path_.c_str(), &pascal_texture_, &[01;31m[Kpascal_width_[m[K, &pascal_height_);
+      |                                                                               [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:278:95:[m[K [01;31m[Kerror: [m[K‘[01m[Kpascal_height_[m[K’ was not declared in this scope
+  278 |         bool ok = LoadTextureFromFile(image_path_.c_str(), &pascal_texture_, &pascal_width_, &[01;31m[Kpascal_height_[m[K);
+      |                                                                                               [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:292:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_resolution_[m[K’ was not declared in this scope
+  292 |             [01;31m[Kmap_resolution_[m[K = cfg["resolution"].as<double>();
+      |             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:294:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_origin_[m[K’ was not declared in this scope
+  294 |             [01;31m[Kmap_origin_[m[K[0] = origin_node[0].as<double>();
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:308:66:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_texture_[m[K’ was not declared in this scope
+  308 |             if (!LoadTextureFromFile(png_path.string().c_str(), &[01;31m[Kmap_texture_[m[K, &map_w_, &map_h_))
+      |                                                                  [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:308:81:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_w_[m[K’ was not declared in this scope
+  308 |             if (!LoadTextureFromFile(png_path.string().c_str(), &map_texture_, &[01;31m[Kmap_w_[m[K, &map_h_))
+      |                                                                                 [01;31m[K^~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:308:90:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_h_[m[K’ was not declared in this scope
+  308 |             if (!LoadTextureFromFile(png_path.string().c_str(), &map_texture_, &map_w_, &[01;31m[Kmap_h_[m[K))
+      |                                                                                          [01;31m[K^~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:314:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_data_[m[K’ was not declared in this scope
+  314 |             [01;31m[Kmap_data_[m[K = loadPGM(pgm_path.string(), map_w_, map_h_);
+      |             [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:314:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_w_[m[K’ was not declared in this scope
+  314 |             map_data_ = loadPGM(pgm_path.string(), [01;31m[Kmap_w_[m[K, map_h_);
+      |                                                    [01;31m[K^~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:314:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_h_[m[K’ was not declared in this scope
+  314 |             map_data_ = loadPGM(pgm_path.string(), map_w_, [01;31m[Kmap_h_[m[K);
+      |                                                            [01;31m[K^~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:332:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdefault_font_[m[K’ was not declared in this scope
+  332 |     [01;31m[Kdefault_font_[m[K = io.Fonts->AddFontFromFileTTF(font_path.c_str(), 60.0f);
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:337:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kbold_font_[m[K’ was not declared in this scope
+  337 |     [01;31m[Kbold_font_[m[K = io.Fonts->AddFontFromFileTTF(bold_path.c_str(), 60.0f);
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:338:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kbig_bold_font_[m[K’ was not declared in this scope
+  338 |     [01;31m[Kbig_bold_font_[m[K = io.Fonts->AddFontFromFileTTF(bold_path.c_str(), 100.0f);
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:343:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kitalic_font_[m[K’ was not declared in this scope
+  343 |     [01;31m[Kitalic_font_[m[K = io.Fonts->AddFontFromFileTTF(it_path.c_str(), 60.0f);
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:345:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kbig_font_[m[K’ was not declared in this scope
+  345 |     [01;31m[Kbig_font_[m[K = io.Fonts->AddFontFromFileTTF(font_path.c_str(), 100.0f);
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:346:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmedium_font_[m[K’ was not declared in this scope
+  346 |     [01;31m[Kmedium_font_[m[K = io.Fonts->AddFontFromFileTTF(font_path.c_str(), 80.0f);
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:347:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmini_font_[m[K’ was not declared in this scope
+  347 |     [01;31m[Kmini_font_[m[K = io.Fonts->AddFontFromFileTTF(font_path.c_str(), 40.0f);
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:348:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmini_italic_font_[m[K’ was not declared in this scope
+  348 |     [01;31m[Kmini_italic_font_[m[K = io.Fonts->AddFontFromFileTTF(it_path.c_str(), 40.0f);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:[m[K In member function ‘[01m[Kvoid UserInterface::[01;32m[KRun[m[K()[m[K’:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:366:27:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmode_t[m[K’?
+  366 |         rclcpp::spin_some([01;31m[Knode_[m[K);
+      |                           [01;31m[K^~~~~[m[K
+      |                           [32m[Kmode_t[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:382:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kpascal_width_[m[K’ was not declared in this scope
+  382 |         float desired_w = [01;31m[Kpascal_width_[m[K * 2.0f + 40.0f; // scale ~2
+      |                           [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:388:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kmedium_font_[m[K’ was not declared in this scope
+  388 |             if ([01;31m[Kmedium_font_[m[K)
+      |                 [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:394:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kmedium_font_[m[K’ was not declared in this scope
+  394 |             if ([01;31m[Kmedium_font_[m[K)
+      |                 [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:400:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kpascal_texture_[m[K’ was not declared in this scope
+  400 |             if ([01;31m[Kpascal_texture_[m[K)
+      |                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:404:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kpascal_height_[m[K’ was not declared in this scope
+  404 |                 float draw_h = [01;31m[Kpascal_height_[m[K * scale;
+      |                                [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:421:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kpascal_serial_[m[K’ was not declared in this scope
+  421 |             ImGui::TextWrapped("Serial ID: %s", [01;31m[Kpascal_serial_[m[K.c_str());
+      |                                                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:425:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kbattery_level_[m[K’ was not declared in this scope
+  425 |                 int level = [01;31m[Kbattery_level_[m[K.load();
+      |                             [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:445:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kbig_bold_font_[m[K’ was not declared in this scope
+  445 |             if ([01;31m[Kbig_bold_font_[m[K)
+      |                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:451:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kbig_bold_font_[m[K’ was not declared in this scope
+  451 |             if ([01;31m[Kbig_bold_font_[m[K)
+      |                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:455:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kpascal_intro_[m[K’ was not declared in this scope
+  455 |             ImGui::TextWrapped("%s", [01;31m[Kpascal_intro_[m[K.c_str());
+      |                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:459:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kmedium_font_[m[K’ was not declared in this scope
+  459 |             if ([01;31m[Kmedium_font_[m[K)
+      |                 [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:465:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kmedium_font_[m[K’ was not declared in this scope
+  465 |             if ([01;31m[Kmedium_font_[m[K)
+      |                 [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:487:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kmode_locked_[m[K’ was not declared in this scope
+  487 |                 [01;31m[Kmode_locked_[m[K = false;
+      |                 [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:488:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kflagged_startup_[m[K’ was not declared in this scope
+  488 |                 [01;31m[Kflagged_startup_[m[K = true;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:490:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ was not declared in this scope
+  490 |                 if (![01;31m[Kclient_[m[K->wait_for_service(std::chrono::seconds(1)))
+      |                      [01;31m[K^~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:492:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  492 |                     [01;31m[KRCLCPP_WARN[m[K(node_->get_logger(), "Service robot_type not available");
+      |                     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:492:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  492 |                     [01;31m[KRCLCPP_WARN[m[K(node_->get_logger(), "Service robot_type not available");
+      |                     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:492:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  492 |                     [01;31m[KRCLCPP_WARN[m[K(node_->get_logger(), "Service robot_type not available");
+      |                     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:[m[K In lambda function:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:501:29:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  501 |                             [01;31m[KRCLCPP_INFO[m[K(node_->get_logger(), "robot_type service succeeded");
+      |                             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:501:29:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  501 |                             [01;31m[KRCLCPP_INFO[m[K(node_->get_logger(), "robot_type service succeeded");
+      |                             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:501:29:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  501 |                             [01;31m[KRCLCPP_INFO[m[K(node_->get_logger(), "robot_type service succeeded");
+      |                             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:501:41:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ is not captured
+  501 |                             RCLCPP_INFO([01;31m[Knode_[m[K->get_logger(), "robot_type service succeeded");
+      |                                         [01;31m[K^~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:496:59:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  496 |                     client_->async_send_request(req, [this[01;36m[K][m[K(RobotTypeClient::SharedFuture f)
+      |                                                           [01;36m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:366:27:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>node_[m[K’ declared here
+  366 |         rclcpp::spin_some([01;36m[Knode_[m[K);
+      |                           [01;36m[K^~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:501:41:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ is not captured
+  501 |                             RCLCPP_INFO([01;31m[Knode_[m[K->get_logger(), "robot_type service succeeded");
+      |                                         [01;31m[K^~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:496:59:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  496 |                     client_->async_send_request(req, [this[01;36m[K][m[K(RobotTypeClient::SharedFuture f)
+      |                                                           [01;36m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:366:27:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>node_[m[K’ declared here
+  366 |         rclcpp::spin_some([01;36m[Knode_[m[K);
+      |                           [01;36m[K^~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:502:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kmode_locked_[m[K’ is not captured
+  502 |                             [01;31m[Kmode_locked_[m[K = false;
+      |                             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:496:59:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  496 |                     client_->async_send_request(req, [this[01;36m[K][m[K(RobotTypeClient::SharedFuture f)
+      |                                                           [01;36m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:487:17:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>mode_locked_[m[K’ declared here
+  487 |                 [01;36m[Kmode_locked_[m[K = false;
+      |                 [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:503:29:[m[K [01;31m[Kerror: [m[K‘[01m[Ksequence_number_[m[K’ was not declared in this scope
+  503 |                             [01;31m[Ksequence_number_[m[K++;
+      |                             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:507:29:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  507 |                             [01;31m[KRCLCPP_WARN[m[K(node_->get_logger(), "robot_type service failed");
+      |                             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:507:29:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  507 |                             [01;31m[KRCLCPP_WARN[m[K(node_->get_logger(), "robot_type service failed");
+      |                             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:507:29:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  507 |                             [01;31m[KRCLCPP_WARN[m[K(node_->get_logger(), "robot_type service failed");
+      |                             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:507:41:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ is not captured
+  507 |                             RCLCPP_WARN([01;31m[Knode_[m[K->get_logger(), "robot_type service failed");
+      |                                         [01;31m[K^~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:496:59:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  496 |                     client_->async_send_request(req, [this[01;36m[K][m[K(RobotTypeClient::SharedFuture f)
+      |                                                           [01;36m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:366:27:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>node_[m[K’ declared here
+  366 |         rclcpp::spin_some([01;36m[Knode_[m[K);
+      |                           [01;36m[K^~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:507:41:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ is not captured
+  507 |                             RCLCPP_WARN([01;31m[Knode_[m[K->get_logger(), "robot_type service failed");
+      |                                         [01;31m[K^~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:496:59:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  496 |                     client_->async_send_request(req, [this[01;36m[K][m[K(RobotTypeClient::SharedFuture f)
+      |                                                           [01;36m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:366:27:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>node_[m[K’ declared here
+  366 |         rclcpp::spin_some([01;36m[Knode_[m[K);
+      |                           [01;36m[K^~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:[m[K In member function ‘[01m[Kvoid UserInterface::[01;32m[KRun[m[K()[m[K’:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:512:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kmode_locked_[m[K’ was not declared in this scope
+  512 |             ImGui::BeginDisabled([01;31m[Kmode_locked_[m[K);
+      |                                  [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:538:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kpackage_share_dir_[m[K’ was not declared in this scope
+  538 |                 yaml_file = [01;31m[Kpackage_share_dir_[m[K + "/resources/defect_log.yaml";
+      |                             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:539:57:[m[K [01;31m[Kerror: [m[K‘[01m[Ktemp_storage_[m[K’ was not declared in this scope
+  539 |                 indexes = getIndexesFromYaml(yaml_file, [01;31m[Ktemp_storage_[m[K);
+      |                                                         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:547:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kpackage_share_dir_[m[K’ was not declared in this scope
+  547 |                 yaml_file = [01;31m[Kpackage_share_dir_[m[K + "/resources/delivery_log.yaml";
+      |                             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:548:57:[m[K [01;31m[Kerror: [m[K‘[01m[Ktemp_storage_[m[K’ was not declared in this scope
+  548 |                 indexes = getIndexesFromYaml(yaml_file, [01;31m[Ktemp_storage_[m[K);
+      |                                                         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:588:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ was not declared in this scope
+  588 |                     if ([01;31m[Kclient_[m[K->wait_for_service(std::chrono::seconds(1)))
+      |                         [01;31m[K^~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:[m[K In lambda function:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:595:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  595 |                                 [01;31m[KRCLCPP_INFO[m[K(node_->get_logger(), "inspect+explore ok");
+      |                                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:595:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  595 |                                 [01;31m[KRCLCPP_INFO[m[K(node_->get_logger(), "inspect+explore ok");
+      |                                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:595:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  595 |                                 [01;31m[KRCLCPP_INFO[m[K(node_->get_logger(), "inspect+explore ok");
+      |                                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:595:45:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ is not captured
+  595 |                                 RCLCPP_INFO([01;31m[Knode_[m[K->get_logger(), "inspect+explore ok");
+      |                                             [01;31m[K^~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:590:63:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  590 |                         client_->async_send_request(req, [this[01;36m[K][m[K(RobotTypeClient::SharedFuture f)
+      |                                                               [01;36m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:366:27:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>node_[m[K’ declared here
+  366 |         rclcpp::spin_some([01;36m[Knode_[m[K);
+      |                           [01;36m[K^~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:595:45:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ is not captured
+  595 |                                 RCLCPP_INFO([01;31m[Knode_[m[K->get_logger(), "inspect+explore ok");
+      |                                             [01;31m[K^~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:590:63:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  590 |                         client_->async_send_request(req, [this[01;36m[K][m[K(RobotTypeClient::SharedFuture f)
+      |                                                               [01;36m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:366:27:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>node_[m[K’ declared here
+  366 |         rclcpp::spin_some([01;36m[Knode_[m[K);
+      |                           [01;36m[K^~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:596:33:[m[K [01;31m[Kerror: [m[K‘[01m[Ksequence_number_[m[K’ was not declared in this scope
+  596 |                                 [01;31m[Ksequence_number_[m[K++;
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:600:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  600 |                                 [01;31m[KRCLCPP_WARN[m[K(node_->get_logger(), "inspect+explore failed");
+      |                                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:600:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  600 |                                 [01;31m[KRCLCPP_WARN[m[K(node_->get_logger(), "inspect+explore failed");
+      |                                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:600:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  600 |                                 [01;31m[KRCLCPP_WARN[m[K(node_->get_logger(), "inspect+explore failed");
+      |                                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:600:45:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ is not captured
+  600 |                                 RCLCPP_WARN([01;31m[Knode_[m[K->get_logger(), "inspect+explore failed");
+      |                                             [01;31m[K^~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:590:63:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  590 |                         client_->async_send_request(req, [this[01;36m[K][m[K(RobotTypeClient::SharedFuture f)
+      |                                                               [01;36m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:366:27:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>node_[m[K’ declared here
+  366 |         rclcpp::spin_some([01;36m[Knode_[m[K);
+      |                           [01;36m[K^~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:600:45:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ is not captured
+  600 |                                 RCLCPP_WARN([01;31m[Knode_[m[K->get_logger(), "inspect+explore failed");
+      |                                             [01;31m[K^~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:590:63:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  590 |                         client_->async_send_request(req, [this[01;36m[K][m[K(RobotTypeClient::SharedFuture f)
+      |                                                               [01;36m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:366:27:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>node_[m[K’ declared here
+  366 |         rclcpp::spin_some([01;36m[Knode_[m[K);
+      |                           [01;36m[K^~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:[m[K In member function ‘[01m[Kvoid UserInterface::[01;32m[KRun[m[K()[m[K’:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:605:109:[m[K [01;31m[Kerror: [m[K‘[01m[Khas_click_[m[K’ was not declared in this scope
+  605 |               else if (robot_mode == "Delivery" && strcmp(indexes[current_index], "Point on Map") == 0 && [01;31m[Khas_click_[m[K)
+      |                                                                                                           [01;31m[K^~~~~~~~~~[m[K
+
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:610:49:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_world_x_[m[K’ was not declared in this scope
+  610 |                     req->pose.pose.position.x = [01;31m[Klast_world_x_[m[K;
+      |                                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:611:49:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_world_y_[m[K’ was not declared in this scope
+  611 |                     req->pose.pose.position.y = [01;31m[Klast_world_y_[m[K;
+      |                                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:613:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ was not declared in this scope
+  613 |                     if ([01;31m[Kclient_[m[K->wait_for_service(std::chrono::seconds(1)))
+      |                         [01;31m[K^~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:[m[K In lambda function:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:620:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  620 |                                 [01;31m[KRCLCPP_INFO[m[K(node_->get_logger(), "delivery+map ok");
+      |                                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:620:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  620 |                                 [01;31m[KRCLCPP_INFO[m[K(node_->get_logger(), "delivery+map ok");
+      |                                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:620:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  620 |                                 [01;31m[KRCLCPP_INFO[m[K(node_->get_logger(), "delivery+map ok");
+      |                                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:620:45:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ is not captured
+  620 |                                 RCLCPP_INFO([01;31m[Knode_[m[K->get_logger(), "delivery+map ok");
+      |                                             [01;31m[K^~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:615:63:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  615 |                         client_->async_send_request(req, [this[01;36m[K][m[K(RobotTypeClient::SharedFuture f)
+      |                                                               [01;36m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:366:27:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>node_[m[K’ declared here
+  366 |         rclcpp::spin_some([01;36m[Knode_[m[K);
+      |                           [01;36m[K^~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:620:45:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ is not captured
+  620 |                                 RCLCPP_INFO([01;31m[Knode_[m[K->get_logger(), "delivery+map ok");
+      |                                             [01;31m[K^~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:615:63:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  615 |                         client_->async_send_request(req, [this[01;36m[K][m[K(RobotTypeClient::SharedFuture f)
+      |                                                               [01;36m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:366:27:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>node_[m[K’ declared here
+  366 |         rclcpp::spin_some([01;36m[Knode_[m[K);
+      |                           [01;36m[K^~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:621:33:[m[K [01;31m[Kerror: [m[K‘[01m[Ksequence_number_[m[K’ was not declared in this scope
+  621 |                                 [01;31m[Ksequence_number_[m[K++;
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:625:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  625 |                                 [01;31m[KRCLCPP_WARN[m[K(node_->get_logger(), "delivery+map failed");
+      |                                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:625:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  625 |                                 [01;31m[KRCLCPP_WARN[m[K(node_->get_logger(), "delivery+map failed");
+      |                                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:625:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  625 |                                 [01;31m[KRCLCPP_WARN[m[K(node_->get_logger(), "delivery+map failed");
+      |                                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:625:45:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ is not captured
+  625 |                                 RCLCPP_WARN([01;31m[Knode_[m[K->get_logger(), "delivery+map failed");
+      |                                             [01;31m[K^~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:615:63:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  615 |                         client_->async_send_request(req, [this[01;36m[K][m[K(RobotTypeClient::SharedFuture f)
+      |                                                               [01;36m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:366:27:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>node_[m[K’ declared here
+  366 |         rclcpp::spin_some([01;36m[Knode_[m[K);
+      |                           [01;36m[K^~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:625:45:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ is not captured
+  625 |                                 RCLCPP_WARN([01;31m[Knode_[m[K->get_logger(), "delivery+map failed");
+      |                                             [01;31m[K^~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:615:63:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  615 |                         client_->async_send_request(req, [this[01;36m[K][m[K(RobotTypeClient::SharedFuture f)
+      |                                                               [01;36m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:366:27:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>node_[m[K’ declared here
+  366 |         rclcpp::spin_some([01;36m[Knode_[m[K);
+      |                           [01;36m[K^~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:[m[K In member function ‘[01m[Kvoid UserInterface::[01;32m[KRun[m[K()[m[K’:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:631:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  631 |                     [01;31m[KRCLCPP_INFO[m[K(node_->get_logger(), "Please click on the map first.");
+      |                     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:631:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  631 |                     [01;31m[KRCLCPP_INFO[m[K(node_->get_logger(), "Please click on the map first.");
+      |                     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:631:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  631 |                     [01;31m[KRCLCPP_INFO[m[K(node_->get_logger(), "Please click on the map first.");
+      |                     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:668:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ was not declared in this scope
+  668 |                         if ([01;31m[Kclient_[m[K->wait_for_service(std::chrono::seconds(1)))
+      |                             [01;31m[K^~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:[m[K In lambda function:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:675:37:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  675 |                                     [01;31m[KRCLCPP_INFO[m[K(node_->get_logger(), "yaml-based request ok");
+      |                                     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:675:37:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  675 |                                     [01;31m[KRCLCPP_INFO[m[K(node_->get_logger(), "yaml-based request ok");
+      |                                     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:675:37:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  675 |                                     [01;31m[KRCLCPP_INFO[m[K(node_->get_logger(), "yaml-based request ok");
+      |                                     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:675:49:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ is not captured
+  675 |                                     RCLCPP_INFO([01;31m[Knode_[m[K->get_logger(), "yaml-based request ok");
+      |                                                 [01;31m[K^~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:670:67:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  670 |                             client_->async_send_request(req, [this[01;36m[K][m[K(RobotTypeClient::SharedFuture f)
+      |                                                                   [01;36m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:366:27:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>node_[m[K’ declared here
+  366 |         rclcpp::spin_some([01;36m[Knode_[m[K);
+      |                           [01;36m[K^~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:675:49:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ is not captured
+  675 |                                     RCLCPP_INFO([01;31m[Knode_[m[K->get_logger(), "yaml-based request ok");
+      |                                                 [01;31m[K^~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:670:67:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  670 |                             client_->async_send_request(req, [this[01;36m[K][m[K(RobotTypeClient::SharedFuture f)
+      |                                                                   [01;36m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:366:27:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>node_[m[K’ declared here
+  366 |         rclcpp::spin_some([01;36m[Knode_[m[K);
+      |                           [01;36m[K^~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:676:37:[m[K [01;31m[Kerror: [m[K‘[01m[Ksequence_number_[m[K’ was not declared in this scope
+  676 |                                     [01;31m[Ksequence_number_[m[K++;
+      |                                     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:680:37:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  680 |                                     [01;31m[KRCLCPP_WARN[m[K(node_->get_logger(), "yaml-based request failed");
+      |                                     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:680:37:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  680 |                                     [01;31m[KRCLCPP_WARN[m[K(node_->get_logger(), "yaml-based request failed");
+      |                                     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:680:37:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  680 |                                     [01;31m[KRCLCPP_WARN[m[K(node_->get_logger(), "yaml-based request failed");
+      |                                     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:680:49:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ is not captured
+  680 |                                     RCLCPP_WARN([01;31m[Knode_[m[K->get_logger(), "yaml-based request failed");
+      |                                                 [01;31m[K^~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:670:67:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  670 |                             client_->async_send_request(req, [this[01;36m[K][m[K(RobotTypeClient::SharedFuture f)
+      |                                                                   [01;36m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:366:27:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>node_[m[K’ declared here
+  366 |         rclcpp::spin_some([01;36m[Knode_[m[K);
+      |                           [01;36m[K^~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:680:49:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ is not captured
+  680 |                                     RCLCPP_WARN([01;31m[Knode_[m[K->get_logger(), "yaml-based request failed");
+      |                                                 [01;31m[K^~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:670:67:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  670 |                             client_->async_send_request(req, [this[01;36m[K][m[K(RobotTypeClient::SharedFuture f)
+      |                                                                   [01;36m[K^[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:366:27:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>node_[m[K’ declared here
+  366 |         rclcpp::spin_some([01;36m[Knode_[m[K);
+      |                           [01;36m[K^~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:[m[K In member function ‘[01m[Kvoid UserInterface::[01;32m[KRun[m[K()[m[K’:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:693:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kmini_italic_font_[m[K’ was not declared in this scope
+  693 |                 if ([01;31m[Kmini_italic_font_[m[K)
+      |                     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:695:92:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_type_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcurrent_index[m[K’?
+  695 |                 ImVec2 ts = ImGui::CalcTextSize("Current type: %s  ~  Your selection: %s", [01;31m[Kcurrent_type_[m[K.c_str(), items[current_item]);
+      |                                                                                            [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                                                            [32m[Kcurrent_index[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:699:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kmini_italic_font_[m[K’ was not declared in this scope
+  699 |                 if ([01;31m[Kmini_italic_font_[m[K)
+      |                     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:714:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kmedium_font_[m[K’ was not declared in this scope
+  714 |                 if ([01;31m[Kmedium_font_[m[K)
+      |                     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:720:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kmedium_font_[m[K’ was not declared in this scope
+  720 |                 if ([01;31m[Kmedium_font_[m[K)
+      |                     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:723:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_texture_[m[K’ was not declared in this scope
+  723 |                 if ([01;31m[Kmap_texture_[m[K != 0)
+      |                     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:726:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_w_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmax_w[m[K’?
+  726 |                     float draw_w = [01;31m[Kmap_w_[m[K * 5.0f;
+      |                                    [01;31m[K^~~~~~[m[K
+      |                                    [32m[Kmax_w[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:727:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_h_[m[K’ was not declared in this scope
+  727 |                     float draw_h = [01;31m[Kmap_h_[m[K * 5.0f;
+      |                                    [01;31m[K^~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:756:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_data_[m[K’ was not declared in this scope
+  756 |                             if (![01;31m[Kmap_data_[m[K.empty())
+      |                                  [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:761:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_markers_[m[K’ was not declared in this scope
+  761 |                                     [01;31m[Kmap_markers_[m[K.clear();
+      |                                     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:764:37:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_world_x_[m[K’ was not declared in this scope
+  764 |                                     [01;31m[Klast_world_x_[m[K = map_origin_[0] + (px * map_resolution_);
+      |                                     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:764:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_origin_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmap_region_w[m[K’?
+  764 |                                     last_world_x_ = [01;31m[Kmap_origin_[m[K[0] + (px * map_resolution_);
+      |                                                     [01;31m[K^~~~~~~~~~~[m[K
+      |                                                     [32m[Kmap_region_w[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:764:76:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_resolution_[m[K’ was not declared in this scope
+  764 |                                     last_world_x_ = map_origin_[0] + (px * [01;31m[Kmap_resolution_[m[K);
+      |                                                                            [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:765:37:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_world_y_[m[K’ was not declared in this scope
+  765 |                                     [01;31m[Klast_world_y_[m[K = map_origin_[1] + ((map_h_ - py) * map_resolution_);
+      |                                     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:766:37:[m[K [01;31m[Kerror: [m[K‘[01m[Khas_click_[m[K’ was not declared in this scope
+  766 |                                     [01;31m[Khas_click_[m[K = true;
+      |                                     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:776:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_markers_[m[K’ was not declared in this scope
+  776 |                     for (auto &pt : [01;31m[Kmap_markers_[m[K)
+      |                                     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:788:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_markers_[m[K’ was not declared in this scope
+  788 |                         [01;31m[Kmap_markers_[m[K.clear();
+      |                         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:789:25:[m[K [01;31m[Kerror: [m[K‘[01m[Khas_click_[m[K’ was not declared in this scope
+  789 |                         [01;31m[Khas_click_[m[K = false;
+      |                         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:792:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kflagged_startup_[m[K’ was not declared in this scope
+  792 |                 else if ([01;31m[Kflagged_startup_[m[K)
+      |                          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:812:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kpackage_share_dir_[m[K’ was not declared in this scope
+  812 |                 std::string defect_yaml = [01;31m[Kpackage_share_dir_[m[K + "/resources/defect_log.yaml";
+      |                                           [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:819:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kmini_font_[m[K’ was not declared in this scope
+  819 |                     ImGui::PushFont([01;31m[Kmini_font_[m[K);
+      |                                     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:846:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kmini_font_[m[K’ was not declared in this scope
+  846 |                     ImGui::PushFont([01;31m[Kmini_font_[m[K);
+      |                                     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:895:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kwindow[m[K’ was not declared in this scope; did you mean ‘[01m[Kwindow_[m[K’?
+  895 |     glfwDestroyWindow([01;31m[Kwindow[m[K);
+      |                       [01;31m[K^~~~~~[m[K
+      |                       [32m[Kwindow_[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:899:12:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning ‘[01m[Kvoid[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  899 |     return [01;31m[K0[m[K;
+      |            [01;31m[K^[m[K
+In file included from [01m[K/usr/include/yaml-cpp/yaml.h:17[m[K,
+                 from [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/include/user_interface/user_interface.hpp:13[m[K:
+/usr/include/yaml-cpp/node/impl.h: In instantiation of ‘[01m[Kvoid YAML::Node::[01;32m[KAssign[m[K(const T&) [35m[K[with T = YAML::detail::iterator_value][m[K[m[K’:
+[01m[K/usr/include/yaml-cpp/node/impl.h:205:9:[m[K   required from ‘[01m[KYAML::Node& YAML::Node::[01;32m[Koperator=[m[K(const T&) [35m[K[with T = YAML::detail::iterator_value][m[K[m[K’
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:648:42:[m[K   required from here
+[01m[K/usr/include/yaml-cpp/node/impl.h:227:32:[m[K [01;31m[Kerror: [m[Kincomplete type ‘[01m[KYAML::convert<YAML::detail::iterator_value>[m[K’ used in nested name specifier
+  227 |   AssignData([01;31m[Kconvert<T>::encode(rhs)[m[K);
+      |              [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:[m[K At global scope:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:119:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::vector<const char*>[01;32m[K getIndexesFromYaml[m[K(const std::string&, std::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >&)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+  119 | static std::vector<const char *> [01;35m[KgetIndexesFromYaml[m[K(const std::string &filename, std::vector<std::string> &tempStorage)
+      |                                  [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:93:35:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[01;32m[K loadPGM[m[K(const std::string&, int&, int&)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+   93 | static std::vector<unsigned char> [01;35m[KloadPGM[m[K(const std::string &filename, int &width, int &height)
+      |                                   [01;35m[K^~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:81:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool[01;32m[K ConvertPGMToPNG[m[K(const std::string&, const std::string&)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+   81 | static bool [01;35m[KConvertPGMToPNG[m[K(const std::string &pgm_path, const std::string &png_path)
+      |             [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/user_interface/src/user_interface.cpp:55:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool[01;32m[K LoadTextureFromFile[m[K(const char*, GLuint*, int*, int*)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+   55 | static bool [01;35m[KLoadTextureFromFile[m[K(const char *filename, GLuint *out_texture, int *out_width, int *out_height)
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/user_interface_lib.dir/build.make:76: CMakeFiles/user_interface_lib.dir/src/user_interface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/user_interface_lib.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

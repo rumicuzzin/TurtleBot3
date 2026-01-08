@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from shared_interfaces/srv/NavigationMode.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseStamped.idl"
+
+module shared_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "Service navigationMode" "\n"
+      "Server: Navigation" "\n"
+      "Client: Controller")
+    struct NavigationMode_Request {
+      string robot_mode;
+
+      geometry_msgs::msg::PoseStamped pose;
+    };
+    struct NavigationMode_Response {
+      boolean success;
+    };
+  };
+};

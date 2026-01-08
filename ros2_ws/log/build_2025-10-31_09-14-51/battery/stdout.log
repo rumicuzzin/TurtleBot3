@@ -1,0 +1,23 @@
+[100%] Built target battery_node
+-- Install configuration: ""
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/battery/lib/battery/battery_node
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/battery/include
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/battery/include/battery
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/battery/include/battery/battery_node.h
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/battery/share/battery/launch
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/battery/share/battery/launch/bringup.launch.py
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/battery/share/ament_index/resource_index/package_run_dependencies/battery
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/battery/share/ament_index/resource_index/parent_prefix_path/battery
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/battery/share/battery/environment/ament_prefix_path.sh
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/battery/share/battery/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/battery/share/battery/environment/path.sh
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/battery/share/battery/environment/path.dsv
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/battery/share/battery/local_setup.bash
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/battery/share/battery/local_setup.sh
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/battery/share/battery/local_setup.zsh
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/battery/share/battery/local_setup.dsv
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/battery/share/battery/package.dsv
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/battery/share/ament_index/resource_index/packages/battery
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/battery/share/battery/cmake/batteryConfig.cmake
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/battery/share/battery/cmake/batteryConfig-version.cmake
+-- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/battery/share/battery/package.xml

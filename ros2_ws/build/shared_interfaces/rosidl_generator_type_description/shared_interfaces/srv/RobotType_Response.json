@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "shared_interfaces/srv/RobotType_Response",
+      "fields": [
+        {
+          "name": "success",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "shared_interfaces/srv/RobotType_Response",
+      "hash_string": "RIHS01_a3232ec1fcaf239f8dcb29e3f55d7251ca8d222e2348fe0b32d4efbfc5e4dea6"
+    }
+  ]
+}

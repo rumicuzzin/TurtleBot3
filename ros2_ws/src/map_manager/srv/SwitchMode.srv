@@ -1,0 +1,6 @@
+# Request: which mode to switch to, and (optionally) what to name the saved map
+uint8 mode               # 0 = EXPLORE, 1 = TRACK
+string map_name          # ignored for EXPLORE; optional for TRACK (default timestamp)
+---
+bool success
+string message

@@ -1,0 +1,16 @@
+from shared_interfaces.srv._charging import Charging  # noqa: F401
+from shared_interfaces.srv._charging import Charging_Event  # noqa: F401
+from shared_interfaces.srv._charging import Charging_Request  # noqa: F401
+from shared_interfaces.srv._charging import Charging_Response  # noqa: F401
+from shared_interfaces.srv._detecting import Detecting  # noqa: F401
+from shared_interfaces.srv._detecting import Detecting_Event  # noqa: F401
+from shared_interfaces.srv._detecting import Detecting_Request  # noqa: F401
+from shared_interfaces.srv._detecting import Detecting_Response  # noqa: F401
+from shared_interfaces.srv._navigation_mode import NavigationMode  # noqa: F401
+from shared_interfaces.srv._navigation_mode import NavigationMode_Event  # noqa: F401
+from shared_interfaces.srv._navigation_mode import NavigationMode_Request  # noqa: F401
+from shared_interfaces.srv._navigation_mode import NavigationMode_Response  # noqa: F401
+from shared_interfaces.srv._robot_type import RobotType  # noqa: F401
+from shared_interfaces.srv._robot_type import RobotType_Event  # noqa: F401
+from shared_interfaces.srv._robot_type import RobotType_Request  # noqa: F401
+from shared_interfaces.srv._robot_type import RobotType_Response  # noqa: F401

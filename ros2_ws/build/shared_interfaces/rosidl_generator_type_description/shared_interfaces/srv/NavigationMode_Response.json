@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "shared_interfaces/srv/NavigationMode_Response",
+      "fields": [
+        {
+          "name": "success",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "shared_interfaces/srv/NavigationMode_Response",
+      "hash_string": "RIHS01_6f2a7c331ee1931f9553430dae9dd62ab1bd9afb081c89cb9e141e18efffb546"
+    }
+  ]
+}

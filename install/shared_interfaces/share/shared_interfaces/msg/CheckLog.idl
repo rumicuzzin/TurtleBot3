@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from shared_interfaces/msg/CheckLog.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseStamped.idl"
+
+module shared_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "Custom Message for logger to publish" "\n"
+      "From logger node")
+    struct CheckLog {
+      @verbatim (language="comment", text=
+        "defect or delivery")
+      string task_type;
+
+      @verbatim (language="comment", text=
+        "logger to index based on when they receive them")
+      int8 index;
+
+      geometry_msgs::msg::PoseStamped pose;
+
+      @verbatim (language="comment", text=
+        "visited/delivered")
+      boolean complete;
+    };
+  };
+};

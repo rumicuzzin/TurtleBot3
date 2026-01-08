@@ -1,0 +1,13 @@
+[ 11%] [32mBuilding CXX object CMakeFiles/user_interface.dir/src/user_interface.cpp.o[0m
+[ 22%] [32m[1mLinking CXX executable user_interface[0m
+/usr/bin/ld: CMakeFiles/user_interface.dir/src/user_interface.cpp.o: in function `LoadTextureFromFile(char const*, unsigned int*, int*, int*)':
+user_interface.cpp:(.text+0x21e): undefined reference to `stbi_load'
+/usr/bin/ld: user_interface.cpp:(.text+0x2ca): undefined reference to `stbi_image_free'
+/usr/bin/ld: CMakeFiles/user_interface.dir/src/user_interface.cpp.o: in function `ConvertPGMToPNG(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+user_interface.cpp:(.text+0x336): undefined reference to `stbi_load'
+/usr/bin/ld: user_interface.cpp:(.text+0x37b): undefined reference to `stbi_write_png'
+/usr/bin/ld: user_interface.cpp:(.text+0x38f): undefined reference to `stbi_image_free'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/user_interface.dir/build.make:310: user_interface] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/user_interface.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

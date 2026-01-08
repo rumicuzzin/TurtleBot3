@@ -1,0 +1,8 @@
+{
+  "package_name": "shared_interfaces",
+  "non_idl_tuples": [
+    "/home/emily/Documents/MTRX3760/Project2/MTRX3760_PROJECT_2/ros2_ws/src/shared_interfaces:msg/DefectInfo.msg",
+    "/home/emily/Documents/MTRX3760/Project2/MTRX3760_PROJECT_2/ros2_ws/src/shared_interfaces:srv/navigationMode.srv",
+    "/home/emily/Documents/MTRX3760/Project2/MTRX3760_PROJECT_2/ros2_ws/src/shared_interfaces:srv/robotMode.srv"
+  ]
+}

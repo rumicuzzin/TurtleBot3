@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "shared_interfaces/srv/Charging_Request",
+      "fields": [
+        {
+          "name": "command",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "shared_interfaces/srv/Charging_Request",
+      "hash_string": "RIHS01_14b81d0f221aa9a4596e0d565ed40845242762742681df58fac2eaf499c96795"
+    }
+  ]
+}

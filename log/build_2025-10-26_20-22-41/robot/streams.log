@@ -1,0 +1,11 @@
+[0.009s] Invoking command in '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/build/robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_teleop:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/build/robot -- -j20 -l20
+[0.058s] [  8%] [32mBuilding CXX object CMakeFiles/robot_gui.dir/src/robot_gui.cpp.o[0m
+[0.059s] [ 33%] Built target robot_node
+[0.321s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/robot/src/robot_gui.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K()[m[K’:
+[0.321s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/robot/src/robot_gui.cpp:113:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kament_index_cpp[m[K’ has not been declared
+[0.321s]   113 |     std::string package_share_dir = [01;31m[Kament_index_cpp[m[K::get_package_share_directory("robot");
+[0.321s]       |                                     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[0.382s] gmake[2]: *** [CMakeFiles/robot_gui.dir/build.make:76: CMakeFiles/robot_gui.dir/src/robot_gui.cpp.o] Error 1
+[0.382s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robot_gui.dir/all] Error 2
+[0.382s] gmake: *** [Makefile:146: all] Error 2
+[0.384s] Invoked command in '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/build/robot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_teleop:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/build/robot -- -j20 -l20

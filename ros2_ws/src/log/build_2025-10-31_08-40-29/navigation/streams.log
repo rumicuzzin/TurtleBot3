@@ -1,0 +1,55 @@
+[0.015s] Invoking command in '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/build/navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_teleop:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/build/navigation -- -j20 -l20
+[0.076s] [ 14%] [32mBuilding CXX object CMakeFiles/navigator.dir/src/navigation_node.cpp.o[0m
+[1.652s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/navigation/src/navigation_node.cpp:[m[K In constructor ‘[01m[KNavigator::[01;32m[KNavigator[m[K()[m[K’:
+[1.652s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/navigation/src/navigation_node.cpp:27:41:[m[K [01;31m[Kerror: [m[K‘[01m[KGoToPointMode[m[K’ was not declared in this scope
+[1.652s]    27 |         current_mode = std::make_unique<[01;31m[KGoToPointMode[m[K>(this);
+[1.652s]       |                                         [01;31m[K^~~~~~~~~~~~~[m[K
+[1.652s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/navigation/src/navigation_node.cpp:27:55:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_unique<<expression error> >(Navigator*)[m[K’
+[1.652s]    27 |         current_mode = [01;31m[Kstd::make_unique<GoToPointMode>(this)[m[K;
+[1.652s]       |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[1.652s] In file included from [01m[K/usr/include/c++/13/memory:78[m[K,
+[1.652s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:169[m[K,
+[1.652s]                  from [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/navigation/include/navigation/navigation_node.hpp:16[m[K,
+[1.652s]                  from [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/navigation/src/navigation_node.cpp:1[m[K:
+[1.652s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1069:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::__detail::__unique_ptr_t<_Tp> std::[01;32m[Kmake_unique[m[K(_Args&& ...)[m[K’
+[1.653s]  1069 |     [01;36m[Kmake_unique[m[K(_Args&&... __args)
+[1.653s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[1.653s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1069:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.653s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/navigation/src/navigation_node.cpp:27:55:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.653s]    27 |         current_mode = [01;31m[Kstd::make_unique<GoToPointMode>(this)[m[K;
+[1.653s]       |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[1.653s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1084:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::__detail::__unique_ptr_array_t<_Tp> std::[01;32m[Kmake_unique[m[K(size_t)[m[K’
+[1.653s]  1084 |     [01;36m[Kmake_unique[m[K(size_t __num)
+[1.653s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[1.653s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1084:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.653s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/navigation/src/navigation_node.cpp:27:55:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.653s]    27 |         current_mode = [01;31m[Kstd::make_unique<GoToPointMode>(this)[m[K;
+[1.653s]       |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[1.653s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1094:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::__detail::__invalid_make_unique_t<_Tp> std::[01;32m[Kmake_unique[m[K(_Args&& ...)[m[K’ (deleted)
+[1.653s]  1094 |     [01;36m[Kmake_unique[m[K(_Args&&...) = delete;
+[1.653s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[1.653s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1094:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.653s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/navigation/src/navigation_node.cpp:27:55:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.653s]    27 |         current_mode = [01;31m[Kstd::make_unique<GoToPointMode>(this)[m[K;
+[1.653s]       |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[1.656s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/navigation/src/navigation_node.cpp:29:53:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::__detail::__unique_ptr_t<ExploreMode>[m[K’ to ‘[01m[KExploreMode*[m[K’ in assignment
+[1.656s]    29 |         current_mode = [01;31m[Kstd::make_unique<ExploreMode>(this)[m[K;
+[1.656s]       |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[1.656s]       |                                                     [01;31m[K|[m[K
+[1.656s]       |                                                     [01;31m[Kstd::__detail::__unique_ptr_t<ExploreMode>[m[K
+[1.662s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/navigation/src/navigation_node.cpp:37:5:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_mode_srv_[m[K’ was not declared in this scope
+[1.662s]    37 |     [01;31m[Knav_mode_srv_[m[K = this->create_service<shared_interfaces::srv::NavigationMode>(
+[1.662s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[1.668s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/navigation/src/navigation_node.cpp:37:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kshared_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+[1.668s]    37 |     nav_mode_srv_ = this->create_service<[01;31m[Kshared_interfaces[m[K::srv::NavigationMode>(
+[1.668s]       |                                          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.668s]       |                                          [32m[Krcl_interfaces[m[K
+[1.668s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/navigation/src/navigation_node.cpp:37:27:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[1.668s]    37 |     nav_mode_srv_ = this->[01;31m[Kcreate_service<shared_interfaces::srv::NavigationMode>[m[K(
+[1.668s]       |                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.668s] [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/navigation/src/navigation_node.cpp:39:31:[m[K [01;31m[Kerror: [m[K‘[01m[KgoalServiceCallback[m[K’ is not a member of ‘[01m[KNavigator[m[K’
+[1.668s]    39 |         std::bind(&Navigator::[01;31m[KgoalServiceCallback[m[K, this,
+[1.668s]       |                               [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.521s] gmake[2]: *** [CMakeFiles/navigator.dir/build.make:90: CMakeFiles/navigator.dir/src/navigation_node.cpp.o] Error 1
+[4.521s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/navigator.dir/all] Error 2
+[4.521s] gmake: *** [Makefile:146: all] Error 2

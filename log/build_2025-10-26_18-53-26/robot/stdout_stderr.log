@@ -1,0 +1,319 @@
+[ 25%] Built target robot_node
+[ 33%] [32mBuilding CXX object CMakeFiles/robot_gui.dir/src/robot_gui.cpp.o[0m
+In file included from [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/robot/src/robot_gui.cpp:7[m[K:
+[01m[K/usr/include/GL/glew.h:85:2:[m[K [01;31m[Kerror: [m[K#error gl.h included before glew.h
+   85 | #[01;31m[Kerror[m[K gl.h included before glew.h
+      |  [01;31m[K^~~~~[m[K
+[01m[K/usr/include/GL/glew.h:97:2:[m[K [01;31m[Kerror: [m[K#error glext.h included before glew.h
+   97 | #[01;31m[Kerror[m[K glext.h included before glew.h
+      |  [01;31m[K^~~~~[m[K
+[01m[K/usr/include/GL/glew.h:21140:28:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Ktypedef void (* PFNGLFRAGMENTLIGHTMODELFVSGIXPROC)(GLenum, GLfloat*)[m[K’
+21140 | typedef void (GLAPIENTRY * [01;31m[KPFNGLFRAGMENTLIGHTMODELFVSGIXPROC[m[K) (GLenum pname, GLfloat* params);
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/GL/gl.h:2050[m[K,
+                 from [01m[K/usr/include/GLFW/glfw3.h:241[m[K,
+                 from [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/robot/src/robot_gui.cpp:4[m[K:
+[01m[K/usr/include/GL/glext.h:12376:25:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Ktypedef void (* PFNGLFRAGMENTLIGHTMODELFVSGIXPROC)(GLenum, const GLfloat*)[m[K’
+12376 | typedef void (APIENTRYP [01;36m[KPFNGLFRAGMENTLIGHTMODELFVSGIXPROC[m[K) (GLenum pname, const GLfloat *params);
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/GL/glew.h:21142:28:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Ktypedef void (* PFNGLFRAGMENTLIGHTMODELIVSGIXPROC)(GLenum, GLint*)[m[K’
+21142 | typedef void (GLAPIENTRY * [01;31m[KPFNGLFRAGMENTLIGHTMODELIVSGIXPROC[m[K) (GLenum pname, GLint* params);
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/GL/glext.h:12378:25:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Ktypedef void (* PFNGLFRAGMENTLIGHTMODELIVSGIXPROC)(GLenum, const GLint*)[m[K’
+12378 | typedef void (APIENTRYP [01;36m[KPFNGLFRAGMENTLIGHTMODELIVSGIXPROC[m[K) (GLenum pname, const GLint *params);
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/GL/glew.h:21144:28:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Ktypedef void (* PFNGLFRAGMENTLIGHTFVSGIXPROC)(GLenum, GLenum, GLfloat*)[m[K’
+21144 | typedef void (GLAPIENTRY * [01;31m[KPFNGLFRAGMENTLIGHTFVSGIXPROC[m[K) (GLenum light, GLenum pname, GLfloat* params);
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/GL/glext.h:12372:25:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Ktypedef void (* PFNGLFRAGMENTLIGHTFVSGIXPROC)(GLenum, GLenum, const GLfloat*)[m[K’
+12372 | typedef void (APIENTRYP [01;36m[KPFNGLFRAGMENTLIGHTFVSGIXPROC[m[K) (GLenum light, GLenum pname, const GLfloat *params);
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/GL/glew.h:21146:28:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Ktypedef void (* PFNGLFRAGMENTLIGHTIVSGIXPROC)(GLenum, GLenum, GLint*)[m[K’
+21146 | typedef void (GLAPIENTRY * [01;31m[KPFNGLFRAGMENTLIGHTIVSGIXPROC[m[K) (GLenum light, GLenum pname, GLint* params);
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/GL/glext.h:12374:25:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Ktypedef void (* PFNGLFRAGMENTLIGHTIVSGIXPROC)(GLenum, GLenum, const GLint*)[m[K’
+12374 | typedef void (APIENTRYP [01;36m[KPFNGLFRAGMENTLIGHTIVSGIXPROC[m[K) (GLenum light, GLenum pname, const GLint *params);
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/GL/glew.h:22287:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLCLIENTACTIVETEXTUREPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLCLIENTACTIVETEXTUREARBPROC[m[K’?
+22287 | GLEW_FUN_EXPORT [01;31m[KPFNGLCLIENTACTIVETEXTUREPROC[m[K __glewClientActiveTexture;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLCLIENTACTIVETEXTUREARBPROC[m[K
+[01m[K/usr/include/GL/glew.h:22295:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLLOADTRANSPOSEMATRIXDPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLLOADTRANSPOSEMATRIXDARBPROC[m[K’?
+22295 | GLEW_FUN_EXPORT [01;31m[KPFNGLLOADTRANSPOSEMATRIXDPROC[m[K __glewLoadTransposeMatrixd;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLLOADTRANSPOSEMATRIXDARBPROC[m[K
+[01m[K/usr/include/GL/glew.h:22296:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLLOADTRANSPOSEMATRIXFPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLLOADTRANSPOSEMATRIXFARBPROC[m[K’?
+22296 | GLEW_FUN_EXPORT [01;31m[KPFNGLLOADTRANSPOSEMATRIXFPROC[m[K __glewLoadTransposeMatrixf;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLLOADTRANSPOSEMATRIXFARBPROC[m[K
+[01m[K/usr/include/GL/glew.h:22297:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLMULTTRANSPOSEMATRIXDPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLMULTTRANSPOSEMATRIXDARBPROC[m[K’?
+22297 | GLEW_FUN_EXPORT [01;31m[KPFNGLMULTTRANSPOSEMATRIXDPROC[m[K __glewMultTransposeMatrixd;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLMULTTRANSPOSEMATRIXDARBPROC[m[K
+[01m[K/usr/include/GL/glew.h:22298:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLMULTTRANSPOSEMATRIXFPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLMULTTRANSPOSEMATRIXFARBPROC[m[K’?
+22298 | GLEW_FUN_EXPORT [01;31m[KPFNGLMULTTRANSPOSEMATRIXFPROC[m[K __glewMultTransposeMatrixf;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLMULTTRANSPOSEMATRIXFARBPROC[m[K
+[01m[K/usr/include/GL/glew.h:22299:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLMULTITEXCOORD1DPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLMULTITEXCOORD4XPROC[m[K’?
+22299 | GLEW_FUN_EXPORT [01;31m[KPFNGLMULTITEXCOORD1DPROC[m[K __glewMultiTexCoord1d;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLMULTITEXCOORD4XPROC[m[K
+[01m[K/usr/include/GL/glew.h:22300:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLMULTITEXCOORD1DVPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLMULTITEXCOORD1HNVPROC[m[K’?
+22300 | GLEW_FUN_EXPORT [01;31m[KPFNGLMULTITEXCOORD1DVPROC[m[K __glewMultiTexCoord1dv;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLMULTITEXCOORD1HNVPROC[m[K
+[01m[K/usr/include/GL/glew.h:22301:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLMULTITEXCOORD1FPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLMULTITEXCOORD4XPROC[m[K’?
+22301 | GLEW_FUN_EXPORT [01;31m[KPFNGLMULTITEXCOORD1FPROC[m[K __glewMultiTexCoord1f;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLMULTITEXCOORD4XPROC[m[K
+[01m[K/usr/include/GL/glew.h:22302:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLMULTITEXCOORD1FVPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLMULTITEXCOORD1HNVPROC[m[K’?
+22302 | GLEW_FUN_EXPORT [01;31m[KPFNGLMULTITEXCOORD1FVPROC[m[K __glewMultiTexCoord1fv;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLMULTITEXCOORD1HNVPROC[m[K
+[01m[K/usr/include/GL/glew.h:22303:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLMULTITEXCOORD1IPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLMULTITEXCOORDP1UIPROC[m[K’?
+22303 | GLEW_FUN_EXPORT [01;31m[KPFNGLMULTITEXCOORD1IPROC[m[K __glewMultiTexCoord1i;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLMULTITEXCOORDP1UIPROC[m[K
+[01m[K/usr/include/GL/glew.h:22304:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLMULTITEXCOORD1IVPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLMULTITEXCOORDP1UIVPROC[m[K’?
+22304 | GLEW_FUN_EXPORT [01;31m[KPFNGLMULTITEXCOORD1IVPROC[m[K __glewMultiTexCoord1iv;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLMULTITEXCOORDP1UIVPROC[m[K
+[01m[K/usr/include/GL/glew.h:22305:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLMULTITEXCOORD1SPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLMULTITEXCOORD4XPROC[m[K’?
+22305 | GLEW_FUN_EXPORT [01;31m[KPFNGLMULTITEXCOORD1SPROC[m[K __glewMultiTexCoord1s;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLMULTITEXCOORD4XPROC[m[K
+[01m[K/usr/include/GL/glew.h:22306:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLMULTITEXCOORD1SVPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLMULTITEXCOORD1HNVPROC[m[K’?
+22306 | GLEW_FUN_EXPORT [01;31m[KPFNGLMULTITEXCOORD1SVPROC[m[K __glewMultiTexCoord1sv;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLMULTITEXCOORD1HNVPROC[m[K
+[01m[K/usr/include/GL/glew.h:22307:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLMULTITEXCOORD2DPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLMULTITEXCOORD4XPROC[m[K’?
+22307 | GLEW_FUN_EXPORT [01;31m[KPFNGLMULTITEXCOORD2DPROC[m[K __glewMultiTexCoord2d;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLMULTITEXCOORD4XPROC[m[K
+[01m[K/usr/include/GL/glew.h:22308:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLMULTITEXCOORD2DVPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLMULTITEXCOORD2HNVPROC[m[K’?
+22308 | GLEW_FUN_EXPORT [01;31m[KPFNGLMULTITEXCOORD2DVPROC[m[K __glewMultiTexCoord2dv;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLMULTITEXCOORD2HNVPROC[m[K
+[01m[K/usr/include/GL/glew.h:22309:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLMULTITEXCOORD2FPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLMULTITEXCOORD4XPROC[m[K’?
+22309 | GLEW_FUN_EXPORT [01;31m[KPFNGLMULTITEXCOORD2FPROC[m[K __glewMultiTexCoord2f;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLMULTITEXCOORD4XPROC[m[K
+[01m[K/usr/include/GL/glew.h:22310:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLMULTITEXCOORD2FVPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLMULTITEXCOORD2HNVPROC[m[K’?
+22310 | GLEW_FUN_EXPORT [01;31m[KPFNGLMULTITEXCOORD2FVPROC[m[K __glewMultiTexCoord2fv;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLMULTITEXCOORD2HNVPROC[m[K
+[01m[K/usr/include/GL/glew.h:22311:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLMULTITEXCOORD2IPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLMULTITEXCOORDP2UIPROC[m[K’?
+22311 | GLEW_FUN_EXPORT [01;31m[KPFNGLMULTITEXCOORD2IPROC[m[K __glewMultiTexCoord2i;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLMULTITEXCOORDP2UIPROC[m[K
+[01m[K/usr/include/GL/glew.h:22312:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLMULTITEXCOORD2IVPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLMULTITEXCOORDP2UIVPROC[m[K’?
+22312 | GLEW_FUN_EXPORT [01;31m[KPFNGLMULTITEXCOORD2IVPROC[m[K __glewMultiTexCoord2iv;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLMULTITEXCOORDP2UIVPROC[m[K
+[01m[K/usr/include/GL/glew.h:22313:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLMULTITEXCOORD2SPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLMULTITEXCOORD4XPROC[m[K’?
+22313 | GLEW_FUN_EXPORT [01;31m[KPFNGLMULTITEXCOORD2SPROC[m[K __glewMultiTexCoord2s;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLMULTITEXCOORD4XPROC[m[K
+[01m[K/usr/include/GL/glew.h:22314:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLMULTITEXCOORD2SVPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLMULTITEXCOORD2HNVPROC[m[K’?
+22314 | GLEW_FUN_EXPORT [01;31m[KPFNGLMULTITEXCOORD2SVPROC[m[K __glewMultiTexCoord2sv;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLMULTITEXCOORD2HNVPROC[m[K
+[01m[K/usr/include/GL/glew.h:22315:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLMULTITEXCOORD3DPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLMULTITEXCOORD4XPROC[m[K’?
+22315 | GLEW_FUN_EXPORT [01;31m[KPFNGLMULTITEXCOORD3DPROC[m[K __glewMultiTexCoord3d;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLMULTITEXCOORD4XPROC[m[K
+[01m[K/usr/include/GL/glew.h:22316:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLMULTITEXCOORD3DVPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLMULTITEXCOORD3HNVPROC[m[K’?
+22316 | GLEW_FUN_EXPORT [01;31m[KPFNGLMULTITEXCOORD3DVPROC[m[K __glewMultiTexCoord3dv;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLMULTITEXCOORD3HNVPROC[m[K
+[01m[K/usr/include/GL/glew.h:22317:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLMULTITEXCOORD3FPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLMULTITEXCOORD4XPROC[m[K’?
+22317 | GLEW_FUN_EXPORT [01;31m[KPFNGLMULTITEXCOORD3FPROC[m[K __glewMultiTexCoord3f;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLMULTITEXCOORD4XPROC[m[K
+[01m[K/usr/include/GL/glew.h:22318:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLMULTITEXCOORD3FVPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLMULTITEXCOORD3HNVPROC[m[K’?
+22318 | GLEW_FUN_EXPORT [01;31m[KPFNGLMULTITEXCOORD3FVPROC[m[K __glewMultiTexCoord3fv;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLMULTITEXCOORD3HNVPROC[m[K
+[01m[K/usr/include/GL/glew.h:22319:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLMULTITEXCOORD3IPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLMULTITEXCOORDP3UIPROC[m[K’?
+22319 | GLEW_FUN_EXPORT [01;31m[KPFNGLMULTITEXCOORD3IPROC[m[K __glewMultiTexCoord3i;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLMULTITEXCOORDP3UIPROC[m[K
+[01m[K/usr/include/GL/glew.h:22320:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLMULTITEXCOORD3IVPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLMULTITEXCOORDP3UIVPROC[m[K’?
+22320 | GLEW_FUN_EXPORT [01;31m[KPFNGLMULTITEXCOORD3IVPROC[m[K __glewMultiTexCoord3iv;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLMULTITEXCOORDP3UIVPROC[m[K
+[01m[K/usr/include/GL/glew.h:22321:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLMULTITEXCOORD3SPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLMULTITEXCOORD4XPROC[m[K’?
+22321 | GLEW_FUN_EXPORT [01;31m[KPFNGLMULTITEXCOORD3SPROC[m[K __glewMultiTexCoord3s;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLMULTITEXCOORD4XPROC[m[K
+[01m[K/usr/include/GL/glew.h:22322:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLMULTITEXCOORD3SVPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLMULTITEXCOORD3HNVPROC[m[K’?
+22322 | GLEW_FUN_EXPORT [01;31m[KPFNGLMULTITEXCOORD3SVPROC[m[K __glewMultiTexCoord3sv;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLMULTITEXCOORD3HNVPROC[m[K
+[01m[K/usr/include/GL/glew.h:22323:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLMULTITEXCOORD4DPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLMULTITEXCOORD4XPROC[m[K’?
+22323 | GLEW_FUN_EXPORT [01;31m[KPFNGLMULTITEXCOORD4DPROC[m[K __glewMultiTexCoord4d;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLMULTITEXCOORD4XPROC[m[K
+[01m[K/usr/include/GL/glew.h:22324:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLMULTITEXCOORD4DVPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLMULTITEXCOORD4XPROC[m[K’?
+22324 | GLEW_FUN_EXPORT [01;31m[KPFNGLMULTITEXCOORD4DVPROC[m[K __glewMultiTexCoord4dv;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLMULTITEXCOORD4XPROC[m[K
+[01m[K/usr/include/GL/glew.h:22325:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLMULTITEXCOORD4FPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLMULTITEXCOORD4XPROC[m[K’?
+22325 | GLEW_FUN_EXPORT [01;31m[KPFNGLMULTITEXCOORD4FPROC[m[K __glewMultiTexCoord4f;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLMULTITEXCOORD4XPROC[m[K
+[01m[K/usr/include/GL/glew.h:22326:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLMULTITEXCOORD4FVPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLMULTITEXCOORD4XPROC[m[K’?
+22326 | GLEW_FUN_EXPORT [01;31m[KPFNGLMULTITEXCOORD4FVPROC[m[K __glewMultiTexCoord4fv;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLMULTITEXCOORD4XPROC[m[K
+[01m[K/usr/include/GL/glew.h:22327:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLMULTITEXCOORD4IPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLMULTITEXCOORD4XPROC[m[K’?
+22327 | GLEW_FUN_EXPORT [01;31m[KPFNGLMULTITEXCOORD4IPROC[m[K __glewMultiTexCoord4i;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLMULTITEXCOORD4XPROC[m[K
+[01m[K/usr/include/GL/glew.h:22328:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLMULTITEXCOORD4IVPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLMULTITEXCOORDP4UIVPROC[m[K’?
+22328 | GLEW_FUN_EXPORT [01;31m[KPFNGLMULTITEXCOORD4IVPROC[m[K __glewMultiTexCoord4iv;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLMULTITEXCOORDP4UIVPROC[m[K
+[01m[K/usr/include/GL/glew.h:22329:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLMULTITEXCOORD4SPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLMULTITEXCOORD4XPROC[m[K’?
+22329 | GLEW_FUN_EXPORT [01;31m[KPFNGLMULTITEXCOORD4SPROC[m[K __glewMultiTexCoord4s;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLMULTITEXCOORD4XPROC[m[K
+[01m[K/usr/include/GL/glew.h:22330:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLMULTITEXCOORD4SVPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLMULTITEXCOORD4XPROC[m[K’?
+22330 | GLEW_FUN_EXPORT [01;31m[KPFNGLMULTITEXCOORD4SVPROC[m[K __glewMultiTexCoord4sv;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLMULTITEXCOORD4XPROC[m[K
+[01m[K/usr/include/GL/glew.h:22987:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLCOLORSUBTABLEPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLCOLORSUBTABLEEXTPROC[m[K’?
+22987 | GLEW_FUN_EXPORT [01;31m[KPFNGLCOLORSUBTABLEPROC[m[K __glewColorSubTable;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLCOLORSUBTABLEEXTPROC[m[K
+[01m[K/usr/include/GL/glew.h:22988:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLCOLORTABLEPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLCOLORTABLESGIPROC[m[K’?
+22988 | GLEW_FUN_EXPORT [01;31m[KPFNGLCOLORTABLEPROC[m[K __glewColorTable;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLCOLORTABLESGIPROC[m[K
+[01m[K/usr/include/GL/glew.h:22989:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLCOLORTABLEPARAMETERFVPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLCOLORTABLEPARAMETERFVSGIPROC[m[K’?
+22989 | GLEW_FUN_EXPORT [01;31m[KPFNGLCOLORTABLEPARAMETERFVPROC[m[K __glewColorTableParameterfv;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLCOLORTABLEPARAMETERFVSGIPROC[m[K
+[01m[K/usr/include/GL/glew.h:22990:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLCOLORTABLEPARAMETERIVPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLCOLORTABLEPARAMETERIVSGIPROC[m[K’?
+22990 | GLEW_FUN_EXPORT [01;31m[KPFNGLCOLORTABLEPARAMETERIVPROC[m[K __glewColorTableParameteriv;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLCOLORTABLEPARAMETERIVSGIPROC[m[K
+[01m[K/usr/include/GL/glew.h:22991:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLCONVOLUTIONFILTER1DPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLCONVOLUTIONFILTER1DEXTPROC[m[K’?
+22991 | GLEW_FUN_EXPORT [01;31m[KPFNGLCONVOLUTIONFILTER1DPROC[m[K __glewConvolutionFilter1D;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLCONVOLUTIONFILTER1DEXTPROC[m[K
+[01m[K/usr/include/GL/glew.h:22992:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLCONVOLUTIONFILTER2DPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLCONVOLUTIONFILTER2DEXTPROC[m[K’?
+22992 | GLEW_FUN_EXPORT [01;31m[KPFNGLCONVOLUTIONFILTER2DPROC[m[K __glewConvolutionFilter2D;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLCONVOLUTIONFILTER2DEXTPROC[m[K
+[01m[K/usr/include/GL/glew.h:22993:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLCONVOLUTIONPARAMETERFPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLCONVOLUTIONPARAMETERFEXTPROC[m[K’?
+22993 | GLEW_FUN_EXPORT [01;31m[KPFNGLCONVOLUTIONPARAMETERFPROC[m[K __glewConvolutionParameterf;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLCONVOLUTIONPARAMETERFEXTPROC[m[K
+[01m[K/usr/include/GL/glew.h:22994:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLCONVOLUTIONPARAMETERFVPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLCONVOLUTIONPARAMETERFVEXTPROC[m[K’?
+22994 | GLEW_FUN_EXPORT [01;31m[KPFNGLCONVOLUTIONPARAMETERFVPROC[m[K __glewConvolutionParameterfv;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLCONVOLUTIONPARAMETERFVEXTPROC[m[K
+[01m[K/usr/include/GL/glew.h:22995:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLCONVOLUTIONPARAMETERIPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLCONVOLUTIONPARAMETERIEXTPROC[m[K’?
+22995 | GLEW_FUN_EXPORT [01;31m[KPFNGLCONVOLUTIONPARAMETERIPROC[m[K __glewConvolutionParameteri;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLCONVOLUTIONPARAMETERIEXTPROC[m[K
+[01m[K/usr/include/GL/glew.h:22996:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLCONVOLUTIONPARAMETERIVPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLCONVOLUTIONPARAMETERIVEXTPROC[m[K’?
+22996 | GLEW_FUN_EXPORT [01;31m[KPFNGLCONVOLUTIONPARAMETERIVPROC[m[K __glewConvolutionParameteriv;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLCONVOLUTIONPARAMETERIVEXTPROC[m[K
+[01m[K/usr/include/GL/glew.h:22997:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLCOPYCOLORSUBTABLEPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLCOPYCOLORSUBTABLEEXTPROC[m[K’?
+22997 | GLEW_FUN_EXPORT [01;31m[KPFNGLCOPYCOLORSUBTABLEPROC[m[K __glewCopyColorSubTable;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLCOPYCOLORSUBTABLEEXTPROC[m[K
+[01m[K/usr/include/GL/glew.h:22998:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLCOPYCOLORTABLEPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLCOPYCOLORTABLESGIPROC[m[K’?
+22998 | GLEW_FUN_EXPORT [01;31m[KPFNGLCOPYCOLORTABLEPROC[m[K __glewCopyColorTable;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLCOPYCOLORTABLESGIPROC[m[K
+[01m[K/usr/include/GL/glew.h:22999:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLCOPYCONVOLUTIONFILTER1DPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLCOPYCONVOLUTIONFILTER1DEXTPROC[m[K’?
+22999 | GLEW_FUN_EXPORT [01;31m[KPFNGLCOPYCONVOLUTIONFILTER1DPROC[m[K __glewCopyConvolutionFilter1D;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLCOPYCONVOLUTIONFILTER1DEXTPROC[m[K
+[01m[K/usr/include/GL/glew.h:23000:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLCOPYCONVOLUTIONFILTER2DPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLCOPYCONVOLUTIONFILTER2DEXTPROC[m[K’?
+23000 | GLEW_FUN_EXPORT [01;31m[KPFNGLCOPYCONVOLUTIONFILTER2DPROC[m[K __glewCopyConvolutionFilter2D;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLCOPYCONVOLUTIONFILTER2DEXTPROC[m[K
+[01m[K/usr/include/GL/glew.h:23001:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLGETCOLORTABLEPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLGETNCOLORTABLEPROC[m[K’?
+23001 | GLEW_FUN_EXPORT [01;31m[KPFNGLGETCOLORTABLEPROC[m[K __glewGetColorTable;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLGETNCOLORTABLEPROC[m[K
+[01m[K/usr/include/GL/glew.h:23002:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLGETCOLORTABLEPARAMETERFVPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLGETCOLORTABLEPARAMETERFVSGIPROC[m[K’?
+23002 | GLEW_FUN_EXPORT [01;31m[KPFNGLGETCOLORTABLEPARAMETERFVPROC[m[K __glewGetColorTableParameterfv;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLGETCOLORTABLEPARAMETERFVSGIPROC[m[K
+[01m[K/usr/include/GL/glew.h:23003:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLGETCOLORTABLEPARAMETERIVPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLGETCOLORTABLEPARAMETERIVSGIPROC[m[K’?
+23003 | GLEW_FUN_EXPORT [01;31m[KPFNGLGETCOLORTABLEPARAMETERIVPROC[m[K __glewGetColorTableParameteriv;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLGETCOLORTABLEPARAMETERIVSGIPROC[m[K
+[01m[K/usr/include/GL/glew.h:23004:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLGETCONVOLUTIONFILTERPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLGETNCONVOLUTIONFILTERPROC[m[K’?
+23004 | GLEW_FUN_EXPORT [01;31m[KPFNGLGETCONVOLUTIONFILTERPROC[m[K __glewGetConvolutionFilter;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLGETNCONVOLUTIONFILTERPROC[m[K
+[01m[K/usr/include/GL/glew.h:23005:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLGETCONVOLUTIONPARAMETERFVPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLGETCONVOLUTIONPARAMETERFVEXTPROC[m[K’?
+23005 | GLEW_FUN_EXPORT [01;31m[KPFNGLGETCONVOLUTIONPARAMETERFVPROC[m[K __glewGetConvolutionParameterfv;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLGETCONVOLUTIONPARAMETERFVEXTPROC[m[K
+[01m[K/usr/include/GL/glew.h:23006:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLGETCONVOLUTIONPARAMETERIVPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLGETCONVOLUTIONPARAMETERIVEXTPROC[m[K’?
+23006 | GLEW_FUN_EXPORT [01;31m[KPFNGLGETCONVOLUTIONPARAMETERIVPROC[m[K __glewGetConvolutionParameteriv;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLGETCONVOLUTIONPARAMETERIVEXTPROC[m[K
+[01m[K/usr/include/GL/glew.h:23007:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLGETHISTOGRAMPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLGETNHISTOGRAMPROC[m[K’?
+23007 | GLEW_FUN_EXPORT [01;31m[KPFNGLGETHISTOGRAMPROC[m[K __glewGetHistogram;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLGETNHISTOGRAMPROC[m[K
+[01m[K/usr/include/GL/glew.h:23008:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLGETHISTOGRAMPARAMETERFVPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLGETHISTOGRAMPARAMETERFVEXTPROC[m[K’?
+23008 | GLEW_FUN_EXPORT [01;31m[KPFNGLGETHISTOGRAMPARAMETERFVPROC[m[K __glewGetHistogramParameterfv;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLGETHISTOGRAMPARAMETERFVEXTPROC[m[K
+[01m[K/usr/include/GL/glew.h:23009:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLGETHISTOGRAMPARAMETERIVPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLGETHISTOGRAMPARAMETERIVEXTPROC[m[K’?
+23009 | GLEW_FUN_EXPORT [01;31m[KPFNGLGETHISTOGRAMPARAMETERIVPROC[m[K __glewGetHistogramParameteriv;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLGETHISTOGRAMPARAMETERIVEXTPROC[m[K
+[01m[K/usr/include/GL/glew.h:23010:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLGETMINMAXPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLGETNMINMAXPROC[m[K’?
+23010 | GLEW_FUN_EXPORT [01;31m[KPFNGLGETMINMAXPROC[m[K __glewGetMinmax;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLGETNMINMAXPROC[m[K
+[01m[K/usr/include/GL/glew.h:23011:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLGETMINMAXPARAMETERFVPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLGETMINMAXPARAMETERFVEXTPROC[m[K’?
+23011 | GLEW_FUN_EXPORT [01;31m[KPFNGLGETMINMAXPARAMETERFVPROC[m[K __glewGetMinmaxParameterfv;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLGETMINMAXPARAMETERFVEXTPROC[m[K
+[01m[K/usr/include/GL/glew.h:23012:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLGETMINMAXPARAMETERIVPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLGETMINMAXPARAMETERIVEXTPROC[m[K’?
+23012 | GLEW_FUN_EXPORT [01;31m[KPFNGLGETMINMAXPARAMETERIVPROC[m[K __glewGetMinmaxParameteriv;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLGETMINMAXPARAMETERIVEXTPROC[m[K
+[01m[K/usr/include/GL/glew.h:23013:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLGETSEPARABLEFILTERPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLGETNSEPARABLEFILTERPROC[m[K’?
+23013 | GLEW_FUN_EXPORT [01;31m[KPFNGLGETSEPARABLEFILTERPROC[m[K __glewGetSeparableFilter;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLGETNSEPARABLEFILTERPROC[m[K
+[01m[K/usr/include/GL/glew.h:23014:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLHISTOGRAMPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLISPROGRAMPROC[m[K’?
+23014 | GLEW_FUN_EXPORT [01;31m[KPFNGLHISTOGRAMPROC[m[K __glewHistogram;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLISPROGRAMPROC[m[K
+[01m[K/usr/include/GL/glew.h:23015:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLMINMAXPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLMINMAXEXTPROC[m[K’?
+23015 | GLEW_FUN_EXPORT [01;31m[KPFNGLMINMAXPROC[m[K __glewMinmax;
+      |                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLMINMAXEXTPROC[m[K
+[01m[K/usr/include/GL/glew.h:23016:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLRESETHISTOGRAMPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLRESETHISTOGRAMEXTPROC[m[K’?
+23016 | GLEW_FUN_EXPORT [01;31m[KPFNGLRESETHISTOGRAMPROC[m[K __glewResetHistogram;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLRESETHISTOGRAMEXTPROC[m[K
+[01m[K/usr/include/GL/glew.h:23017:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLRESETMINMAXPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLRESETMINMAXEXTPROC[m[K’?
+23017 | GLEW_FUN_EXPORT [01;31m[KPFNGLRESETMINMAXPROC[m[K __glewResetMinmax;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLRESETMINMAXEXTPROC[m[K
+[01m[K/usr/include/GL/glew.h:23018:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLSEPARABLEFILTER2DPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLSEPARABLEFILTER2DEXTPROC[m[K’?
+23018 | GLEW_FUN_EXPORT [01;31m[KPFNGLSEPARABLEFILTER2DPROC[m[K __glewSeparableFilter2D;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLSEPARABLEFILTER2DEXTPROC[m[K
+[01m[K/usr/include/GL/glew.h:25151:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPFNGLNAMEDFRAMEBUFFERTEXTUREMULTIVIEWOVRPROC[m[K’ does not name a type; did you mean ‘[01m[KPFNGLFRAMEBUFFERTEXTUREMULTIVIEWOVRPROC[m[K’?
+25151 | GLEW_FUN_EXPORT [01;31m[KPFNGLNAMEDFRAMEBUFFERTEXTUREMULTIVIEWOVRPROC[m[K __glewNamedFramebufferTextureMultiviewOVR;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[KPFNGLFRAMEBUFFERTEXTUREMULTIVIEWOVRPROC[m[K
+gmake[2]: *** [CMakeFiles/robot_gui.dir/build.make:76: CMakeFiles/robot_gui.dir/src/robot_gui.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robot_gui.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

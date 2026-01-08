@@ -1,0 +1,16 @@
+/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/logger_pkg/lib/logger_pkg/logger_node
+/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/logger_pkg/share/ament_index/resource_index/package_run_dependencies/logger_pkg
+/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/logger_pkg/share/ament_index/resource_index/parent_prefix_path/logger_pkg
+/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/logger_pkg/share/logger_pkg/environment/ament_prefix_path.sh
+/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/logger_pkg/share/logger_pkg/environment/ament_prefix_path.dsv
+/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/logger_pkg/share/logger_pkg/environment/path.sh
+/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/logger_pkg/share/logger_pkg/environment/path.dsv
+/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/logger_pkg/share/logger_pkg/local_setup.bash
+/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/logger_pkg/share/logger_pkg/local_setup.sh
+/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/logger_pkg/share/logger_pkg/local_setup.zsh
+/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/logger_pkg/share/logger_pkg/local_setup.dsv
+/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/logger_pkg/share/logger_pkg/package.dsv
+/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/logger_pkg/share/ament_index/resource_index/packages/logger_pkg
+/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/logger_pkg/share/logger_pkg/cmake/logger_pkgConfig.cmake
+/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/logger_pkg/share/logger_pkg/cmake/logger_pkgConfig-version.cmake
+/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/install/logger_pkg/share/logger_pkg/package.xml

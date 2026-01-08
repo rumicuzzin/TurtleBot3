@@ -1,0 +1,7 @@
+# Service Charging
+# Server: Battery
+# Client: Manager
+
+string command  # "start_charging" or "stop_charging" or "start_depleting" or "stop_depleting"
+---
+bool success

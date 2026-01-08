@@ -1,0 +1,93 @@
+[0.009s] Invoking command in '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/build/robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_teleop:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/build/robot -- -j20 -l20
+[0.034s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.190s] -- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.207s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.212s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.221s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.229s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.265s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.266s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.321s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.362s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.370s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[0.400s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.409s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.427s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.433s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.434s] [33mCMake Warning (dev) at /usr/share/cmake-3.28/Modules/FindOpenGL.cmake:381 (message):
+[0.434s]   Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when
+[0.435s]   available.  Run "cmake --help-policy CMP0072" for policy details.  Use the
+[0.435s]   cmake_policy command to set the policy and suppress this warning.
+[0.435s] 
+[0.435s]   FindOpenGL found both a legacy GL library:
+[0.435s] 
+[0.435s]     OPENGL_gl_LIBRARY: /usr/lib/x86_64-linux-gnu/libGL.so
+[0.435s] 
+[0.435s]   and GLVND libraries for OpenGL and GLX:
+[0.435s] 
+[0.435s]     OPENGL_opengl_LIBRARY: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+[0.435s]     OPENGL_glx_LIBRARY: /usr/lib/x86_64-linux-gnu/libGLX.so
+[0.435s] 
+[0.435s]   OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for
+[0.435s]   compatibility with CMake 3.10 and below the legacy GL library will be used.
+[0.436s] Call Stack (most recent call first):
+[0.436s]   CMakeLists.txt:18 (find_package)
+[0.436s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.436s] [0m
+[0.438s] -- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+[0.439s] -- Checking for module 'glfw3'
+[0.452s] --   Found glfw3, version 3.3.10
+[0.488s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.591s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.591s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/robot/include>;/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/robot/vendor/imgui;/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/robot/vendor/imgui/backends;/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/robot/vendor
+[0.591s] -- Configured cppcheck exclude dirs and/or files: 
+[0.595s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.596s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.603s] -- Added test 'lint_cmake' to check CMake code style
+[0.607s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.640s] -- Added test 'uncrustify' to check C / C++ code style
+[0.640s] -- Configured uncrustify additional arguments: 
+[0.644s] -- Added test 'xmllint' to check XML markup files
+[0.645s] -- Configuring done (0.6s)
+[0.655s] -- Generating done (0.0s)
+[0.658s] -- Build files have been written to: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/build/robot
+[0.693s] [  8%] [32mBuilding CXX object CMakeFiles/robot_gui.dir/vendor/imgui/backends/imgui_impl_glfw.cpp.o[0m
+[0.694s] [ 16%] [32mBuilding CXX object CMakeFiles/robot_gui.dir/vendor/imgui/imgui_demo.cpp.o[0m
+[0.694s] [ 25%] [32mBuilding CXX object CMakeFiles/robot_gui.dir/src/robot_gui.cpp.o[0m
+[0.694s] [ 33%] [32mBuilding CXX object CMakeFiles/robot_node.dir/src/robot_node.cpp.o[0m
+[0.694s] [ 41%] [32mBuilding CXX object CMakeFiles/robot_node.dir/src/robot_logic.cpp.o[0m
+[0.695s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_gui.dir/vendor/imgui/imgui_tables.cpp.o[0m
+[1.409s] [ 58%] [32m[1mLinking CXX executable robot_gui[0m
+[1.533s] [ 91%] Built target robot_gui
+[6.634s] [100%] [32m[1mLinking CXX executable robot_node[0m
+[6.874s] [100%] Built target robot_node
+[6.883s] Invoked command in '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/build/robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_teleop:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/build/robot -- -j20 -l20
+[6.891s] Invoking command in '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/build/robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_teleop:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/build/robot
+[6.897s] -- Install configuration: ""
+[6.897s] -- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/robot/lib/robot/robot_node
+[6.902s] -- Set non-toolchain portion of runtime path of "/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/robot/lib/robot/robot_node" to ""
+[6.902s] -- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/robot/lib/robot/robot_gui
+[6.903s] -- Set non-toolchain portion of runtime path of "/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/robot/lib/robot/robot_gui" to ""
+[6.903s] -- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/robot/include
+[6.903s] -- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/robot/include/robot
+[6.904s] -- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/robot/include/robot/robot_node.h
+[6.904s] -- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/robot/include/robot/robot_logic.h
+[6.904s] -- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/robot/share/robot/launch
+[6.904s] -- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/robot/share/robot/launch/bringup.launch.py
+[6.904s] -- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/robot/lib/robot/gui.py
+[6.904s] -- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/robot/share/ament_index/resource_index/package_run_dependencies/robot
+[6.904s] -- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/robot/share/ament_index/resource_index/parent_prefix_path/robot
+[6.904s] -- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/robot/share/robot/environment/ament_prefix_path.sh
+[6.904s] -- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/robot/share/robot/environment/ament_prefix_path.dsv
+[6.904s] -- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/robot/share/robot/environment/path.sh
+[6.904s] -- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/robot/share/robot/environment/path.dsv
+[6.904s] -- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/robot/share/robot/local_setup.bash
+[6.904s] -- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/robot/share/robot/local_setup.sh
+[6.904s] -- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/robot/share/robot/local_setup.zsh
+[6.904s] -- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/robot/share/robot/local_setup.dsv
+[6.904s] -- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/robot/share/robot/package.dsv
+[6.904s] -- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/robot/share/ament_index/resource_index/packages/robot
+[6.904s] -- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/robot/share/robot/cmake/robotConfig.cmake
+[6.904s] -- Up-to-date: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/robot/share/robot/cmake/robotConfig-version.cmake
+[6.904s] -- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/robot/share/robot/package.xml
+[6.905s] Invoked command in '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/build/robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_teleop:/home/matylda-hayne/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/build/robot

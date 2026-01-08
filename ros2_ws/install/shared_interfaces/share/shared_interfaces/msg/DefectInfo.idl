@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from shared_interfaces/msg/DefectInfo.msg
+// generated code does not contain a copyright notice
+
+
+module shared_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "Custom Message defectInfo" "\n"
+      "From defectDetector node to Controller node")
+    struct DefectInfo {
+      boolean defect_found;
+
+      float angle;
+    };
+  };
+};

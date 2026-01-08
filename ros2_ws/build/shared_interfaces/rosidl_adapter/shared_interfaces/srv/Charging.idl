@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from shared_interfaces/srv/Charging.srv
+// generated code does not contain a copyright notice
+
+
+module shared_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "Service Charging" "\n"
+      "Server: Battery" "\n"
+      "Client: Manager")
+    struct Charging_Request {
+      @verbatim (language="comment", text=
+        "\"start_charging\" or \"stop_charging\" or \"start_depleting\" or \"stop_depleting\"")
+      string command;
+    };
+    struct Charging_Response {
+      boolean success;
+    };
+  };
+};

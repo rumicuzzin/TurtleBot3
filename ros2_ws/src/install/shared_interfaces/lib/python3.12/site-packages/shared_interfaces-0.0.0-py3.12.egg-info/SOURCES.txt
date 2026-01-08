@@ -1,0 +1,14 @@
+setup.py
+shared_interfaces/__init__.py
+shared_interfaces.egg-info/PKG-INFO
+shared_interfaces.egg-info/SOURCES.txt
+shared_interfaces.egg-info/dependency_links.txt
+shared_interfaces.egg-info/top_level.txt
+shared_interfaces/msg/__init__.py
+shared_interfaces/msg/_add_log.py
+shared_interfaces/msg/_check_log.py
+shared_interfaces/srv/__init__.py
+shared_interfaces/srv/_charging.py
+shared_interfaces/srv/_detecting.py
+shared_interfaces/srv/_navigation_mode.py
+shared_interfaces/srv/_robot_type.py

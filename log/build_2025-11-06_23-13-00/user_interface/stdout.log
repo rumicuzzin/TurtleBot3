@@ -1,0 +1,10 @@
+[ 11%] [32mBuilding CXX object CMakeFiles/user_interface.dir/src/user_interface.cpp.o[0m
+[ 22%] [32m[1mLinking CXX executable user_interface[0m
+[100%] Built target user_interface
+-- Install configuration: ""
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/user_interface/lib/user_interface/user_interface
+-- Set non-toolchain portion of runtime path of "/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/user_interface/lib/user_interface/user_interface" to ""
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/user_interface/include/include
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/user_interface/include/include/user_interface
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/user_interface/include/include/user_interface/user_interface_backend.hpp
+-- Installing: /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/install/user_interface/include/include/user_interface/user_interface.hpp

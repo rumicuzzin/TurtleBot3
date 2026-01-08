@@ -1,0 +1,10 @@
+[ 66%] Built target manager
+[ 83%] [32mBuilding CXX object CMakeFiles/manager_lifecycle_node.dir/src/manager_lifecycle_node.cpp.o[0m
+In file included from [01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/manager/src/manager_lifecycle_node.cpp:11[m[K:
+[01m[K/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/manager/include/manager/manager_lifecycle_node.h:21:10:[m[K [01;31m[Kfatal error: [m[Kshared_interfaces/msg/check_log.hpp: No such file or directory
+   21 | #include [01;31m[K"shared_interfaces/msg/check_log.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/manager_lifecycle_node.dir/build.make:76: CMakeFiles/manager_lifecycle_node.dir/src/manager_lifecycle_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/manager_lifecycle_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,32 @@
+[0.019s] Invoking command in '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/build/robot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/build/robot -- -j20 -l20
+[0.094s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.577s] -- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.641s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.665s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.685s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.709s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.828s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.834s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.959s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.115s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.153s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[1.292s] [31mCMake Error at CMakeLists.txt:15 (find_package):
+[1.292s]   By not providing "Findrobot_interfaces.cmake" in CMAKE_MODULE_PATH this
+[1.292s]   project has asked CMake to find a package configuration file provided by
+[1.292s]   "robot_interfaces", but CMake did not find one.
+[1.292s] 
+[1.292s]   Could not find a package configuration file provided by "robot_interfaces"
+[1.293s]   with any of the following names:
+[1.293s] 
+[1.293s]     robot_interfacesConfig.cmake
+[1.293s]     robot_interfaces-config.cmake
+[1.293s] 
+[1.293s]   Add the installation prefix of "robot_interfaces" to CMAKE_PREFIX_PATH or
+[1.293s]   set "robot_interfaces_DIR" to a directory containing one of the above
+[1.293s]   files.  If "robot_interfaces" provides a separate development package or
+[1.293s]   SDK, be sure it has been installed.
+[1.293s] 
+[1.293s] [0m
+[1.293s] -- Configuring incomplete, errors occurred!
+[1.302s] gmake: *** [Makefile:524: cmake_check_build_system] Error 1
+[1.305s] Invoked command in '/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/build/robot' returned '2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/build/robot -- -j20 -l20

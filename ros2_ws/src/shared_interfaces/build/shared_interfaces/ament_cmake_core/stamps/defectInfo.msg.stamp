@@ -1,0 +1,4 @@
+# Custom Message defectInfo
+
+bool defect_found
+float32 angle

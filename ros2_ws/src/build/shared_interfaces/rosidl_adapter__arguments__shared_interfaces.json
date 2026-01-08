@@ -1,0 +1,11 @@
+{
+  "package_name": "shared_interfaces",
+  "non_idl_tuples": [
+    "/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/shared_interfaces:msg/AddLog.msg",
+    "/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/shared_interfaces:msg/CheckLog.msg",
+    "/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/shared_interfaces:srv/NavigationMode.srv",
+    "/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/shared_interfaces:srv/RobotType.srv",
+    "/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/shared_interfaces:srv/Detecting.srv",
+    "/home/matylda-hayne/mtrx3760_p2/MTRX3760_PROJECT_2/ros2_ws/src/shared_interfaces:srv/Charging.srv"
+  ]
+}
