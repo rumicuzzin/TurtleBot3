@@ -9,6 +9,8 @@ The product capabilities include autonomously mapping the warehouse, moving alon
 ### Clone the repository
 git clone https://github.com/rumicuzzin/TurtleBot3.git
 
+This was a university team project - original repo cannot be publicly shared.
+
 ### Build the workspace
 colcon build
 
