@@ -7,9 +7,7 @@ The product capabilities include autonomously mapping the warehouse, moving alon
 ## Installation Instructions
 
 ### Clone the repository
-git clone https://github.com/AngusMclean24/MTRX3760_PROJECT_2.git
-
-cd MTRX3760_PROJECT2/ros2_ws
+git clone https://github.com/rumicuzzin/TurtleBot3.git
 
 ### Build the workspace
 colcon build
